@@ -26,6 +26,7 @@
     height: 65px;
     display: table!important}
 .menu-item-box {
+    padding-top: 15px;
     height: 100%;
     display: table-cell;
     position: relative}

@@ -14,3 +14,24 @@ body { font-family: sans-serif; }
   border-radius: 5px;
 }
 
+@media ( min-width: 480px ) {
+  /* tablet size, 3 cells in group */
+  .carousel-cell { height: 290px; }
+}
+
+@media ( min-width: 768px ) {
+  .carousel-cell { height: 390px; }
+}
+
+@media ( min-width: 990px ) {
+  .carousel-cell { height: 410px; }
+}
+
+/* @media ( min-width: 1100px ) {
+  .carousel-cell { height: 440px; }
+} */
+
+@media ( min-width: 1024px ) {
+  .carousel-cell { height: 550px; }
+}
+

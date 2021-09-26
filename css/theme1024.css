@@ -148,7 +148,7 @@
     -moz-transition: all .3s linear;
     -webkit-transition: all .3s linear;
     -ms-transition: all .3s linear}
-.temp-data-box:active{
+.temp-data-box:active .temp-data-box-overlay{
     -ms-transform: scale(1);
     transform: scale(1);
     -o-transform: scale(1);

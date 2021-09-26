@@ -120,23 +120,22 @@
     border-bottom: 2px solid #64a548;
     text-align: center;
     margin: 20px 0}
-/* .temp-data-box .temp-data-box-overlay {
+.temp-data-box .temp-data-box-overlay {
     transform: scale(0);
     -o-transform: scale(0);
     -moz-transform: scale(0);
     -webkit-transform: scale(0);
     -ms-transform: scale(0);
+    transition: all .3s linear;
     -o-transition: all .3s linear;
     -moz-transition: all .3s linear;
     -webkit-transition: all .3s linear;
     -ms-transition: all .3s linear;
+    transform-origin: center;
     -o-transform-origin: center;
     -moz-transform-origin: center;
     -webkit-transform-origin: center;
-    -ms-transform-origin: center;
-    : scale(0);
-    transition: all .3s linear;
-    transform-origin: center} */
+    -ms-transform-origin: center}
 .temp-data-box:hover .temp-data-box-overlay {
     -ms-transform: scale(1);
     transform: scale(1);

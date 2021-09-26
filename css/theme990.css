@@ -40,6 +40,14 @@
     background-size: cover;
     position: relative;
     filter: blur(3)}
+.banner2 {
+    height: 325px;
+    width: 100%;
+    background-image: url(/image/banner1.jpg);
+    background-position: center -140px;
+    background-size: cover;
+    position: relative;
+    filter: blur(3)}
 .texture {
     width: 100%;
     height: 100%;
@@ -48,12 +56,22 @@
 .banner-box {
     padding: 34px 0 0;
     position: relative}
+.allProductsBanner {
+    padding: 200px 0;
+    position: relative
+}
 .banner_line1 {
     font-size: 32px;
     color: #f5f5f5;
     letter-spacing: .4px;
     text-shadow: 3px 3px 0 rgba(0,0,0,.25);
     text-transform: uppercase;
+    font-weight: 100}
+.banner_line1_allProducts {
+    font-size: 32px;
+    color: #f5f5f5;
+    letter-spacing: .4px;
+    text-shadow: 3px 3px 0 rgba(0,0,0,.25);
     font-weight: 100}
 .banner_brief_text {
     font-size: 18px;
@@ -169,6 +187,12 @@
     letter-spacing: .5px;
     padding: 4px 0 12px}
 .team-name {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .6px;
+    padding: 30px 0 4px}
+.product-name {
     text-align: center;
     font-size: 16px;
     font-weight: 400;

@@ -65,7 +65,7 @@
     -moz-transition: all .25s linear;
     -webkit-transform: translateX(320px)!important;
     -webkit-transition: all .25s linear}
-.banner {
+.banner,.banner2 {
     height: 290px;
     width: 100%;
     background-image: url(/image/banner1.jpg);
@@ -80,6 +80,8 @@
     position: absolute}
 .banner-box {
     padding: 3px 0}
+.allProductsBanner {
+    padding: 100px 0}
 .banner-extra-div {
     height: 130px;
     margin-top: -119px}
@@ -89,6 +91,12 @@
     letter-spacing: .4px;
     text-shadow: 3px 3px 0 rgba(0,0,0,.25);
     text-transform: uppercase;
+    font-weight: 100}
+.banner_line1_allProducts {
+    font-size: 22px;
+    color: #f5f5f5;
+    letter-spacing: .4px;
+    text-shadow: 3px 3px 0 rgba(0,0,0,.25);
     font-weight: 100}
 .banner_brief_text {
     font-size: 16px;
@@ -209,6 +217,12 @@
 .team-member {
     margin-bottom: 25px}
 .team-name {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: .6px;
+    padding: 8px 0 4px}
+.product-name {
     text-align: center;
     font-size: 16px;
     font-weight: 400;

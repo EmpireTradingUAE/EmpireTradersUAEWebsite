@@ -73,6 +73,60 @@ div,section,span {
     margin: 0 auto;
     padding: 0 15px;
     box-sizing: border-box}
+    .icon-box{
+        height: 165px;
+        max-width: 165px;
+        cursor: pointer;
+        border: 2px solid #FFF;
+        transition: 1s 0s linear;
+        border-radius: 50%;
+        text-align: center;
+        vertical-align: top;
+        padding: 30px; 
+        margin: 15px 40px;
+        display: inline-block;
+        }
+    .icon-box:hover {
+        background-color: #64a548;
+    }
+    .service-name {
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 15px;
+        letter-spacing: 0.5px;
+        display: block;
+    }
+    .container1 ul{
+        padding: 0 150px 20px 270px;
+    }
+    
+    /* .container1 ul li a{
+        position: relative;
+        text-decoration: none;
+        font-size: 4em;
+        color: #000;
+        font-weight: 700;
+        transition: 0.5s;
+    } */
+    
+    /* .service {
+        display: grid;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        background: #ff0;
+    } */
+    
+    #serviceFields {
+        position: relative;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        transition: 2s;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../image/asf1.jpg);
+        background-size: cover;
+    }
 }
 @media only screen and (min-width: 990px) and (max-width: 1023px) {
     .container {
@@ -227,3 +281,63 @@ div,section,span {
 }
 .slide-icon-menu-color {
     background-color: #64B5F6}
+          
+#serviceFields {
+    position: relative;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transition: 2s;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../image/asf1.jpg);
+    background-size: cover;
+}
+
+#serviceFields.one{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url(../image/asf1.jpg);
+    background-size: cover;
+}
+#serviceFields.two{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../image/asf2.jpg);
+    background-size: cover;
+}
+#serviceFields.three{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../image/asf3.jpg);
+    background-size: cover;
+}
+#serviceFields.four{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../image/asf4.jpg);
+    background-size: cover;
+}
+#serviceFields.five{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../image/asf5.jpg);
+    background-size: cover;
+}
+#serviceFields.six{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../image/asf6.jpg);
+    background-size: cover;
+}
+#serviceFields.seven{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../image/asf7.jpg);
+    background-size: cover;
+}
+#serviceFields.eight{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../image/asf8.jpg);
+    background-size: cover;
+}
+#serviceFields.nine{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../image/asf9.jpg);
+    background-size: cover;
+}
+#serviceFields.ten{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../image/asf10.jpg);
+    background-size: cover;
+}
+#serviceFields.eleven{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../image/asf11.jpg);
+    background-size: cover;
+}
+#serviceFields.twelve{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../image/asf12.jpg);
+    background-size: cover;
+}

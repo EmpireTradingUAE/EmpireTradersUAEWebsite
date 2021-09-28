@@ -159,12 +159,14 @@
     font-weight: 600;
     font-size: 15px;
     letter-spacing: .5px;
+    text-align: center;
     padding-bottom: 2px}
 .feature-content {
     font-size: 15px;
     color: #606873;
     line-height: 23px;
     font-weight: 300;
+    text-align: center;
     letter-spacing: .4px}
 .feature-img img {
     width: 95%;

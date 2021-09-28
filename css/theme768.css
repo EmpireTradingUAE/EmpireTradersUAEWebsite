@@ -112,6 +112,7 @@
     line-height: 24px;
     font-size: 15px;
     letter-spacing: .1px;
+    text-align: justify;
     word-spacing: .5px}
 .view-template {
     padding: 11px 24px;

@@ -69,10 +69,10 @@ div,section,span {
     margin-bottom: 15px}
 @media only screen and (min-width: 1024px) {
     .container {
-    width: 1024px;
-    margin: 0 auto;
-    padding: 0 15px;
-    box-sizing: border-box}
+        width: 1024px;
+        margin: 0 auto;
+        padding: 0 15px;
+        box-sizing: border-box}
     .icon-box{
         height: 165px;
         max-width: 165px;
@@ -339,4 +339,15 @@ div,section,span {
 #serviceFields.twelve{
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../image/asf12.jpg);
     background-size: cover;
+}
+
+.category-name {
+    color: #000000;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    display: block;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 20px;
 }

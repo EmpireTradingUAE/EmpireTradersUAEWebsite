@@ -14,6 +14,18 @@ body { font-family: sans-serif; }
   border-radius: 5px;
 }
 
+.carousel2 {
+  background: #FAFAFA;
+  margin-bottom: 40px;
+}
+
+.carousel-cell2 {
+  width: 20%;
+  height: 300px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
 @media ( min-width: 480px ) {
   /* tablet size, 3 cells in group */
   .carousel-cell { height: 290px; }

@@ -22,11 +22,13 @@
     <link href="css/slider_css.css" type="text/css" rel="stylesheet" />
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,700,900' rel='stylesheet' type='text/css'/>
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <script src="js/jquery-ui.js"></script>
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/slider.js"></script>
     <script src="js/plugin.js"></script>
+    <script src="js/data.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </head>
 <body>
@@ -98,79 +100,145 @@
             </div>
         </section>
 
-        <section class="multiple-template section-padding color-light-white" id="portfolio">
-            <div class="container">
-                <div class="col-4 padding-lr team-member">
-                    <div class="team-image" style="position:relative;overflow:hidden;text-align:center;background-image:url(image/banner2.jpg);"><!--<img src="image/team4.jpg" />-->
-                        <div class="team-overlay">
-
-                            <span style="width:1px;height:100%;display:inline-block;vertical-align:middle;"></span>
-                            <div class="social-link"  style="vertical-align: middle;display: inline-block;">
-                                <a href="#"> <i class="quickweb-icon-facebook"></i></a><a href="#"> <i class="quickweb-icon-twitter"></i></a><a href="#"> <i class="quickweb-icon-gplus-1"></i></a>
-                            </div>
+        <!---Side bar-->
+        <section class="category">
+            <div class="container2">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div>
+                            <aside class="side-area product-side side-shadow mt-5">
+                                <div class="side-title">
+                                    <h3>Fasteners</h3>
+                                </div>
+                                <div class="side-content">
+                                    <ul class="list">
+                                        <p>Categories</p>
+                                        <li class="list-item active" data-filter="all">
+                                            <a href="#">All</a>
+                                        </li>
+                                        <li class="list-item" data-filter="bolts">
+                                            <a href="#">Bolts</a>
+                                        </li>
+                                        <li class="list-item" data-filter="clips_and_pins">
+                                            <a href="#">Clips and Pins</a>
+                                        </li>
+                                    </ul> 
+                                </div>
+                            </aside>
                         </div>
                     </div>
-                    <div class="product-name">Mike Bradshaw</div>
-                    <div class="team-position">Ceo / founder</div>
-                </div>
-                
-                <div class="col-4 padding-lr team-member">
-                    <div class="team-image" style="position:relative;overflow:hidden;text-align:center;background-image:url(image/banner2.jpg);"><!--<img src="image/team4.jpg" />-->
-                        <div class="team-overlay">
-
-                            <span style="width:1px;height:100%;display:inline-block;vertical-align:middle;"></span>
-                            <div class="social-link"  style="vertical-align: middle;display: inline-block;">
-                                <a href="#"> <i class="quickweb-icon-facebook"></i></a><a href="#"> <i class="quickweb-icon-twitter"></i></a><a href="#"> <i class="quickweb-icon-gplus-1"></i></a>
-                            </div>
+                    <div class="col-lg-9">
+                        <div class="row" id="products_grid">
+                            <div class="col-lg-12">
+                                <div class="product-top d-flex justify-content-between align-items-center">
+                                    <div class="product-sec product-item">
+                                        <h2 class="my-5">Fasteners</h2>
+                                    </div>
+                                </div>
+                            </div> 
                         </div>
                     </div>
-                    <div class="product-name">Mike Bradshaw</div>
-                    <div class="team-position">Ceo / founder</div>
-                </div>
-
-                <div class="col-4 padding-lr team-member">
-                    <div class="team-image" style="position:relative;overflow:hidden;text-align:center;background-image:url(image/banner2.jpg);"><!--<img src="image/team4.jpg" />-->
-                        <div class="team-overlay">
-
-                            <span style="width:1px;height:100%;display:inline-block;vertical-align:middle;"></span>
-                            <div class="social-link"  style="vertical-align: middle;display: inline-block;">
-                                <a href="#"> <i class="quickweb-icon-facebook"></i></a><a href="#"> <i class="quickweb-icon-twitter"></i></a><a href="#"> <i class="quickweb-icon-gplus-1"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="product-name">Mike Bradshaw</div>
-                    <div class="team-position">Ceo / founder</div>
-                </div>
-
-                <div class="col-4 padding-lr team-member">
-                    <div class="team-image" style="position:relative;overflow:hidden;text-align:center;background-image:url(image/banner2.jpg);"><!--<img src="image/team4.jpg" />-->
-                        <div class="team-overlay">
-
-                            <span style="width:1px;height:100%;display:inline-block;vertical-align:middle;"></span>
-                            <div class="social-link"  style="vertical-align: middle;display: inline-block;">
-                                <a href="#"> <i class="quickweb-icon-facebook"></i></a><a href="#"> <i class="quickweb-icon-twitter"></i></a><a href="#"> <i class="quickweb-icon-gplus-1"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="product-name">Mike Bradshaw</div>
-                    <div class="team-position">Ceo / founder</div>
-                </div>
-
-                <div class="col-4 padding-lr team-member">
-                    <div class="team-image" style="position:relative;overflow:hidden;text-align:center;background-image:url(image/banner2.jpg);"><!--<img src="image/team4.jpg" />-->
-                        <div class="team-overlay">
-
-                            <span style="width:1px;height:100%;display:inline-block;vertical-align:middle;"></span>
-                            <div class="social-link"  style="vertical-align: middle;display: inline-block;">
-                                <a href="#"> <i class="quickweb-icon-facebook"></i></a><a href="#"> <i class="quickweb-icon-twitter"></i></a><a href="#"> <i class="quickweb-icon-gplus-1"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="product-name">Mike Bradshaw</div>
-                    <div class="team-position">Ceo / founder</div>
                 </div>
             </div>
         </section>
+        <!--End of Sidebar-->
+
+        <section class="footer">
+            
+            <div class="bottom-footer">
+                <div class="container">
+                    <div class="col-12">
+                        <div class="col-6 mb-6" style="color:#606873">
+                            <div class="footer-menu" style="vertical-align:middle;">
+                                <div class="col-3 footer-menu-box-link">Home</div>
+                                <div class="col-3 footer-menu-box-link">About Us </div>
+                                <div class="col-3 footer-menu-box-link">Privacy policy</div>
+                                <div class="col-3 footer-menu-box-link">Sitemap</div>
+                            </div>
+                        </div>
+                        <div class="col-6 mb-6 social right">
+                            <div class="col-3">
+                                <a href="https://www.facebook.com/profile.php?id=100073094930043" target="_blank">
+                                    <i class="quickweb-icon-facebook"></i>
+                                </a>
+                            </div>
+                            <div class="col-3">
+                                <a href="https://twitter.com/EmpireTradingII" target="_blank">
+                                    <i class="quickweb-icon-twitter"></i>
+                                </a>
+                            </div>
+                            <div class="col-3">
+                                <i class="quickweb-icon-youtube"></i>
+                            </div>
+                            <div class="col-3">
+                                <i class="quickweb-icon-gplus-1"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 creator" style="padding-top:25px;">
+                        <div class="col-6 copyright">© 2021 All Rights Reserved by EmpireTradersUAE. </div>
+                    </div>
+            </div>
+        </section>
     </div>
+
+    <script type="text/javascript">
+
+        var container = document.getElementById('products_grid');
+        
+        for(var i = 0; i < productData.fasteners.bolts.products.length; i++){
+            container.innerHTML += '<div class="col-lg-4 col-sm-6">' +
+                                '<div class="product-cate ' + productData.fasteners.bolts.category + '">' +
+                                    '<div class="container" style="width: 100px">' +
+                                        '<img src="'+ productData.fasteners.bolts.products[i].url +'" style="object-fit: cover" alt="">' +
+                                        '<div class="product-icon">' +
+                                        '</div>' +
+                                        '<!---->' +
+                                        '<div class="product-des">' +
+                                            '<h5>' + productData.fasteners.bolts.products[i].name + '</h5>' +
+                                            '<p>$1500.00</p>' +
+                                        '</div>' +
+                                    '</div>' +
+                                '</div>' +
+                            '</div>';
+        }
+        for(var i = 0; i < productData.fasteners.clips_and_pins.products.length; i++){
+            container.innerHTML += '<div class="col-lg-4 col-sm-6">' +
+                                '<div class="product-cate ' + productData.fasteners.clips_and_pins.category + '">' +
+                                    '<div class="container" style="width: 100px">' +
+                                        '<img src="'+ productData.fasteners.clips_and_pins.products[i].url +'" style="object-fit: cover" alt="">' +
+                                        '<div class="product-icon">' +
+                                        '</div>' +
+                                        '<!---->' +
+                                        '<div class="product-des">' +
+                                            '<h5>' + productData.fasteners.clips_and_pins.products[i].name + '</h5>' +
+                                            '<p>$1500.00</p>' +
+                                        '</div>' +
+                                    '</div>' +
+                                '</div>' +
+                            '</div>';
+        }
+        container.innerHTML += '<div class="col-lg-12 text-center">' +
+                                    '<a href=""class="product-btn">More Items</a>' +
+                                '</div>';
+            console.log( productData.fasteners)
+
+        $(document).ready(function(){
+            $('.list-item').click(function(){
+                const value = $(this).attr('data-filter');
+                console.log(value); 
+                if(value == 'all'){
+                    $('.product-cate').show('1000');
+                }else{
+                    $('.product-cate').not('.'+value).hide('1000');
+                    $('.product-cate').filter('.'+value).show('1000');
+                }
+            })
+            $('.list-item').click(function(){
+                $(this).addClass('active').siblings().removeClass('active');
+            })
+        })
+
+    </script>
 </body>
 </html>

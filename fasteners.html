@@ -88,7 +88,7 @@
                 <div class="container">
                     <div class="col-5 mb-12 mb-center allProductsBanner">
                         <div class="banner_line1_allProducts"><b>Fasteners</b></div>
-                        <div class="banner_brief_text">Its a lot like nuts and bolts, if the rider's nuts, the horse bolts!</div>
+                        <div class="banner_brief_text1">Its a lot like nuts and bolts, if the rider's nuts, the horse bolts!</div>
                         <!--div    class="mb-center mb-12">
                         <div class="button-1">
                             <a href="#">Create Your Site</a>
@@ -159,7 +159,7 @@
                     <div class="col-12">
                         <div class="col-6 mb-6" style="color:#606873">
                             <div class="footer-menu" style="vertical-align:middle;">
-                                <div class="col-3 footer-menu-box-link">Home</div>
+                                <div class="col-3 footer-menu-box-link"><a href="/" style="text-decoration: inherit; color: inherit">Home</a></div>
                                 <div class="col-3 footer-menu-box-link">About Us </div>
                                 <div class="col-3 footer-menu-box-link">Privacy policy</div>
                                 <div class="col-3 footer-menu-box-link">Sitemap</div>
@@ -186,8 +186,9 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-12 logo" style="padding-top: 50px; text-align: center"><a href="index.html"><img src="image/logo_small.jpg" /></a></div>
                     <div class="col-12 creator" style="padding-top:25px;">
-                        <div class="col-6 copyright">© 2021 All Rights Reserved by EmpireTradersUAE. </div>
+                        <div class="col-12 copyright" style="text-align: center">© 2021 All Rights Reserved by EmpireTradersUAE. </div>
                     </div>
             </div>
         </section>
@@ -201,7 +202,7 @@
         var value = 'all';
         for(var i = 0; i < productData.fasteners.products.length; i++){
             container.innerHTML += '<div class="col-lg-3 col-sm-4 product ' + productData.fasteners.products[i].category + '"style="display: none;">' +
-                                        '<div class="product-cate" style="padding: 20px;">' +
+                                        '<div class="product-cate" style="padding: 0 20px 100px 20px;">' +
                                             '<div class="container" style="width: 150px; height: 150px;">' +
                                                 '<img src="'+ productData.fasteners.products[i].url +'" style="max-height:100%; max-width:100%; object-fit: contain;" alt="' + productData.fasteners.products[i].name + '">' +
                                                 '<div class="product-icon">' +

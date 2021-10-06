@@ -26,6 +26,47 @@ body { font-family: sans-serif; }
   border-radius: 5px;
 }
 
+@media (max-width: 479px) {
+  .carousel-cell { height: 200px; }
+  .carousel-cell2 { width: 80%; height: 260px; margin-top: 20px;}
+  .service, .products-sec{
+    display: none;
+  }
+  .service-mobile, .products-mobile{
+    display: block;
+  }
+  .main-title,.sub-title {
+    padding-bottom: 10px;
+  }
+  .about-image {
+    padding: 20px;
+  }
+  .service-name1 {
+    color: #233141;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: .5px;
+    text-align: center;
+    padding-bottom: 2px;
+  }
+  .service-content {
+    font-size: 15px;
+    color: #606873;
+    line-height: 23px;
+    font-weight: 300;
+    text-align: justify;
+    letter-spacing: .4px;
+  }
+  .content-box {
+    padding: 15px 0;
+    font-weight: 300;
+    line-height: 24px;
+    font-size: 15px;
+    letter-spacing: .1px;
+    text-align: justify;
+    word-spacing: .5px}
+}
+
 @media ( min-width: 480px ) {
   /* tablet size, 3 cells in group */
   .carousel-cell { height: 290px; }

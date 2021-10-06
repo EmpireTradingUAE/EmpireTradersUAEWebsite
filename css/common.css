@@ -67,6 +67,9 @@ div,section,span {
     padding: 50px 0}
 .margin-bottom-30 {
     margin-bottom: 15px}
+.products-mobile,.service-mobile {
+    display: none;
+}
 @media only screen and (min-width: 1024px) {
     .container {
         width: 1024px;
@@ -292,7 +295,7 @@ div,section,span {
 .slide-icon-menu-color {
     background-color: #64B5F6}
           
-#serviceFields {
+.service {
     position: relative;
     top:0;
     left: 0;

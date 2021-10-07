@@ -1,5 +1,5 @@
 ﻿$(document).ready(function() {
-    $(".mob-menu-icon").click(function() {
+    $(".mob-menu-icon,.menu-link").click(function() {
         $(".mob-menu").hasClass("mob-show") ? ($(".mob-menu").removeClass("mob-show"), $(".mob-menu").addClass("animation-off"), $(".icon-bar").removeClass("open")) : ($(".mob-menu").removeClass("animation-off"), $(".mob-menu").addClass("mob-show"), $(".mob-menu").css({
             transform: "translateX(0px)",
             "-moz-transform": "translateX(0px)",

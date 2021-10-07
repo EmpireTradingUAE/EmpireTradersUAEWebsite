@@ -44,7 +44,6 @@
                 <div class="col-12">
                     <div class="col-4 mb-11 logo-set">
                         <div class="logo"><a href="index.html"><img src="image/logo_small.png" /></a></div>
-
                     </div>
 
                     <nav class="mob-menu-icon mb-1">
@@ -53,38 +52,19 @@
                         <span class="icon-bar"></span>
                     </nav>
 
-                    
                     <nav class="col-8 menu mob-menu pull-right">
-                    
                         <nav class="mob-menu-icon" style="padding: 26px 26px;width: 100%;box-sizing: border-box;border-bottom:2px solid #1565C0; ">
-                    
-                        <span class="icon-bar slide-icon-menu-color"></span>
-                        <span class="icon-bar slide-icon-menu-color"></span>
-                        <span class="icon-bar slide-icon-menu-color"></span>
-
+                            <span class="icon-bar slide-icon-menu-color"></span>
+                            <span class="icon-bar slide-icon-menu-color"></span>
+                            <span class="icon-bar slide-icon-menu-color"></span>
+                        </nav>
+                        <div class="menu-item-box center "><a href="#home" class="menu-link">Home</a></div>
+                        <div class="menu-item-box center "><a href="#about" class="menu-link">About</a></div>
+                        <div class="menu-item-box center "><a href="#products" class="menu-link">Products</a></div>
+                        <div class="menu-item-box center "><a href="#services" class="menu-link">Services</a></div>
+                        <div class="menu-item-box center "><a href="#serviceFields" class="menu-link">Active Service Field</a></div>
+                        <div class="menu-item-box center "><a href="#contact" class="menu-link">Contact</a></div>
                     </nav>
-                    <!-- <div class="menu-item-box center "><a href="#" class="menu_link">Home</a>
-
-                        <div class="sub_cata" style="height: 200px;position: absolute;z-index: 99999;background-color: #000;margin-top: 29px;">
-                            Test sub cata
-                        
-                        </div>
-
-                    </div>-->
-                    <div class="menu-item-box center "><a href="#home" class="menu-link">Home</a></div>
-                    <div class="menu-item-box center "><a href="#about" class="menu-link">About</a></div>
-                    <div class="menu-item-box center "><a href="#products" class="menu-link">Products</a></div>
-                    <div class="menu-item-box center "><a href="#services" class="menu-link">Services</a></div>
-                    <div class="menu-item-box center "><a href="#serviceFields" class="menu-link">Active Service Field</a></div>
-                    <div class="menu-item-box center "><a href="#contact" class="menu-link">Contact</a></div>
-                    
-
-                    </nav>
-                    
-
-
-                    
-
                 </div>
             </div>
         </header>
@@ -168,26 +148,6 @@
             </div>
     
         </div>
-   
-
-        <!--section class="banner top" id="home" style="background-image:url(image/obanner1.jpg);">
-            <div class="texture">
-                <div class="container">
-                    <div class="col-5 mb-12 mb-center banner-box">
-                        
-                        <div class="banner_line1">The great aim of education is not knowledge but action.</div>
-                        <div class="banner_brief_text">Education not only broadens the mind but adds the most important component for critical thought, depth.</div>
-                        <div    class="mb-center mb-12">
-                        <div class="button-1">
-                            <a href="#">Create Your Site</a></div></div>          
-                    </div>
-                    <div class="col-7 mb-12 banner-image"  style="position:relative;"><!--<img src="image/banner2_image.png"  />--></div>
-                </div>
-            </div>
-            <!--  <div class="col-12 banner-extra-div color-black-s-light">
-    
-            </div>-->
-        </section-->
 
     <!--About Us Section-->
     <section class="choose-theme section-padding color-white"  id="about">
@@ -1121,6 +1081,15 @@
 
     </div>
     <script type="text/javascript">
+        $(document).ready(function() {
+            var window_size = window.matchMedia('(max-width: 479px)');
+            console.log(window_size.matches);
+            if(window_size.matches){
+                $('.service').removeAttr('id');
+                $('.products-sec').removeAttr('id');
+            }
+        });
+        
         thumb_slider({
 
             thumbs_to_show: 1,

@@ -328,4 +328,72 @@ var productData = {
             },
         ],
     },
+    packaging_items: {
+        products: [
+            {
+                category: "",
+                url: "image/packaging_items/Plain brown bopp tape.jpeg",
+                name: "Plain brown bopp tape",
+            },
+            {
+                category: "",
+                url: "image/packaging_items/machine grade stretch film.jpeg",
+                name: "Machine grade stretch film",
+            },
+            {
+                category: "",
+                url: "image/packaging_items/pallet wrap.jpeg",
+                name: "Pallet wrap",
+            },
+            {
+                category: "",
+                url: "image/packaging_items/Colour streach film.jpeg",
+                name: "Colour streach film",
+            },
+            {
+                category: "",
+                url: "image/packaging_items/clear tape.jpeg",
+                name: "Clear tape",
+            },
+            {
+                category: "",
+                url: "image/packaging_items/Custom printed tape.jpeg",
+                name: "Custom printed tape",
+            },
+            {
+                category: "",
+                url: "image/packaging_items/Colour Bopp tape.jpeg",
+                name: "Colour Bopp tape",
+            },
+        ],
+    },
+    eco_friendly_products: {
+        products: [
+            {
+                category: "",
+                url: "image/eco_friendly_products/Areca leaf plates.jpeg",
+                name: "Areca leaf plates",
+            },
+            {
+                category: "",
+                url: "image/eco_friendly_products/Envi green bio degradable plastic.jpeg",
+                name: "Envi green bio degradable plastic",
+            },
+            // {
+            //     category: "",
+            //     url: "image/eco_friendly_products/Envi green bio degradable plastic.jpeg",
+            //     name: "Envi green bio degradable plastic",
+            // },
+            // {
+            //     category: "",
+            //     url: "image/eco_friendly_products/Envi green bio degradable plastic.jpeg",
+            //     name: "Envi green bio degradable plastic",
+            // },
+            // {
+            //     category: "",
+            //     url: "image/eco_friendly_products/Envi green bio degradable plastic.jpeg",
+            //     name: "Envi green bio degradable plastic",
+            // },
+        ],
+    },
 };

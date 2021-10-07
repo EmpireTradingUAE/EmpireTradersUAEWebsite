@@ -27,7 +27,9 @@
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/slider.js"></script>
     <script src="js/plugin.js"></script>
+    <script src="js/data.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
     <div class="main">
@@ -81,17 +83,12 @@
             </div>
         </header>
         <div class="container"></div>
-        <section class="banner2 top" id="home" style="background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(image/temp3.jpg);">
+        <section class="banner2 top" style="background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(image/temp3.jpg);">
             <div class="texture">
                 <div class="container">
                     <div class="col-5 mb-12 mb-center allProductsBanner">
                         <div class="banner_line1_allProducts"><b>Packaging Items</b></div>
-                        <div class="banner_brief_text">Good packaging protects your product, great packaging protects your Brand!</div>
-                        <!--div    class="mb-center mb-12">
-                        <div class="button-1">
-                            <a href="#">Create Your Site</a>
-                        </div>
-                        </div-->          
+                        <div class="banner_brief_text1">Good packaging protects your product, great packaging protects your Brand!</div>         
                     </div>
                 <div class="col-7 mb-12 banner-image"  style="position:relative;"><!--<img src="image/banner2_image.png"  />--></div>
                 </div>
@@ -100,236 +97,34 @@
 
         <!---Side bar-->
         <section class="category">
-            <div class="container2">
+            <div class="product_container">
                 <div class="row">
-                    <div class="col-lg-3">
+                    <div class="col-lg-3" style="display: none">
                         <div>
                             <aside class="side-area product-side side-shadow mt-5">
                                 <div class="side-title">
-                                    <h3>Safety Equipments</h3>
+                                    <h3>Packaging Items</h3>
                                 </div>
                                 <div class="side-content">
                                     <ul class="list">
-                                        <p>Categories</p>
-                                        <li class="list-item active" data-filter="body_protection">
-                                            <a href="#">Body Protection</a>
+                                        <p style="text-align: center; font-weight: bold">Filter by categories</p>
+                                        <li class="list-item active" data-filter="all">
+                                            <a href="#">All</a>
                                         </li>
-                                        <li class="list-item" data-filter="emergency_protection">
-                                            <a href="#">Emergency Protection</a>
-                                        </li>
-                                        <li class="list-item" data-filter="fall_protection">
-                                            <a href="#">Fall Protection</a>
-                                        </li>
-                                        <li class="list-item" data-filter="foot_protection">
-                                            <a href="#">Foot Protection</a>
-                                        </li>
-                                        <li class="list-item" data-filter="hand_protection">
-                                            <a href="#">Hand Protection</a>
-                                        </li>
-                                        <li class="list-item" data-filter="hand_trucks">
-                                            <a href="#">Hand Trucks</a>
-                                        </li>
-                                        <li class="list-item" data-filter="head_protection">
-                                            <a href="#">Head Protection</a>
-                                        </li>
-                                        <li class="list-item" data-filter="ladders">
-                                            <a href="#">Ladders</a>
-                                        </li>
-                                        <li class="list-item" data-filter="road_safety">
-                                            <a href="#">Road Safety</a>
-                                        </li>
-                                        <li class="list-item" data-filter="tools_and_toolbags">
-                                            <a href="#">Tools and Toolbags</a>
                                         </li>
                                     </ul> 
                                 </div>
                             </aside>
                         </div>
                     </div>
-                    <div class="col-lg-9">
-                        <div class="row">
+                    <div class="col-lg-12">
+                        <div class="row" id="products_grid">
                             <div class="col-lg-12">
                                 <div class="product-top d-flex justify-content-between align-items-center">
                                     <div class="product-sec product-item">
-                                        <h2 class="my-5">Safety Equipments</h2>
+                                        <h2 class="my-5" id="cat">All</h2>
                                     </div>
                                 </div>
-                            </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="product-cate body_protection">
-                            <div>
-                                <img src="image/logo_small.jpg"alt="">
-                                <div class="product-icon">
-                                    <ul>
-                                        <li><a href=""><i class="fas fa-heart"></i></a> </li>
-                                        <li><a href=""><i class="fas fa-shopping-cart"></i></a> </li>
-                                    </ul>
-                                </div>
-                                <!---->
-                                <div class="product-des">
-                                    <h5> Watch Brand</h5>
-                                    <p>$1500.00</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!---->
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="product-cate emergency_protection">
-                            <div>
-                                <img src="image/team4.jpg"alt="">
-                                <div class="product-icon">
-                                    <ul>
-                                        <li><a href=""><i class="fas fa-heart"></i></a> </li>
-                                        <li><a href=""><i class="fas fa-shopping-cart"></i></a> </li>
-                                    </ul>
-                                </div>
-                                <!---->
-                                <div class="product-des">
-                                    <h5> Watch Brand</h5>
-                                    <p>$1500.00</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!---->
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="product-cate">
-                        <div>
-                            <img src="image/temp1.png"alt="">
-                            <div class="product-icon">
-                                <ul>
-                                <li><a href=""><i class="fas fa-heart"></i></a> </li>
-                                <li><a href=""><i class="fas fa-shopping-cart"></i></a> </li>
-                                
-                                </ul>
-                        </div>
-                        <!---->
-                        <div class="product-des">
-                            <h5> Watch Brand</h5>
-                            <p>$1500.00</p>
-                        </div>
-                        </div>
-                                </div>
-                            </div>
-                                            <!---->
-                <div class="col-lg-4 col-sm-6">
-                    <div class="product-cate">
-                    <div>
-                <img src="image/temp1.png"alt="">
-                    <div class="product-icon">
-                        <ul>
-                            <li><a href=""><i class="fas fa-heart"></i></a> </li>
-                    <li><a href=""><i class="fas fa-shopping-cart"></i></a> </li>
-                                                
-                    </ul>
-                        </div>
-                        <!---->
-                            <div class="product-des">
-                            <h5> Watch Brand</h5>
-                                <p>$1500.00</p>
-                            </div>
-                            </div>
-                            </div>
-                                </div>
-                                <!---->
-                            <div class="col-lg-4 col-sm-6">
-                                <div class="product-cate">
-                                <div>
-                                <img src="image/temp1.png"alt="">
-                                <div class="product-icon">
-                                <ul>
-                                <li><a href=""><i class="fas fa-heart"></i></a> </li>
-                                    <li><a href=""><i class="fas fa-shopping-cart"></i></a> </li>
-                                    </ul>
-                                        </div>
-                                <!---->
-                            <div class="product-des">
-                                    <h5> Watch Brand</h5>
-                                        <p>$1500.00</p>
-                                    </div>
-                                    </div>
-                                        </div>
-                                        </div>
-                                <!---->
-                                <div class="col-lg-4 col-sm-6">
-                                    <div class="product-cate">
-                                    <div>
-                                    <img src="image/temp1.png"alt="">
-                                <div class="product-icon">
-                                    <ul>
-                                    <li><a href=""><i class="fas fa-heart"></i></a> </li>
-                                        <li><a href=""><i class="fas fa-shopping-cart"></i></a> </li>
-                                        </ul>
-                                        </div>
-                                <!---->
-                                <div class="product-des">
-                                        <h5> Watch Brand</h5>
-                                        <p>$1500.00</p>
-                                        </div>
-                                        </div>
-                                            </div>
-                                            </div>
-                                    <!---->
-                                    <div class="col-lg-4 col-sm-6">
-                                        <div class="product-cate">
-                                        <div>
-                                        <img src="image/temp1.png"alt="">
-                                    <div class="product-icon">
-                                        <ul>
-                                        <li><a href=""><i class="fas fa-heart"></i></a> </li>
-                                            <li><a href=""><i class="fas fa-shopping-cart"></i></a> </li>
-                                            </ul>
-                                            </div>
-                                    <!---->
-                                    <div class="product-des">
-                                            <h5> Watch Brand</h5>
-                                            <p>$1500.00</p>
-                                            </div>
-                                            </div>
-                                                </div>
-                                                </div>
-                                        <!---->
-                                        <div class="col-lg-4 col-sm-6">
-                                            <div class="product-cate">
-                                            <div>
-                                            <img src="image/temp1.png"alt="">
-                                        <div class="product-icon">
-                                            <ul>
-                                            <li><a href=""><i class="fas fa-heart"></i></a> </li>
-                                                <li><a href=""><i class="fas fa-shopping-cart"></i></a> </li>
-                                                </ul>
-                                                </div>
-                                        <!---->
-                                        <div class="product-des">
-                                                <h5> Watch Brand</h5>
-                                                <p>$1500.00</p>
-                                                </div>
-                                                </div>
-                                                    </div>
-                                                    </div>
-                                            <!---->
-                                            <div class="col-lg-4 col-sm-6">
-                                                <div class="product-cate">
-                                                <div>
-                                                <img src="image/temp1.png"alt="">
-                                            <div class="product-icon">
-                                                <ul>
-                                                <li><a href=""><i class="fas fa-heart"></i></a> </li>
-                                                    <li><a href=""><i class="fas fa-shopping-cart"></i></a> </li>
-                                                    </ul>
-                                                    </div>
-                                            <!---->
-                                            <div class="product-des">
-                                                    <h5> Watch Brand</h5>
-                                                    <p>$1500.00</p>
-                                                    </div>
-                                                    </div>
-                                                        </div>
-                                                        </div>
-                                                <!---->
-                            <div class="col-lg-12 text-center">
-                                <a href=""class="product-btn">More Items</a>
                             </div> 
                         </div>
                     </div>
@@ -337,80 +132,6 @@
             </div>
         </section>
         <!--End of Sidebar-->
-
-        <section class="multiple-template section-padding color-light-white" id="portfolio">
-            <div class="container">
-                <div class="col-4 padding-lr team-member">
-                    <div class="team-image" style="position:relative;overflow:hidden;text-align:center;background-image:url(image/banner2.jpg);"><!--<img src="image/team4.jpg" />-->
-                        <div class="team-overlay">
-
-                            <span style="width:1px;height:100%;display:inline-block;vertical-align:middle;"></span>
-                            <div class="social-link"  style="vertical-align: middle;display: inline-block;">
-                                <a href="#"> <i class="quickweb-icon-facebook"></i></a><a href="#"> <i class="quickweb-icon-twitter"></i></a><a href="#"> <i class="quickweb-icon-gplus-1"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="product-name">Mike Bradshaw</div>
-                    <div class="team-position">Ceo / founder</div>
-                </div>
-                
-                <div class="col-4 padding-lr team-member">
-                    <div class="team-image" style="position:relative;overflow:hidden;text-align:center;background-image:url(image/banner2.jpg);"><!--<img src="image/team4.jpg" />-->
-                        <div class="team-overlay">
-
-                            <span style="width:1px;height:100%;display:inline-block;vertical-align:middle;"></span>
-                            <div class="social-link"  style="vertical-align: middle;display: inline-block;">
-                                <a href="#"> <i class="quickweb-icon-facebook"></i></a><a href="#"> <i class="quickweb-icon-twitter"></i></a><a href="#"> <i class="quickweb-icon-gplus-1"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="product-name">Mike Bradshaw</div>
-                    <div class="team-position">Ceo / founder</div>
-                </div>
-
-                <div class="col-4 padding-lr team-member">
-                    <div class="team-image" style="position:relative;overflow:hidden;text-align:center;background-image:url(image/banner2.jpg);"><!--<img src="image/team4.jpg" />-->
-                        <div class="team-overlay">
-
-                            <span style="width:1px;height:100%;display:inline-block;vertical-align:middle;"></span>
-                            <div class="social-link"  style="vertical-align: middle;display: inline-block;">
-                                <a href="#"> <i class="quickweb-icon-facebook"></i></a><a href="#"> <i class="quickweb-icon-twitter"></i></a><a href="#"> <i class="quickweb-icon-gplus-1"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="product-name">Mike Bradshaw</div>
-                    <div class="team-position">Ceo / founder</div>
-                </div>
-
-                <div class="col-4 padding-lr team-member">
-                    <div class="team-image" style="position:relative;overflow:hidden;text-align:center;background-image:url(image/banner2.jpg);"><!--<img src="image/team4.jpg" />-->
-                        <div class="team-overlay">
-
-                            <span style="width:1px;height:100%;display:inline-block;vertical-align:middle;"></span>
-                            <div class="social-link"  style="vertical-align: middle;display: inline-block;">
-                                <a href="#"> <i class="quickweb-icon-facebook"></i></a><a href="#"> <i class="quickweb-icon-twitter"></i></a><a href="#"> <i class="quickweb-icon-gplus-1"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="product-name">Mike Bradshaw</div>
-                    <div class="team-position">Ceo / founder</div>
-                </div>
-
-                <div class="col-4 padding-lr team-member">
-                    <div class="team-image" style="position:relative;overflow:hidden;text-align:center;background-image:url(image/banner2.jpg);"><!--<img src="image/team4.jpg" />-->
-                        <div class="team-overlay">
-
-                            <span style="width:1px;height:100%;display:inline-block;vertical-align:middle;"></span>
-                            <div class="social-link"  style="vertical-align: middle;display: inline-block;">
-                                <a href="#"> <i class="quickweb-icon-facebook"></i></a><a href="#"> <i class="quickweb-icon-twitter"></i></a><a href="#"> <i class="quickweb-icon-gplus-1"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="product-name">Mike Bradshaw</div>
-                    <div class="team-position">Ceo / founder</div>
-                </div>
-            </div>
-        </section>
 
         <section class="footer">
             
@@ -453,5 +174,62 @@
             </div>
         </section>
     </div>
+    
+    
+
+    <script type="text/javascript">
+
+        var container = document.getElementById('products_grid');
+        var value = 'all';
+        for(var i = 0; i < productData.packaging_items.products.length; i++){
+            container.innerHTML += '<div class="col-lg-2 col-sm-4 product ' + productData.packaging_items.products[i].category + '"style="display: none;">' +
+                                        '<div class="product-cate" style="padding: 0 20px 100px 20px;">' +
+                                            '<div class="container" style="width: 150px; height: 150px;">' +
+                                                '<img src="'+ productData.packaging_items.products[i].url +'" style="max-height:100%; max-width:100%; object-fit: contain;" alt="' + productData.fasteners.products[i].name + '">' +
+                                                '<div class="product-icon">' +
+                                                '</div>' +
+                                                '<!---->' +
+                                            '</div>' +
+                                            '<div class="product-des">' +
+                                                '<h5>' + productData.packaging_items.products[i].name + '</h5>' +
+                                            '</div>' +
+                                        '</div>' +
+                                    '</div>';
+        }
+
+        $(document).ready(function(){
+            $('.list-item').click(function(){
+                value = $(this).attr('data-filter');
+                console.log(value); 
+                if(value == 'all'){
+                    $('.product').hide();
+                    $('.product').slice(0,8).show();
+                }else{
+                    $('.product').not('.'+value).hide();
+                    //$('.product').filter('.'+value).show('1000');
+                    $('.product').filter('.'+value).slice(0,8).show();
+                }
+                $(this).addClass('active').siblings().removeClass('active');
+                $('#cat').text($('.list').find('[data-filter='+value+']').text());
+                if(value == 'clips_and_pins'){
+                    $('.product-btn').hide();
+                }else{
+                    $('.product-btn').show();
+                }
+            })
+        })
+        
+        $('.product-btn').click(function(){
+            if(value == 'all'){
+                $('.product:hidden').slice(0,12).slideDown();
+            }else{
+                $('.product').not('.'+value).hide();
+                $('.product:hidden').filter('.'+value).slice(0,12).slideDown();
+            }
+        })
+        
+        $('.product').slice(0,8).show();
+        
+    </script>
 </body>
 </html>

@@ -104,11 +104,11 @@
         <section class="category">
             <div class="product_container">
                 <div class="row">
-                    <div class="col-lg-3">
+                    <div class="col-lg-3" style="display: none">
                         <div>
                             <aside class="side-area product-side side-shadow mt-5">
                                 <div class="side-title">
-                                    <h3>Eco-Friendly Products</h3>
+                                    <h3>Packaging Items</h3>
                                 </div>
                                 <div class="side-content">
                                     <ul class="list">
@@ -116,27 +116,13 @@
                                         <li class="list-item active" data-filter="all">
                                             <a href="#">All</a>
                                         </li>
-                                        <li class="list-item" data-filter="bolts">
-                                            <a href="#">Bolts</a>
-                                        </li>
-                                        <li class="list-item" data-filter="clips_and_pins">
-                                            <a href="#">Clips and Pins</a>
-                                        </li>
-                                        <li class="list-item" data-filter="nuts">
-                                            <a href="#">Nuts</a>
-                                        </li>
-                                        <li class="list-item" data-filter="screws">
-                                            <a href="#">Screws</a>
-                                        </li>
-                                        <li class="list-item" data-filter="washers">
-                                            <a href="#">Washers</a>
                                         </li>
                                     </ul> 
                                 </div>
                             </aside>
                         </div>
                     </div>
-                    <div class="col-lg-9">
+                    <div class="col-lg-12">
                         <div class="row" id="products_grid">
                             <div class="col-lg-12">
                                 <div class="product-top d-flex justify-content-between align-items-center">
@@ -160,9 +146,9 @@
                         <div class="col-6 mb-6" style="color:#606873">
                             <div class="footer-menu" style="vertical-align:middle;">
                                 <div class="col-3 footer-menu-box-link"><a href="index.html" style="text-decoration: inherit; color: inherit">Home</a></div>
-                                <div class="col-3 footer-menu-box-link">About Us </div>
-                                <div class="col-3 footer-menu-box-link">Privacy policy</div>
-                                <div class="col-3 footer-menu-box-link">Sitemap</div>
+                                <div class="col-3 footer-menu-box-link"><a href="index.html#about" style="text-decoration: inherit; color: inherit">About Us</a></div>
+                                <div class="col-3 footer-menu-box-link"><a href="#" style="text-decoration: inherit; color: inherit">Privacy policy</a></div>
+                                <div class="col-3 footer-menu-box-link"><a href="#" style="text-decoration: inherit; color: inherit">Sitemap</a></div>
                             </div>
                         </div>
                         <div class="col-6 mb-6 social right">
@@ -200,25 +186,21 @@
 
         var container = document.getElementById('products_grid');
         var value = 'all';
-        for(var i = 0; i < productData.fasteners.products.length; i++){
-            container.innerHTML += '<div class="col-lg-3 col-sm-4 product ' + productData.fasteners.products[i].category + '"style="display: none;">' +
+        for(var i = 0; i < productData.eco_friendly_products.products.length; i++){
+            container.innerHTML += '<div class="col-lg-5 col-sm-4 product ' + productData.eco_friendly_products.products[i].category + '"style="display: none;">' +
                                         '<div class="product-cate" style="padding: 0 20px 100px 20px;">' +
                                             '<div class="container" style="width: 150px; height: 150px;">' +
-                                                '<img src="'+ productData.fasteners.products[i].url +'" style="max-height:100%; max-width:100%; object-fit: contain;" alt="' + productData.fasteners.products[i].name + '">' +
+                                                '<img src="'+ productData.eco_friendly_products.products[i].url +'" style="max-height:100%; max-width:100%; object-fit: contain;" alt="' + productData.fasteners.products[i].name + '">' +
                                                 '<div class="product-icon">' +
                                                 '</div>' +
                                                 '<!---->' +
                                             '</div>' +
                                             '<div class="product-des">' +
-                                                '<h5>' + productData.fasteners.products[i].name + '</h5>' +
+                                                '<h5>' + productData.eco_friendly_products.products[i].name + '</h5>' +
                                             '</div>' +
                                         '</div>' +
                                     '</div>';
         }
-        
-        container.innerHTML += '<div class="col-lg-12 text-center">' +
-                                    '<a href="#"class="product-btn">More Items</a>' +
-                                '</div>';
 
         $(document).ready(function(){
             $('.list-item').click(function(){

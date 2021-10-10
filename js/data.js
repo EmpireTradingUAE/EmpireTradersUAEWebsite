@@ -365,6 +365,16 @@ var productData = {
                 url: "image/packaging_items/Colour Bopp tape.jpeg",
                 name: "Colour Bopp tape",
             },
+            {
+                category: "",
+                url: "image/packaging_items/corrugated box.jpg",
+                name: "Corrugated box",
+            },
+            {
+                category: "",
+                url: "image/packaging_items/Steel buckels.jpg",
+                name: "Steel buckels",
+            },
         ],
     },
     eco_friendly_products: {

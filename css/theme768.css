@@ -54,7 +54,7 @@
     padding: 130px 0; 
     position: relative}
 .allProductsBanner {
-    padding: 220px 0;
+    padding-top: 220px ;
     position: relative
 }
 .banner_line1 {
@@ -75,7 +75,7 @@
     color: #fff;
     font-weight: 100;
     letter-spacing: .2px;
-    padding: 30px 0;
+    padding: 20px 0;
     text-shadow: 1px 1px 1px #333}
 .banner_brief_text1 {
     font-size: 16px;

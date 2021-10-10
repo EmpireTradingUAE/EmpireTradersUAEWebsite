@@ -241,6 +241,8 @@ div,section,span {
     background-color: rgb(0, 0, 0)}
 .color-orange {
     background-color: #E1571A}
+.font-color-s-dark {
+    color: #000000}
 .font-color-s-light {
     color: #484848}
 .font-color-m-light {
@@ -649,7 +651,6 @@ li{
     color: #1e1e1e;
     transition: all .4s ease-in-out;
     text-transform: capitalize;
-    margin: 0 0 40px 0;
 }
 .product-btn:hover{
     color: #fff!important;

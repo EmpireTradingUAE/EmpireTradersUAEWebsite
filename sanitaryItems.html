@@ -24,6 +24,7 @@
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/jquery-ui.js"></script>
     <script src="js/plugin.js"></script>
+    <script src="js/data.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </head>
 <body>
@@ -60,12 +61,12 @@
                         </div>
 
                     </div>-->
-                    <div class="menu-item-box center "><a href="#home" class="menu-link">Home</a></div>
-                    <div class="menu-item-box center "><a href="#about" class="menu-link">About</a></div>
-                    <div class="menu-item-box center "><a href="#portfolio" class="menu-link">Products</a></div>
-                    <div class="menu-item-box center "><a href="#services" class="menu-link">Services</a></div>
-                    <div class="menu-item-box center "><a href="#portfolio" class="menu-link">Active Service Field</a></div>
-                    <div class="menu-item-box center "><a href="#contact" class="menu-link">Contact</a></div>
+                    <div class="menu-item-box center "><a href="index.html" class="menu-link">Home</a></div>
+                    <div class="menu-item-box center "><a href="index.html#about" class="menu-link">About</a></div>
+                    <div class="menu-item-box center "><a href="index.html#products" class="menu-link">Products</a></div>
+                    <div class="menu-item-box center "><a href="index.html#services" class="menu-link">Services</a></div>
+                    <div class="menu-item-box center "><a href="index.html#serviceFields" class="menu-link">Active Service Field</a></div>
+                    <div class="menu-item-box center "><a href="index.html#contact" class="menu-link">Contact</a></div>
                     
 
                     </nav>
@@ -78,96 +79,50 @@
             </div>
         </header>
         <div class="container"></div>
-        <section class="banner2 top" id="home" style="background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(image/temp4.jpg);">
+        <section class="banner2 top" style="background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(image/temp4.jpg);">
             <div class="texture">
                 <div class="container">
                     <div class="col-5 mb-12 mb-center allProductsBanner">
                         <div class="banner_line1_allProducts"><b>Sanitary Items</b></div>
-                        <div class="banner_brief_text">Toilet, Kitchen Sinks, Wash Basins, Sanitary Ware and Fittings</div>
-                        <!--div    class="mb-center mb-12">
-                        <div class="button-1">
-                            <a href="#">Create Your Site</a>
-                        </div>
-                        </div-->          
+                        <div class="banner_brief_text">Toilet, Kitchen Sinks, Wash Basins, Sanitary Ware and Fittings</div>         
                     </div>
-                <div class="col-7 mb-12 banner-image"  style="position:relative;"><!--<img src="image/banner2_image.png"  />--></div>
                 </div>
             </div>
         </section>
 
-        <section class="multiple-template section-padding color-light-white" id="portfolio">
-            <div class="container">
-                <div class="col-4 padding-lr team-member">
-                    <div class="team-image" style="position:relative;overflow:hidden;text-align:center;background-image:url(image/banner2.jpg);"><!--<img src="image/team4.jpg" />-->
-                        <div class="team-overlay">
-
-                            <span style="width:1px;height:100%;display:inline-block;vertical-align:middle;"></span>
-                            <div class="social-link"  style="vertical-align: middle;display: inline-block;">
-                                <a href="#"> <i class="quickweb-icon-facebook"></i></a><a href="#"> <i class="quickweb-icon-twitter"></i></a><a href="#"> <i class="quickweb-icon-gplus-1"></i></a>
-                            </div>
+        <!---Side bar-->
+        <section class="category">
+            <div class="product_container">
+                <div class="row">
+                    <div class="col-3" style="display: none">
+                        <div>
+                            <aside class="side-area product-side side-shadow mt-5">
+                                <div class="side-title">
+                                    <h3>Packaging Items</h3>
+                                </div>
+                                <div class="side-content">
+                                    <ul class="list">
+                                        <p style="text-align: center; font-weight: bold">Filter by categories</p>
+                                        <li class="list-item active" data-filter="all">
+                                            <a href="#">All</a>
+                                        </li>
+                                        </li>
+                                    </ul> 
+                                </div>
+                            </aside>
                         </div>
                     </div>
-                    <div class="product-name">Mike Bradshaw</div>
-                    <div class="team-position">Ceo / founder</div>
-                </div>
-                
-                <div class="col-4 padding-lr team-member">
-                    <div class="team-image" style="position:relative;overflow:hidden;text-align:center;background-image:url(image/banner2.jpg);"><!--<img src="image/team4.jpg" />-->
-                        <div class="team-overlay">
-
-                            <span style="width:1px;height:100%;display:inline-block;vertical-align:middle;"></span>
-                            <div class="social-link"  style="vertical-align: middle;display: inline-block;">
-                                <a href="#"> <i class="quickweb-icon-facebook"></i></a><a href="#"> <i class="quickweb-icon-twitter"></i></a><a href="#"> <i class="quickweb-icon-gplus-1"></i></a>
-                            </div>
+                    <div class="col-9">
+                        <div class="row" id="products_grid">
+                            <div class="col-12 mb-12">
+                                <div class="col-6" style="padding: 20px 0 40px 40px; font-weight: 600; font-size: 30px;" id="cat">All</div>
+                            </div> 
                         </div>
                     </div>
-                    <div class="product-name">Mike Bradshaw</div>
-                    <div class="team-position">Ceo / founder</div>
-                </div>
-
-                <div class="col-4 padding-lr team-member">
-                    <div class="team-image" style="position:relative;overflow:hidden;text-align:center;background-image:url(image/banner2.jpg);"><!--<img src="image/team4.jpg" />-->
-                        <div class="team-overlay">
-
-                            <span style="width:1px;height:100%;display:inline-block;vertical-align:middle;"></span>
-                            <div class="social-link"  style="vertical-align: middle;display: inline-block;">
-                                <a href="#"> <i class="quickweb-icon-facebook"></i></a><a href="#"> <i class="quickweb-icon-twitter"></i></a><a href="#"> <i class="quickweb-icon-gplus-1"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="product-name">Mike Bradshaw</div>
-                    <div class="team-position">Ceo / founder</div>
-                </div>
-
-                <div class="col-4 padding-lr team-member">
-                    <div class="team-image" style="position:relative;overflow:hidden;text-align:center;background-image:url(image/banner2.jpg);"><!--<img src="image/team4.jpg" />-->
-                        <div class="team-overlay">
-
-                            <span style="width:1px;height:100%;display:inline-block;vertical-align:middle;"></span>
-                            <div class="social-link"  style="vertical-align: middle;display: inline-block;">
-                                <a href="#"> <i class="quickweb-icon-facebook"></i></a><a href="#"> <i class="quickweb-icon-twitter"></i></a><a href="#"> <i class="quickweb-icon-gplus-1"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="product-name">Mike Bradshaw</div>
-                    <div class="team-position">Ceo / founder</div>
-                </div>
-
-                <div class="col-4 padding-lr team-member">
-                    <div class="team-image" style="position:relative;overflow:hidden;text-align:center;background-image:url(image/banner2.jpg);"><!--<img src="image/team4.jpg" />-->
-                        <div class="team-overlay">
-
-                            <span style="width:1px;height:100%;display:inline-block;vertical-align:middle;"></span>
-                            <div class="social-link"  style="vertical-align: middle;display: inline-block;">
-                                <a href="#"> <i class="quickweb-icon-facebook"></i></a><a href="#"> <i class="quickweb-icon-twitter"></i></a><a href="#"> <i class="quickweb-icon-gplus-1"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="product-name">Mike Bradshaw</div>
-                    <div class="team-position">Ceo / founder</div>
                 </div>
             </div>
         </section>
+        <!--End of Sidebar-->
 
         <section class="footer">
             
@@ -180,6 +135,7 @@
                                 <div class="col-3 footer-menu-box-link"><a href="index.html#about" style="text-decoration: inherit; color: inherit">About Us</a></div>
                                 <div class="col-3 footer-menu-box-link"><a href="#" style="text-decoration: inherit; color: inherit">Privacy policy</a></div>
                                 <div class="col-3 footer-menu-box-link"><a href="#" style="text-decoration: inherit; color: inherit">Sitemap</a></div>
+                            </div>
                         </div>
                         <div class="col-6 mb-6 social right">
                             <div class="col-3">
@@ -209,5 +165,62 @@
             </div>
         </section>
     </div>
+    
+    
+
+    <script type="text/javascript">
+
+        var container = document.getElementById('products_grid');
+        var value = 'all';
+        for(var i = 0; i < productData.packaging_items.products.length; i++){
+            container.innerHTML += '<div class="col-3 col-sm-4 product ' + productData.packaging_items.products[i].category + '"style="display: none;">' +
+                                        '<div class="product-cate" style="padding: 0 20px 100px 20px;">' +
+                                            '<div class="container" style="width: 150px; height: 150px;">' +
+                                                '<img src="'+ productData.packaging_items.products[i].url +'" style="max-height:100%; max-width:100%; object-fit: contain;" alt="' + productData.fasteners.products[i].name + '">' +
+                                                '<div class="product-icon">' +
+                                                '</div>' +
+                                                '<!---->' +
+                                            '</div>' +
+                                            '<div class="product-des">' +
+                                                '<h5>' + productData.packaging_items.products[i].name + '</h5>' +
+                                            '</div>' +
+                                        '</div>' +
+                                    '</div>';
+        }
+
+        $(document).ready(function(){
+            $('.list-item').click(function(){
+                value = $(this).attr('data-filter');
+                console.log(value); 
+                if(value == 'all'){
+                    $('.product').hide();
+                    $('.product').slice(0,8).show();
+                }else{
+                    $('.product').not('.'+value).hide();
+                    //$('.product').filter('.'+value).show('1000');
+                    $('.product').filter('.'+value).slice(0,8).show();
+                }
+                $(this).addClass('active').siblings().removeClass('active');
+                $('#cat').text($('.list').find('[data-filter='+value+']').text());
+                if(value == 'clips_and_pins'){
+                    $('.product-btn').hide();
+                }else{
+                    $('.product-btn').show();
+                }
+            })
+        })
+        
+        $('.product-btn').click(function(){
+            if(value == 'all'){
+                $('.product:hidden').slice(0,12).slideDown();
+            }else{
+                $('.product').not('.'+value).hide();
+                $('.product:hidden').filter('.'+value).slice(0,12).slideDown();
+            }
+        })
+        
+        $('.product').slice(0,8).show();
+        
+    </script>
 </body>
 </html>

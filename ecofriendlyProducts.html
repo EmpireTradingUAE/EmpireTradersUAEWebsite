@@ -21,7 +21,6 @@
     <link href="css/slider_css.css" type="text/css" rel="stylesheet" />
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,700,900' rel='stylesheet' type='text/css'/>
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/jquery-ui.js"></script>
@@ -82,19 +81,13 @@
             </div>
         </header>
         <div class="container"></div>
-        <section class="banner2 top" id="home" style="background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(image/temp6.jpg);">
+        <section class="banner2 top" style="background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(image/temp6.jpg);">
             <div class="texture">
                 <div class="container">
                     <div class="col-5 mb-12 mb-center allProductsBanner">
-                        <div class="banner_line1_allProducts"><b>Eco-Friendly Products</b></div>
-                        <div class="banner_brief_text1">Make a big impact by making little impact. <br>Buy our eco-friendly products and help save this planet!</div>
-                        <!--div    class="mb-center mb-12">
-                        <div class="button-1">
-                            <a href="#">Create Your Site</a>
-                        </div>
-                        </div-->          
+                        <div class="banner_line1_allProducts"><b>Ecofriendly Products</b></div>
+                        <div class="banner_brief_text">Make a big impact by making little impact. Buy our eco-friendly products and help save this planet!</div>         
                     </div>
-                <div class="col-7 mb-12 banner-image"  style="position:relative;"><!--<img src="image/banner2_image.png"  />--></div>
                 </div>
             </div>
         </section>
@@ -103,7 +96,7 @@
         <section class="category">
             <div class="product_container">
                 <div class="row">
-                    <div class="col-lg-3" style="display: none">
+                    <div class="col-3" style="display: none">
                         <div>
                             <aside class="side-area product-side side-shadow mt-5">
                                 <div class="side-title">
@@ -121,14 +114,10 @@
                             </aside>
                         </div>
                     </div>
-                    <div class="col-lg-12">
+                    <div class="col-9">
                         <div class="row" id="products_grid">
-                            <div class="col-lg-12">
-                                <div class="product-top d-flex justify-content-between align-items-center">
-                                    <div class="product-sec product-item">
-                                        <h2 class="my-5" id="cat">All</h2>
-                                    </div>
-                                </div>
+                            <div class="col-12 mb-12">
+                                <div class="col-6" style="padding: 20px 0 40px 40px; font-weight: 600; font-size: 30px;" id="cat">All</div>
                             </div> 
                         </div>
                     </div>
@@ -186,7 +175,7 @@
         var container = document.getElementById('products_grid');
         var value = 'all';
         for(var i = 0; i < productData.eco_friendly_products.products.length; i++){
-            container.innerHTML += '<div class="col-lg-5 col-sm-4 product ' + productData.eco_friendly_products.products[i].category + '"style="display: none;">' +
+            container.innerHTML += '<div class="col-6 col-sm-4 product ' + productData.eco_friendly_products.products[i].category + '"style="display: none;">' +
                                         '<div class="product-cate" style="padding: 0 20px 100px 20px;">' +
                                             '<div class="container" style="width: 150px; height: 150px;">' +
                                                 '<img src="'+ productData.eco_friendly_products.products[i].url +'" style="max-height:100%; max-width:100%; object-fit: contain;" alt="' + productData.fasteners.products[i].name + '">' +

@@ -406,4 +406,83 @@ var productData = {
             // },
         ],
     },
+    safety_equipments: {
+        products: [
+            {
+                category: "tools_and_toolbags",
+                url: "image/safety_equipments/tools_and_toolbags/AXE.jpeg",
+                name: "AXE",
+            },
+            {
+                category: "tools_and_toolbags",
+                url: "image/safety_equipments/tools_and_toolbags/Bolt cutter.jpeg",
+                name: "Bolt cutter",
+            },
+            {
+                category: "tools_and_toolbags",
+                url: "image/safety_equipments/tools_and_toolbags/Chipping Hammer.jpeg",
+                name: "Chipping Hammer",
+            },
+            {
+                category: "tools_and_toolbags",
+                url: "image/safety_equipments/tools_and_toolbags/Claw hammer bleached.jpeg",
+                name: "Claw hammer bleached",
+            },
+            {
+                category: "tools_and_toolbags",
+                url: "image/safety_equipments/tools_and_toolbags/Claw hammer plastic handle.jpeg",
+                name: "Claw hammer plastic handle",
+            },
+            {
+                category: "tools_and_toolbags",
+                url: "image/safety_equipments/tools_and_toolbags/Claw Hammer tubular handle.jpeg",
+                name: "Claw Hammer tubular handle",
+            },
+            {
+                category: "tools_and_toolbags",
+                url: "image/safety_equipments/tools_and_toolbags/Claw Hammer Wooden handle.jpeg",
+                name: "Claw Hammer Wooden handle",
+            },
+            {
+                category: "tools_and_toolbags",
+                url: "image/safety_equipments/tools_and_toolbags/Mach Hammer.jpeg",
+                name: "Mach Hammer",
+            },
+            {
+                category: "tools_and_toolbags",
+                url: "image/safety_equipments/tools_and_toolbags/Multiple pocket foldable toolbag.jpg",
+                name: "Multiple pocket foldable toolbag",
+            },
+            {
+                category: "tools_and_toolbags",
+                url: "image/safety_equipments/tools_and_toolbags/Plastic Mallet.jpeg",
+                name: "Plastic Mallet",
+            },
+            {
+                category: "tools_and_toolbags",
+                url: "image/safety_equipments/tools_and_toolbags/Rubber mallet with wooden handle.jpeg",
+                name: "Rubber mallet with wooden handle",
+            },
+            {
+                category: "tools_and_toolbags",
+                url: "image/safety_equipments/tools_and_toolbags/Sledge hammer.jpeg",
+                name: "Sledge hammer",
+            },
+            {
+                category: "tools_and_toolbags",
+                url: "image/safety_equipments/tools_and_toolbags/Trawel.jpeg",
+                name: "Trawel",
+            },
+            {
+                category: "tools_and_toolbags",
+                url: "image/safety_equipments/tools_and_toolbags/Wooden mallet.jpeg",
+                name: "Wooden mallet",
+            },
+            {
+                category: "tools_and_toolbags",
+                url: "image/safety_equipments/tools_and_toolbags/Wrench.jpeg",
+                name: "Wrench",
+            },
+        ],
+    },
 };

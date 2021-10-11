@@ -18,6 +18,7 @@
     <link href="css/theme319.css" rel="stylesheet" type="text/css" />
     <link href="css/flickity.css" rel="stylesheet" type="text/css" />
     <link href="css/quickweb.css" rel="stylesheet" type="text/css" />
+    <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" />
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,700,900' rel='stylesheet' type='text/css'/>
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 
@@ -25,6 +26,8 @@
     <script src="js/jquery-ui.js"></script>
     <script src="js/plugin.js"></script>
     <script src="js/data.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </head>
 <body>
@@ -85,21 +88,23 @@
         </section>
 
         <!---Side bar-->
-        <section class="category">
+        <section class="category section-padding">
             <div class="product_container">
                 <div class="row">
-                    <div class="col-3" style="display: none">
+                    <div class="col-3">
                         <div>
                             <aside class="side-area product-side side-shadow mt-5">
                                 <div class="side-title">
-                                    <h3>Packaging Items</h3>
+                                    <h3>Safety Equipments</h3>
                                 </div>
                                 <div class="side-content">
                                     <ul class="list">
-                                        <p style="text-align: center; font-weight: bold">Filter by categories</p>
+                                        <p style="text-align: center; font-weight: bold; padding-bottom: 20px; border-bottom: 1px solid #ddd;">Filter by categories</p>
                                         <li class="list-item active" data-filter="all">
                                             <a href="#">All</a>
                                         </li>
+                                        <li class="list-item" data-filter="tools_and_toolbags">
+                                            <a href="#">Tools and Toolbags</a>
                                         </li>
                                     </ul> 
                                 </div>
@@ -154,7 +159,7 @@
                     </div>
                     <div class="col-12 logo" style="padding-top: 50px; text-align: center"><a href="index.html"><img src="image/logo_small.jpg" /></a></div>
                     <div class="col-12 creator" style="padding-top:25px;">
-                        <div class="col-12 copyright" style="text-align: center">© 2021 All Rights Reserved by EmpireTradersUAE. </div>
+                        <div class="col-12 copyright" style="text-align: center">© 2021 All Rights Reserved by EmpireTradingUAE. </div>
                     </div>
             </div>
         </section>
@@ -166,21 +171,25 @@
 
         var container = document.getElementById('products_grid');
         var value = 'all';
-        for(var i = 0; i < productData.packaging_items.products.length; i++){
-            container.innerHTML += '<div class="col-3 col-sm-4 product ' + productData.packaging_items.products[i].category + '"style="display: none;">' +
+        for(var i = 0; i < productData.safety_equipments.products.length; i++){
+            container.innerHTML += '<div class="col-3 col-sm-4 product ' + productData.safety_equipments.products[i].category + '"style="display: none;">' +
                                         '<div class="product-cate" style="padding: 0 20px 100px 20px;">' +
                                             '<div class="container" style="width: 150px; height: 150px;">' +
-                                                '<img src="'+ productData.packaging_items.products[i].url +'" style="max-height:100%; max-width:100%; object-fit: contain;" alt="' + productData.fasteners.products[i].name + '">' +
+                                                '<a href="' + productData.safety_equipments.products[i].url + '" data-lightbox="big-img" data-title="' + productData.safety_equipments.products[i].name + '"><img src="'+ productData.safety_equipments.products[i].url +'" style="max-height:100%; max-width:100%; object-fit: contain;" alt="' + productData.fasteners.products[i].name + '"></a>' +
                                                 '<div class="product-icon">' +
                                                 '</div>' +
                                                 '<!---->' +
                                             '</div>' +
                                             '<div class="product-des">' +
-                                                '<h5>' + productData.packaging_items.products[i].name + '</h5>' +
+                                                '<h5>' + productData.safety_equipments.products[i].name + '</h5>' +
                                             '</div>' +
                                         '</div>' +
                                     '</div>';
         }
+
+        container.innerHTML += '<div class="col-12" style="text-align: center">' +
+                                    '<a href="#"class="product-btn">More Items</a>' +
+                                '</div>';
 
         $(document).ready(function(){
             $('.list-item').click(function(){

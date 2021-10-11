@@ -19,6 +19,7 @@
     <link href="css/flickity.css" rel="stylesheet" type="text/css" />
     <link href="css/quickweb.css" rel="stylesheet" type="text/css" />  
     <link href="css/slider_css.css" type="text/css" rel="stylesheet" />
+    <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" />
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,700,900' rel='stylesheet' type='text/css'/>
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 
@@ -27,6 +28,8 @@
     <script src="js/slider.js"></script>
     <script src="js/plugin.js"></script>
     <script src="js/data.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </head>
 <body>
@@ -178,7 +181,7 @@
             container.innerHTML += '<div class="col-3 col-sm-4 product ' + productData.packaging_items.products[i].category + '"style="display: none;">' +
                                         '<div class="product-cate" style="padding: 0 20px 100px 20px;">' +
                                             '<div class="container" style="width: 150px; height: 150px;">' +
-                                                '<img src="'+ productData.packaging_items.products[i].url +'" style="max-height:100%; max-width:100%; object-fit: contain;" alt="' + productData.fasteners.products[i].name + '">' +
+                                                '<a href="' + productData.packaging_items.products[i].url + '" data-lightbox="all" data-title="' + productData.packaging_items.products[i].name + '"><img src="'+ productData.packaging_items.products[i].url +'" style="max-height:100%; max-width:100%; object-fit: contain;" alt="' + productData.packaging_items.products[i].name + '"></a>' +
                                                 '<div class="product-icon">' +
                                                 '</div>' +
                                                 '<!---->' +

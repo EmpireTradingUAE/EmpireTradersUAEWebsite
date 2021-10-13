@@ -163,9 +163,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 logo" style="padding-top: 50px; text-align: center"><a href="index.html"><img src="image/logo_small.jpg" /></a></div>
-                    <div class="col-12 creator" style="padding-top:25px;">
-                        <div class="col-12 copyright" style="text-align: center">© 2021 All Rights Reserved by EmpireTradingUAE. </div>
+                    <div class="col-12 footer-logo" style="padding-top: 20px; text-align: center"><a href="index.html"><img src="image/logo_small.jpg" style="width:100px"/></a></div>
+                    <div class="col-12 creator" style="padding-top:20px; text-align: center">
+                        <div class="col-12 copyright">© 2021 All Rights Reserved by EmpireTradingUAE. </div>
                     </div>
             </div>
         </section>
@@ -216,11 +216,24 @@
         })
         
         $('.product-btn').click(function(){
+            
+            var productCount = 0;
+            for(var i=0;i<productData.fasteners.products.length;i++){
+                if(productData.fasteners.products[i].category == value)
+                    productCount++;
+            }
+
             if(value == 'all'){
                 $('.product:hidden').slice(0,12).slideDown();
+                if($('.product:visible').length == productData.fasteners.products.length){
+                    $('.product-btn').hide();
+                }
             }else{
                 $('.product').not('.'+value).hide();
                 $('.product:hidden').filter('.'+value).slice(0,12).slideDown();
+                if($('.'+value).length == productCount){
+                    $('.product-btn').hide();
+                }
             }
         })
         

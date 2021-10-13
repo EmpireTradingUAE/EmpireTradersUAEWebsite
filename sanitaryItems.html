@@ -216,16 +216,16 @@
         })
         
         $('.product-btn').click(function(){
-            
+
             var productCount = 0;
-            for(var i=0;i<productData.fasteners.products.length;i++){
-                if(productData.fasteners.products[i].category == value)
+            for(var i=0;i<productData.sanitary_items.products.length;i++){
+                if(productData.sanitary_items.products[i].category == value)
                     productCount++;
             }
 
             if(value == 'all'){
                 $('.product:hidden').slice(0,12).slideDown();
-                if($('.product:visible').length == productData.fasteners.products.length){
+                if($('.product:visible').length == productData.sanitary_items.products.length){
                     $('.product-btn').hide();
                 }
             }else{

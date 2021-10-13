@@ -213,11 +213,23 @@
         })
         
         $('.product-btn').click(function(){
+            var productCount = 0;
+            for(var i=0;i<productData.safety_equipments.products.length;i++){
+                if(productData.fasteners.products[i].category == value)
+                    productCount++;
+            }
+
             if(value == 'all'){
                 $('.product:hidden').slice(0,12).slideDown();
+                if($('.product:visible').length == productData.safety_equipments.products.length){
+                    $('.product-btn').hide();
+                }
             }else{
                 $('.product').not('.'+value).hide();
                 $('.product:hidden').filter('.'+value).slice(0,12).slideDown();
+                if($('.'+value).length == productCount){
+                    $('.product-btn').hide();
+                }
             }
         })
         

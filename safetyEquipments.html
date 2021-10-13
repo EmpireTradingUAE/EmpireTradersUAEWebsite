@@ -90,7 +90,7 @@
         <section class="category section-padding">
             <div class="product_container">
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-3" style="display: none;">
                         <div>
                             <aside class="side-area product-side side-shadow mt-5">
                                 <div class="side-title">
@@ -110,7 +110,7 @@
                             </aside>
                         </div>
                     </div>
-                    <div class="col-9">
+                    <div class="col-12">
                         <div class="row" id="products_grid">
                             <div class="col-12 mb-12">
                                 <div class="col-6" style="padding: 20px 0 40px 40px; font-weight: 600; font-size: 30px;" id="cat">All</div>
@@ -174,7 +174,7 @@
             container.innerHTML += '<div class="col-3 col-sm-4 product ' + productData.safety_equipments.products[i].category + '"style="display: none;">' +
                                         '<div class="product-cate" style="padding: 0 20px 100px 20px;">' +
                                             '<div class="container" style="width: 150px; height: 150px;">' +
-                                                '<a href="' + productData.safety_equipments.products[i].url + '" data-lightbox="' + productData.safety_equipments.products[i].category + '" data-title="' + productData.safety_equipments.products[i].name + '"><img src="'+ productData.safety_equipments.products[i].url +'" style="max-height:100%; max-width:100%; object-fit: contain;" alt="' + productData.fasteners.products[i].name + '"></a>' +
+                                                '<a href="' + productData.safety_equipments.products[i].url + '" data-lightbox="all" data-title="' + productData.safety_equipments.products[i].name + '"><img src="'+ productData.safety_equipments.products[i].url +'" style="max-height:100%; max-width:100%; object-fit: contain;" alt="' + productData.fasteners.products[i].name + '"></a>' +
                                                 '<div class="product-icon">' +
                                                 '</div>' +
                                                 '<!---->' +

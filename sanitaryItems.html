@@ -93,10 +93,10 @@
         </section>
 
         <!---Side bar-->
-        <section class="category">
+        <section class="category section-padding">
             <div class="product_container">
                 <div class="row">
-                    <div class="col-3" style="display: none">
+                    <div class="col-3">
                         <div>
                             <aside class="side-area product-side side-shadow mt-5">
                                 <div class="side-title">
@@ -104,9 +104,12 @@
                                 </div>
                                 <div class="side-content">
                                     <ul class="list">
-                                        <p style="text-align: center; font-weight: bold">Filter by categories</p>
+                                        <p style="text-align: center; font-weight: bold; padding-bottom: 20px; border-bottom: 1px solid #ddd;">Filter by categories</p>
                                         <li class="list-item active" data-filter="all">
                                             <a href="#">All</a>
+                                        </li>
+                                        <li class="list-item" data-filter="basins">
+                                            <a href="#">Basins</a>
                                         </li>
                                         </li>
                                     </ul> 
@@ -114,7 +117,7 @@
                             </aside>
                         </div>
                     </div>
-                    <div class="col-12">
+                    <div class="col-9">
                         <div class="row" id="products_grid">
                             <div class="col-12 mb-12">
                                 <div class="col-6" style="padding: 20px 0 40px 40px; font-weight: 600; font-size: 30px;" id="cat">All</div>
@@ -174,17 +177,17 @@
 
         var container = document.getElementById('products_grid');
         var value = 'all';
-        for(var i = 0; i < productData.packaging_items.products.length; i++){
-            container.innerHTML += '<div class="col-3 col-sm-4 product ' + productData.packaging_items.products[i].category + '"style="display: none;">' +
+        for(var i = 0; i < productData.sanitary_items.products.length; i++){
+            container.innerHTML += '<div class="col-3 col-sm-4 product ' + productData.sanitary_items.products[i].category + '"style="display: none;">' +
                                         '<div class="product-cate" style="padding: 0 20px 100px 20px;">' +
                                             '<div class="container" style="width: 150px; height: 150px;">' +
-                                                '<a href="' + productData.packaging_items.products[i].url + '" data-lightbox="all" data-title="' + productData.packaging_items.products[i].name + '"><img src="'+ productData.packaging_items.products[i].url +'" style="max-height:100%; max-width:100%; object-fit: contain;" alt="' + productData.packaging_items.products[i].name + '"></a>' +
+                                                '<a href="' + productData.sanitary_items.products[i].url + '" data-lightbox="all" data-title="' + productData.sanitary_items.products[i].name + '"><img src="'+ productData.sanitary_items.products[i].url +'" style="max-height:100%; max-width:100%; object-fit: contain;" alt="' + productData.sanitary_items.products[i].name + '"></a>' +
                                                 '<div class="product-icon">' +
                                                 '</div>' +
                                                 '<!---->' +
                                             '</div>' +
                                             '<div class="product-des">' +
-                                                '<h5>' + productData.packaging_items.products[i].name + '</h5>' +
+                                                '<h5>' + productData.sanitary_items.products[i].name + '</h5>' +
                                             '</div>' +
                                         '</div>' +
                                     '</div>';

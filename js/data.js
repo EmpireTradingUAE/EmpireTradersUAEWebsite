@@ -474,8 +474,17 @@ var productData = {
         products: [
             {
                 category: "basins",
-                url: "image/sanitary_items/basins/Villeroy&Boch Artis Surface-mounted Wash Basin Round 43CM.png",
-                name: "Villeroy&Boch Artis Surface-mounted Wash Basin Round 43CM",
+                url: "image/sanitary_items/basins/GROHE Essence Purity Wall-Mounted Basin 70 CM.png",
+                name: "GROHE Essence Purity Wall-Mounted Basin 70 CM",
+                description:'Product Number 3956400H \n'+
+                            'EAN 4005176485602 \n'+
+                            'Colour alpine white \n\n'+
+                            'PRODUCT DESCRIPTION \n\n'+
+                            'Wall hung.\n' +
+                            '1 hole punched, 2 holes pre-punched with overflow on opposite site to faucet.\n'+
+                            '700 x 485 mm \n'+
+                            'Suitable for half and full pedestal sanitary ware.\n'+
+                            'PureGuard anti scale coating and anti bacterial glazing \n'
             },
             {
                 category: "basins",

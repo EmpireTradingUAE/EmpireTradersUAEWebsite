@@ -475,6 +475,7 @@ var productData = {
             {
                 category: "basins",
                 url: "image/sanitary_items/basins/GROHE Essence Purity Wall-Mounted Basin 70 CM.png",
+                url2: 'image/sanitary_items/basins/GROHE Essence Purity Wall-Mounted Basin 70 CM 2.jpg',
                 name: "GROHE Essence Purity Wall-Mounted Basin 70 CM",
                 description:'Product Number 3956400H \n'+
                             'EAN 4005176485602 \n'+
@@ -488,38 +489,101 @@ var productData = {
             },
             {
                 category: "basins",
-                url: "image/safety_equipments/Safety belt.png",
-                name: "Safety belt",
+                url: "image/sanitary_items/basins/GROHE Essence Purity Wall-Mounted Basin 60 CM.png",
+                name: "GROHE Essence Purity Wall-Mounted Basin 60 CM",
+                description:'Product Number 3956500H \n'+
+                            'EAN 4005176485619 \n'+
+                            'Colour alpine white \n\n'+
+                            'PRODUCT DESCRIPTION \n\n'+
+                            'Wall hung.\n' +
+                            '1 hole punched, 2 holes pre-punched with overflow on opposite site to faucet.\n'+
+                            '600 x 485 mm \n'+
+                            'Suitable for half and full pedestal sanitary ware.\n'+
+                            'PureGuard anti scale coating and anti bacterial glazing \n'
             },
             {
-                category: "",
-                url: "image/safety_equipments/Safety gloves - Blue.png",
-                name: "Safety gloves - Blue",
+                category: "basins",
+                url: "image/sanitary_items/basins/GROHE Essence Purity Semi Pedestal.png",
+                name: "GROHE Essence Purity Semi Pedestal",
+                description:'Product Number 39570000 \n'+
+                            'EAN 4005176484865 \n'+
+                            'Colour alpine white \n\n'+
+                            'PRODUCT DESCRIPTION \n\n'+
+                            'Including fixation set \n' +
+                            'Sanitary ware \n'
             },
             {
-                category: "",
-                url: "image/safety_equipments/Safety gloves - Grey.png",
-                name: "Safety gloves - Grey",
+                category: "basins",
+                url: "image/sanitary_items/basins/GROHE Euro Ceramic Wall-Mounted Basin 65 CM with PureGuard.png",
+                name: "GROHE Euro Ceramic Wall-Mounted Basin 65 CM with PureGuard",
+                description:'Product Number 3932300H \n'+
+                            'EAN 4005176417344 \n'+
+                            'Colour alpine white \n\n'+
+                            'PRODUCT DESCRIPTION \n\n'+
+                            'Wall hung.\n' +
+                            '1 hole punched \n'+
+                            'With overflow \n'+
+                            '650 x 515 mm mm \n'+
+                            'Sanitary ware \n'+
+                            'PureGuard anti scale coating and anti bacterial glazing \n'
             },
             {
-                category: "",
-                url: "image/safety_equipments/Safety gloves - Red-White.png",
-                name: "Safety gloves - Red-White",
+                category: "basins",
+                url: "image/sanitary_items/basins/GROHE Euro Ceramic Wall-Mounted Basin 60 CM.png",
+                name: "GROHE Euro Ceramic Wall-Mounted Basin 60 CM",
+                description:'Product Number 3956500H \n'+
+                            'EAN 4005176485619 \n'+
+                            'Colour alpine white \n\n'+
+                            'PRODUCT DESCRIPTION \n\n'+
+                            'Wall hung.\n' +
+                            '1 hole punched, 2 holes pre-punched with overflow on opposite site to faucet.\n'+
+                            '600 x 485 mm \n'+
+                            'Suitable for half and full pedestal sanitary ware.\n'+
+                            'PureGuard anti scale coating and anti bacterial glazing \n'
             },
             {
-                category: "",
-                url: "image/safety_equipments/Safety gloves - Yellow-Grey.png",
-                name: "Safety gloves - Yellow-Grey",
+                category: "basins",
+                url: "image/sanitary_items/basins/GROHE Cube Ceramic Wall-Mounted Basin 60 CM.png",
+                name: "GROHE Cube Ceramic Wall-Mounted Basin 60 CM",
+                description:'Product Number 3947300H \n'+
+                            'EAN 4005176438370 \n'+
+                            'Colour alpine white \n\n'+
+                            'PRODUCT DESCRIPTION \n\n'+
+                            'Wall hung.\n' +
+                            '1 hole punched, 2 holes pre-punched \n'+
+                            'With overflow \n'+
+                            '600 x 490 mm \n'+
+                            'Sanitary ware \n'+
+                            'PureGuard anti scale coating and anti bacterial glazing \n'
             },
             {
-                category: "",
-                url: "image/safety_equipments/Safety helmet.png",
-                name: "Safety helmet",
+                category: "basins",
+                url: "image/sanitary_items/basins/GROHE Bau Ceramic Wall-Mounted Basin 65 CM.png",
+                name: "GROHE Bau Ceramic Wall-Mounted Basin 65 CM",
+                description:'Product Number 39420000 \n'+
+                            'EAN 4005176405983 \n'+
+                            'Colour alpine white \n\n'+
+                            'PRODUCT DESCRIPTION \n\n'+
+                            'Wall hung.\n' +
+                            '1 hole punched \n'+
+                            'With overflow \n'+
+                            '646 x 468 mm \n'+
+                            'Sanitary ware \n'
             },
             {
-                category: "",
-                url: "image/safety_equipments/Safety shoe - Black and Red.png",
-                name: "Safety shoe - Black and Red",
+                category: "basins",
+                url: "image/sanitary_items/basins/GROHE Euro Ceramic Counter Top Basin 60 CM with PureGuard.png",
+                name: "GROHE Euro Ceramic Counter Top Basin 60 CM with PureGuard",
+                description:'Product Number 3933700H \n'+
+                            'EAN 4005176418334 \n'+
+                            'Colour alpine white \n\n'+
+                            'PRODUCT DESCRIPTION \n\n'+
+                            '1 hole punched \n'+
+                            'With overflow \n'+
+                            '600 x 480 mm \n'+
+                            'Including fixation set \n' +
+                            'Sanitary ware \n' +
+                            'PureGuard anti scale coating and anti bacterial glazing \n'
             },
             {
                 category: "",

@@ -477,10 +477,8 @@ var productData = {
                 url: "image/sanitary_items/basins/GROHE Essence Purity Wall-Mounted Basin 70 CM.png",
                 url2: 'image/sanitary_items/basins/GROHE Essence Purity Wall-Mounted Basin 70 CM 2.jpg',
                 name: "GROHE Essence Purity Wall-Mounted Basin 70 CM",
-                description:'Product Number 3956400H \n'+
-                            'EAN 4005176485602 \n'+
-                            'Colour alpine white \n\n'+
-                            'PRODUCT DESCRIPTION \n\n'+
+                prod_no: '3956400H',
+                description:
                             'Wall hung.\n' +
                             '1 hole punched, 2 holes pre-punched with overflow on opposite site to faucet.\n'+
                             '700 x 485 mm \n'+
@@ -491,10 +489,8 @@ var productData = {
                 category: "basins",
                 url: "image/sanitary_items/basins/GROHE Essence Purity Wall-Mounted Basin 60 CM.png",
                 name: "GROHE Essence Purity Wall-Mounted Basin 60 CM",
-                description:'Product Number 3956500H \n'+
-                            'EAN 4005176485619 \n'+
-                            'Colour alpine white \n\n'+
-                            'PRODUCT DESCRIPTION \n\n'+
+                prod_no: '3956500H',
+                description:
                             'Wall hung.\n' +
                             '1 hole punched, 2 holes pre-punched with overflow on opposite site to faucet.\n'+
                             '600 x 485 mm \n'+
@@ -505,10 +501,8 @@ var productData = {
                 category: "basins",
                 url: "image/sanitary_items/basins/GROHE Essence Purity Semi Pedestal.png",
                 name: "GROHE Essence Purity Semi Pedestal",
-                description:'Product Number 39570000 \n'+
-                            'EAN 4005176484865 \n'+
-                            'Colour alpine white \n\n'+
-                            'PRODUCT DESCRIPTION \n\n'+
+                prod_no: '39570000',
+                description:
                             'Including fixation set \n' +
                             'Sanitary ware \n'
             },
@@ -516,10 +510,8 @@ var productData = {
                 category: "basins",
                 url: "image/sanitary_items/basins/GROHE Euro Ceramic Wall-Mounted Basin 65 CM with PureGuard.png",
                 name: "GROHE Euro Ceramic Wall-Mounted Basin 65 CM with PureGuard",
-                description:'Product Number 3932300H \n'+
-                            'EAN 4005176417344 \n'+
-                            'Colour alpine white \n\n'+
-                            'PRODUCT DESCRIPTION \n\n'+
+                prod_no: '3932300H',
+                description:
                             'Wall hung.\n' +
                             '1 hole punched \n'+
                             'With overflow \n'+
@@ -531,10 +523,8 @@ var productData = {
                 category: "basins",
                 url: "image/sanitary_items/basins/GROHE Euro Ceramic Wall-Mounted Basin 60 CM.png",
                 name: "GROHE Euro Ceramic Wall-Mounted Basin 60 CM",
-                description:'Product Number 3956500H \n'+
-                            'EAN 4005176485619 \n'+
-                            'Colour alpine white \n\n'+
-                            'PRODUCT DESCRIPTION \n\n'+
+                prod_no: '3956500H',
+                description:
                             'Wall hung.\n' +
                             '1 hole punched, 2 holes pre-punched with overflow on opposite site to faucet.\n'+
                             '600 x 485 mm \n'+
@@ -545,10 +535,8 @@ var productData = {
                 category: "basins",
                 url: "image/sanitary_items/basins/GROHE Cube Ceramic Wall-Mounted Basin 60 CM.png",
                 name: "GROHE Cube Ceramic Wall-Mounted Basin 60 CM",
-                description:'Product Number 3947300H \n'+
-                            'EAN 4005176438370 \n'+
-                            'Colour alpine white \n\n'+
-                            'PRODUCT DESCRIPTION \n\n'+
+                prod_no: '3947300H',
+                description:
                             'Wall hung.\n' +
                             '1 hole punched, 2 holes pre-punched \n'+
                             'With overflow \n'+
@@ -560,10 +548,8 @@ var productData = {
                 category: "basins",
                 url: "image/sanitary_items/basins/GROHE Bau Ceramic Wall-Mounted Basin 65 CM.png",
                 name: "GROHE Bau Ceramic Wall-Mounted Basin 65 CM",
-                description:'Product Number 39420000 \n'+
-                            'EAN 4005176405983 \n'+
-                            'Colour alpine white \n\n'+
-                            'PRODUCT DESCRIPTION \n\n'+
+                prod_no: '39420000',
+                description:
                             'Wall hung.\n' +
                             '1 hole punched \n'+
                             'With overflow \n'+
@@ -574,10 +560,8 @@ var productData = {
                 category: "basins",
                 url: "image/sanitary_items/basins/GROHE Euro Ceramic Counter Top Basin 60 CM with PureGuard.png",
                 name: "GROHE Euro Ceramic Counter Top Basin 60 CM with PureGuard",
-                description:'Product Number 3933700H \n'+
-                            'EAN 4005176418334 \n'+
-                            'Colour alpine white \n\n'+
-                            'PRODUCT DESCRIPTION \n\n'+
+                prod_no: '3933700H',
+                description:
                             '1 hole punched \n'+
                             'With overflow \n'+
                             '600 x 480 mm \n'+
@@ -586,24 +570,217 @@ var productData = {
                             'PureGuard anti scale coating and anti bacterial glazing \n'
             },
             {
-                category: "",
-                url: "image/safety_equipments/Safety shoe black with high ankle.png",
-                name: "Safety shoe black with high ankle",
+                category: "WCs",
+                url: "image/sanitary_items/WCs/GROHE SENSIA ARENA SMART TOILET, WALL-HUNG.png",
+                name: "GROHE SENSIA ARENA SMART TOILET, WALL-HUNG",
+                prod_no: '39354SH1',
+                description:
+                            'GROHE Hygiene Clean: with antibacterial glazing HyperClean (SIAA Kokin Japanese standard compliant) and non-stick coating AquaCeramic  \n' +
+                            'GROHE power flush: rimless wash down jet WC  \n' +
+                            'with GROHE Triple Vortex flushing technology \n' +
+                            'GROHE Skin Clean: \n' +
+                            '2 dedicated adjustable spray arms (1 for anal area, 1 for lady spray) \n' +
+                            'separate water way for lady spray \n' +
+                            'oscillating spray (automatic forward and reverse motion of the spray) \n' +
+                            'pulsating spray for massage \n' +
+                            'adjustable spray intensity \n' +
+                            'automatic pre- and post-rinsing of spray nozzle with fresh water \n' +
+                            'integrated instant heater provides unlimited warm water \n' +
+                            'adjustable temperature \n' +
+                            'Other functions \n' +
+                            'warm air dryer with adjustable temperature \n' +
+                            'odor extraction with filter \n' +
+                            'PlasmaCluster function - ion technology \n' +
+                            'descaling function \n' +
+                            'Duroplast WC seat and lid with automatic opening/close function \n' +
+                            'infra-red user detection \n' +
+                            'seat control operation \n' +
+                            'inside bowl night light \n' +
+                            'hidden water supply and power supply connections \n' +
+                            'smart phone app for iOS and Android \n' +
+                            'includes: \n' +
+                            'noise protection sheet, mounting bases and washers \n' +
+                            'manual remote controller with wall-mounted holder \n' +
+                            'active carbon filter for odour absorption \n' +
+                            'water supply connection set for concealed cistern \n' +
+                            'nozzle guard \n' +
+                            'cable with system plug on device \n' +
+                            'pressure 0.05 - 1 MPa (0.5 - 10 bar) \n' +
+                            'nominal voltage 220-240 V AC \n' +
+                            'main frequency 50-60 Hz \n' +
+                            'type of protection IPX4 \n' +
+                            'complies with EN 1717 \n' +
+                            'CE approved'
             },
             {
-                category: "",
-                url: "image/safety_equipments/Safety shoe black with medium ankle.png",
-                name: "Safety shoe black with medium ankle",
+                category: "WCs",
+                url: "image/sanitary_items/WCs/GROHE Essence Purity Wall-Hung Bidet.png",
+                name: "GROHE Essence Purity Wall-Hung Bidet",
+                prod_no: '3957400H',
+                description:
+                            '1 hole punched \n'+
+                            'With overflow \n'+
+                            'Including fixation set \n' +
+                            'Sanitary ware \n' +
+                            'Fully skirted with invisible fixation \n' +
+                            'PureGuard anti scale coating and anti bacterial glazing \n'
             },
             {
-                category: "",
-                url: "image/safety_equipments/Safety shoe black.png",
-                name: "Safety shoe black",
+                category: "WCs",
+                url: "image/sanitary_items/WCs/GROHE Cube Ceramic Wall-Hung Bidet.png",
+                name: "GROHE Cube Ceramic Wall-Hung Bidet",
+                prod_no: '3948600H',
+                description:
+                            '1 hole punched \n'+
+                            'With overflow \n'+
+                            'Including fixation set \n' +
+                            'Sanitary ware \n' +
+                            'Fully skirted with invisible fixation \n' +
+                            'PureGuard anti scale coating and anti bacterial glazing \n'
             },
             {
-                category: "",
-                url: "image/safety_equipments/Safety shoe grey with high ankle.png",
-                name: "Safety shoe grey with high ankle",
+                category: "WCs",
+                url: "image/sanitary_items/WCs/GROHE Essence Purity Floor-Standing.png",
+                name: "GROHE Essence Purity Floor-Standing",
+                prod_no: '3957500H',
+                description:
+                            '1 hole punched \n'+
+                            'With overflow \n'+
+                            'Including fixation set \n' +
+                            'Sanitary ware \n' +
+                            'Fully skirted with invisible fixation \n' +
+                            'PureGuard anti scale coating and anti bacterial glazing \n'
+            },
+            {
+                category: "WCs",
+                url: "image/sanitary_items/WCs/GROHE Cube Ceramic Floor-Standing.png",
+                name: "GROHE Cube Ceramic Floor-Standing",
+                prod_no: '3948700H',
+                description:
+                            '1 hole punched \n'+
+                            'With overflow \n'+
+                            'Including fixation set \n' +
+                            'Sanitary ware \n' +
+                            'Fully skirted with invisible fixation \n' +
+                            'PureGuard anti scale coating and anti bacterial glazing \n'
+            },
+            {
+                category: "WCs",
+                url: "image/sanitary_items/WCs/GROHE Essence Purity Wall-Hung WC.png",
+                name: "GROHE Essence Purity Wall-Hung WC",
+                prod_no: '3957100H',
+                description:
+                            'For concealed cistern \n'+
+                            'Wash down \n' +
+                            'Rimless \n' +
+                            'Horizontal outlet \n' +
+                            'Flush volume 3/4.5 l \n' +
+                            'Including fixation set \n' +
+                            'Sanitary ware \n' +
+                            'Fully skirted with invisible fixation \n' +
+                            'PureGuard anti scale coating and anti bacterial glazing \n' +
+                            'With seat and cover 39 577 000 (soft close)'
+            },
+            {
+                category: "WCs",
+                url: "image/sanitary_items/WCs/GROHE Essence Purity Back-to-Wall WC.png",
+                name: "GROHE Essence Purity Back-to-Wall WC",
+                prod_no: '3957300H',
+                description:
+                            'Universal trap for horizontal and vertical outlet \n' + 
+                            'Back to wall \n' +
+                            'For concealed cistern \n' +
+                            'Rimless \n' +
+                            'Flush volume 3/4.5 l \n' +
+                            'Including fixation set \n' +
+                            'Sanitary ware \n' +
+                            'Fully skirted with invisible fixation \n' +
+                            'PureGuard anti scale coating and anti bacterial glazing \n' +
+                            'with seat and cover 39 577 000 (soft close)' 
+            },
+            {
+                category: "WCs",
+                url: "image/sanitary_items/WCs/GROHE Essence Purity Floor-Standing WC.png",
+                name: "GROHE Essence Purity Floor-Standing WC",
+                prod_no: '3957200H',
+                description:
+                            'Close coupled \n' +
+                            'Universal trap for horizontal and vertical outlet \n' + 
+                            'Wash down \n' +
+                            'Rimless \n' +
+                            'Flush volume 3/4.5 l \n' +
+                            'Including fixation set \n' +
+                            'Cistern to be ordered separately \n' +
+                            'Sanitary ware \n' +
+                            'Fully skirted with invisible fixation \n' +
+                            'PureGuard anti scale coating and anti bacterial glazing \n' +
+                            'with seat and cover 39 577 000 (soft close)' 
+            },
+            {
+                category: "WCs",
+                url: "image/sanitary_items/WCs/GROHE Cube Ceramic Floor-Standing WC.png",
+                name: "GROHE Cube Ceramic Floor-Standing WC",
+                prod_no: '3948400H',
+                description:
+                            'Close coupled \n' +
+                            'Universal trap for horizontal and vertical outlet \n' + 
+                            'Rimless \n' +
+                            'Flush volume 3/4.5 l \n' +
+                            'Including fixation set \n' +
+                            'Cistern to be ordered separately \n' +
+                            'Sanitary ware \n' +
+                            'Fully skirted with invisible fixation \n' +
+                            'PureGuard anti scale coating and anti bacterial glazing \n' +
+                            'with seat and cover 39 488 000 (soft close)' 
+            },
+            {
+                category: "WCs",
+                url: "image/sanitary_items/WCs/GROHE Cube Ceramic Wall-Hung WC.png",
+                name: "GROHE Cube Ceramic Wall-Hung WC",
+                prod_no: '3948400H',
+                description:
+                            'Close coupled \n' +
+                            'Universal trap for horizontal and vertical outlet \n' + 
+                            'Rimless \n' +
+                            'Flush volume 3/4.5 l \n' +
+                            'Including fixation set \n' +
+                            'Cistern to be ordered separately \n' +
+                            'Sanitary ware \n' +
+                            'Fully skirted with invisible fixation \n' +
+                            'PureGuard anti scale coating and anti bacterial glazing \n' +
+                            'with seat and cover 39 488 000 (soft close)' 
+            },
+            {
+                category: "WCs",
+                url: "image/sanitary_items/WCs/GROHE Euro Ceramic Wall-Hung WC.png",
+                name: "GROHE Euro Ceramic Wall-Hung WC",
+                prod_no: '3932800H',
+                description:
+                            'For concealed cistern \n' +
+                            'Horizontal outlet \n' + 
+                            'GROHE Triple Vortex flushing technology \n' +
+                            'Wash down \n' +
+                            'Rimless \n' +
+                            'Flush volume 3/5 l \n' +
+                            'Including fixation set \n' +
+                            'Sanitary ware \n' +
+                            'Fully skirted with invisible fixation \n' +
+                            'PureGuard anti scale coating and anti bacterial glazing \n' +
+                            'with seat and cover 39 330 001 (soft close)'
+            },
+            {
+                category: "WCs",
+                url: "image/sanitary_items/WCs/GROHE Bau Wall-Hung WC Rimless.jpg",
+                name: "GROHE Bau Wall-Hung WC Rimless",
+                prod_no: '39351000',
+                description:
+                            'WC seat and lid with soft close feature \n' +
+                            'For concealed cistern \n' +
+                            'Wash down \n' +
+                            'Rimless \n' +
+                            'Horizontal outlet \n' +
+                            'Flush volume 6/3 l \n' +
+                            'Sanitary ware'
             },
         ],
     },

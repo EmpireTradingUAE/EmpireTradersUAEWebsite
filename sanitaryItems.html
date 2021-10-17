@@ -20,7 +20,6 @@
     <link href="css/quickweb.css" rel="stylesheet" type="text/css" />
     <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" />
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,700,900' rel='stylesheet' type='text/css'/>
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/jquery-ui.js"></script>
@@ -28,14 +27,155 @@
     <script src="js/data.js"></script>
     <script src="js/lightbox-plus-jquery.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    
     <style>
         .lb-number{
             color: white !important;
             /* background-image: radial-gradient(120% 120px at 50% -30px, #000 75%, transparent 75%); */
-            
             text-align: justify;
             margin: 30px 0 30px 30px;
         }
+        
+        .modal {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.75);
+            transition: all 250ms ease-in-out;
+            opacity: 0;
+            visibility: hidden;
+        }
+        .modal--bg {
+            visibility: visible;
+            opacity: 1;
+            z-index: 1;
+        }
+        .modal__content {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            max-height: 1140px;
+            max-width: 1060px;
+            background-color: #ffffff;
+            visibility: hidden;
+            opacity: 0;
+            transform: translateY(-100px);
+            transition: all 250ms ease-in-out;
+        }
+        .modal__content--show{
+            transform: translateY(0);
+            visibility: visible;
+            opacity: 1;
+            z-index: 2;
+        }
+        .modal__img{
+            width: 100%;
+        }
+        .modal__close{
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 24px;
+            color: #212527;
+            cursor: pointer;
+            transition: all 250ms ease-in-out;
+            z-index: 3;
+        }
+        .modal__close:hover {
+            color: #df4747;
+        }
+        .modal__left,.modal__right {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .detail__title {
+            font-size: 24px!important;
+            text-transform: none;
+            letter-spacing: .2px;
+            line-height: 1.2!important;
+            font-family: inherit!important;
+            margin: 20px 0 10px!important;
+            font-style: normal;
+            font-weight: 600;
+        }
+        .detail__description {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 14px;
+            line-height: 1.4;
+            color: #242424;
+            font-style: normal;
+            font-weight: 500;
+        }
+        .product_description h2 {
+            font-size: 1.6em;
+            text-transform: uppercase;
+            letter-spacing: .05em;
+            margin: 0 0 17.5px;
+            font-family: monospace;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1.2;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+            
+        }
+        .product_no,.product_color {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 1.13333em;
+            margin: 0 0 17.5px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 1.2;
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+        }
+        @media (max-width: 600px) {
+
+            .modal__content {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                text-align: center;
+            }
+            .modal--show{
+                max-height: 100%;
+                min-width: 400px;
+            }
+            .modal__left{
+                margin-top: 40px;
+            }
+        }
+
+        .product__viewBtn {
+            cursor: pointer;
+            
+            bottom: 10%;
+            background: #acacac;
+            color:  #edf7f6;
+            padding: 8px 15px;
+            font-weight: bold;
+            text-align: center;
+            text-transform: uppercase;
+            opacity: 1;
+            visibility: visible;
+            transition: all 250ms ease-in-out;
+        }
+
+        .product__viewBtn:hover {
+            color: #edf7f6;
+            background: #212527;
+        }
+
     </style>
 </head>
 <body>
@@ -101,6 +241,24 @@
             </div>
         </section>
 
+        <div class="modal"></div>
+        <div class="modal__content">
+            <i class="modal__close quickweb-icon-close"></i>
+            <div class="modal__left">
+                <img class="modal__img" src="image/22.jpg" alt="">
+            </div>
+            <div class="modal__right">
+                <div class="detail">
+                    <h1 class="detail__title"></h1>
+                    <h4 class="product_no">Product Number</h4>
+                    <h6 class="product_color">Color: alpine white</h6>
+                    <span class="product_description"><h2>Product Description</h2></span>
+                    <p class="detail__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, labore quaerat
+                    magni ad dolores libero culpa ipsa fugit voluptates ipsam!</p>
+                </div>
+            </div>
+        </div>
+
         <!---Side bar-->
         <section class="category section-padding">
             <div class="product_container">
@@ -119,6 +277,9 @@
                                         </li>
                                         <li class="list-item" data-filter="basins">
                                             <a href="#">Basins</a>
+                                        </li>
+                                        <li class="list-item" data-filter="WCs">
+                                            <a href="#">WCs</a>
                                         </li>
                                         </li>
                                     </ul> 
@@ -186,24 +347,29 @@
 
         var container = document.getElementById('products_grid');
         var value = 'all';
+        var clickIndex = 0;
         for(var i = 0; i < productData.sanitary_items.products.length; i++){
             container.innerHTML += '<div class="col-3 col-sm-4 product ' + productData.sanitary_items.products[i].category + '"style="display: none;">' +
                                         '<div class="product-cate" style="padding: 0 20px 100px 20px;">' +
                                             '<div class="container" style="width: 150px; height: 150px;">' +
-                                                '<a href="' + productData.sanitary_items.products[i].url + '" data-lightbox="all" data-title="' + productData.sanitary_items.products[i].name + '"><img src="'+ productData.sanitary_items.products[i].url +'" style="max-height:100%; max-width:100%; object-fit: contain;" alt="' + productData.sanitary_items.products[i].name + '"></a>' +
+                                                '<a href="' + productData.sanitary_items.products[i].url + '" data-lightbox="' + productData.sanitary_items.products[i].category + '" data-title="' + productData.sanitary_items.products[i].name + '"><img class="product__img" src="'+ productData.sanitary_items.products[i].url +'" style="max-height:100%; max-width:100%; object-fit: contain;" alt="' + productData.sanitary_items.products[i].name + '"></a>' +
                                                 '<div class="product-icon">' +
                                                 '</div>' +
                                                 '<!---->' +
                                             '</div>' +
                                             '<div class="product-des">' +
                                                 '<h5>' + productData.sanitary_items.products[i].name + '</h5>' +
+                                                '<div style="padding-top: 20px;">' +
+                                                    '<span class="product__viewBtn" style="">View</span>' +
+                                                '</div>' +
                                             '</div>' +
                                         '</div>' +
-                                    '</div>';
-            lightbox.option({
-                'albumLabel': productData.sanitary_items.products[i].description
-            });
+                                    '</div>'
         }
+
+        container.innerHTML += '<div class="col-12" style="text-align: center">' +
+            '<a href="#"class="product-btn">More Items</a>' +
+        '</div>';
 
         $(document).ready(function(){
             $('.list-item').click(function(){
@@ -219,12 +385,33 @@
                 }
                 $(this).addClass('active').siblings().removeClass('active');
                 $('#cat').text($('.list').find('[data-filter='+value+']').text());
-                if(value == 'clips_and_pins'){
-                    $('.product-btn').hide();
-                }else{
-                    $('.product-btn').show();
-                }
             })
+
+            // $('.product').click(function(){
+            //     var indexOfElem = $('.product').index(this);
+            //     console.log("Element with index: " + indexOfElem + " was clicked.");
+            //     lightbox.option({
+            //         'albumLabel': productData.sanitary_items.products[indexOfElem].description
+            //     });
+            // })
+
+            // $('.lb-next').click(function(){
+            //     clickIndex++;
+            //     var indexOfElem = $('.product').index(this);
+            //     console.log("Element with index: " + (clickIndex) + " was clicked.");
+            //     lightbox.option({
+            //         'albumLabel': productData.sanitary_items.products[clickIndex].description
+            //     });
+            // })
+
+            // $('.lb-prev').click(function(){
+            //     clickIndex--;
+            //     var indexOfElem = $('.product').index(this);
+            //     console.log("Element with index: " + clickIndex + " was clicked.");
+            //     lightbox.option({
+            //         'albumLabel': productData.sanitary_items.products[clickIndex].description
+            //     });
+            // })
         })
         
         $('.product-btn').click(function(){
@@ -257,6 +444,41 @@
             'wrapAround': true, 
         });
         
+
+        const modal = document.querySelector('.modal');
+        const modalContent = document.querySelector('.modal__content');
+        const close = document.querySelector('.modal__close');
+        const modalImg = document.querySelector('.modal__img');
+        const productList = document.querySelectorAll('.product');
+        const title = document.querySelector('.detail__title');
+        const description = document.querySelector('.detail__description');
+        const no = document.querySelector('.product_no');
+
+        productList.forEach((list, index) => {
+        const view = list.querySelector('.product__viewBtn');
+        const productImg = list.querySelector('.product__img').getAttribute('src');
+
+            view.addEventListener('click', () => {
+                modal.classList.add('modal--bg');
+                modalContent.classList.add('modal__content--show');
+                modalImg.setAttribute('src', productImg);
+                title.innerText = list.querySelector('.product-des > h5').textContent;
+                description.innerText = productData.sanitary_items.products[index].description;
+                no.innerHTML += ': ' + productData.sanitary_items.products[index].prod_no;
+            });
+        });
+
+        close.addEventListener('click', () => {
+            modal.classList.remove('modal--bg');
+            modalContent.classList.remove('modal__content--show');
+            no.innerHTML = 'Product Description';
+        });
+
+        modal.addEventListener('click', () => {
+            modal.classList.remove('modal--bg');
+            modalContent.classList.remove('modal__content--show');
+            no.innerHTML = 'Product Description';
+        });
     </script>
     
 </body>

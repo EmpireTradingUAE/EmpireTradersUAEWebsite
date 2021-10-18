@@ -95,7 +95,7 @@
         </section>
 
         <!---Side bar-->
-        <section class="category">
+        <section class="category section-padding">
             <div class="product_container">
                 <div class="row">
                     <div class="col-3" style="display: none">
@@ -192,7 +192,12 @@
                                     '</div>';
         }
 
+        container.innerHTML += '<div class="col-12" style="text-align: center">' +
+                                    '<a href="#"class="product-btn">More Items</a>' +
+                                '</div>';
+
         $(document).ready(function(){
+            $('#cat').text($('.list').find('[data-filter='+value+']').text() + '(' + productData.packaging_items.products.length + ')');
             $('.list-item').click(function(){
                 value = $(this).attr('data-filter');
                 console.log(value); 
@@ -215,11 +220,24 @@
         })
         
         $('.product-btn').click(function(){
+
+            var productCount = 0;
+            for(var i=0;i<productData.packaging_items.products.length;i++){
+                if(productData.packaging_items.products[i].category == value)
+                    productCount++;
+            }
+
             if(value == 'all'){
                 $('.product:hidden').slice(0,12).slideDown();
+                if($('.product:visible').length == productData.packaging_items.products.length){
+                    $('.product-btn').hide();
+                }
             }else{
                 $('.product').not('.'+value).hide();
                 $('.product:hidden').filter('.'+value).slice(0,12).slideDown();
+                if($('.'+value+':visible').length == productCount){
+                    $('.product-btn').hide();
+                }
             }
         })
         

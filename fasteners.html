@@ -213,6 +213,7 @@
                                 '</div>';
 
         $(document).ready(function(){
+            $('#cat').text($('.list').find('[data-filter='+value+']').text() + '(' + productData.fasteners.products.length + ')');
             $('.list-item').click(function(){
                 value = $(this).attr('data-filter');
                 console.log(value); 
@@ -224,7 +225,10 @@
                     $('.product').filter('.'+value).slice(0,8).show();
                 }
                 $(this).addClass('active').siblings().removeClass('active');
-                $('#cat').text($('.list').find('[data-filter='+value+']').text());
+                if(value == 'all')
+                    $('#cat').text($('.list').find('[data-filter='+value+']').text() + '(' + productData.fasteners.products.length + ')');
+                else    
+                    $('#cat').text($('.list').find('[data-filter='+value+']').text() + '(' + $('.'+value).length + ')');
                 if(value == 'clips_and_pins'){
                     $('.product-btn').hide();
                 }else{
@@ -249,7 +253,7 @@
             }else{
                 $('.product').not('.'+value).hide();
                 $('.product:hidden').filter('.'+value).slice(0,12).slideDown();
-                if($('.'+value).length == productCount){
+                if($('.'+value+':visible').length == productCount){
                     $('.product-btn').hide();
                 }
             }

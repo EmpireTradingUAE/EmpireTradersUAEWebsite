@@ -2497,6 +2497,585 @@ var productData = {
                     'GROHE StarLight finish \n' +
                     'SpeedClean anti-limescale system'
             },
+            {
+                category: "kitchen_faucets",
+                url: "image/sanitary_items/kitchen_faucets/GROHE Eurodisc Cosmopolitan Sink Mixer High Spout.jpg",
+                images: [
+                    "image/sanitary_items/kitchen_faucets/GROHE Eurodisc Cosmopolitan Sink Mixer High Spout.jpg",
+                    "image/sanitary_items/kitchen_faucets/GROHE Eurodisc Cosmopolitan Sink Mixer High Spout i2.jpg",
+                ],
+                name: 'GROHE Eurodisc Cosmopolitan Sink Mixer High Spout',
+                price: 'AED 1,356.00',
+                description:
+                            'high spout \n' +
+                            'single hole installation \n' +
+                            'GROHE StarLight chrome finish \n' +
+                            'GROHE SilkMove 35 mm ceramic cartridge \n' +
+                            'GROHE Zero isolated inner water ways - lead and nickel free \n' +
+                            'adjustable flow rate limiter \n' +
+                            'swivel tubular spout \n' +
+                            'selectable swivel area: 0° / 150° \n' +
+                            'mousseur \n' +
+                            'flexible connection hoses \n' +
+                            'GROHE QuickFix rapid installation system'
+            },
+            {
+                category: "kitchen_faucets",
+                url: "image/sanitary_items/kitchen_faucets/GROHE Eurodisc Cosmopolitan Sink Mixer High Spout 2.jpg",
+                images: [
+                    "image/sanitary_items/kitchen_faucets/GROHE Eurodisc Cosmopolitan Sink Mixer High Spout 2.jpg",
+                    "image/sanitary_items/kitchen_faucets/GROHE Eurodisc Cosmopolitan Sink Mixer High Spout 2 i2.jpg",
+                ],
+                name: 'GROHE Eurodisc Cosmopolitan Sink Mixer High Spout',
+                price: 'AED 1,197.00',
+                description:
+                            'Eurodisc Cosmopolitan \n' +
+                            'Single-lever sink mixer 1/2" \n' +
+                            'high spout \n' +
+                            'single hole installation \n' +
+                            'GROHE StarLight finish \n' +
+                            'GROHE SilkMove 35 mm ceramic cartridge \n' +
+                            'mousseur \n' +
+                            'adjustable flow rate limiter \n' +
+                            'swivel tubular spout \n' +
+                            'selectable swivel area: 0° / 150° / 360° \n' +
+                            'flexible connection hoses \n' +
+                            'rapid installation system'
+            },
+            {
+                category: "kitchen_faucets",
+                url: "image/sanitary_items/kitchen_faucets/GROHE K7 Sink Mixer Pull-out Dual Spray.jpg",
+                images: [
+                    "image/sanitary_items/kitchen_faucets/GROHE K7 Sink Mixer Pull-out Dual Spray.jpg",
+                    "image/sanitary_items/kitchen_faucets/GROHE K7 Sink Mixer Pull-out Dual Spray i2.jpg",
+                ],
+                name: 'GROHE K7 Sink Mixer Pull-out Dual Spray',
+                price: 'AED 4,626.00',
+                description:
+                            'K7 \n' +
+                            'Single-lever sink mixer 1/2" \n' +
+                            'single hole installation \n' +
+                            'GROHE StarLight finish \n' +
+                            'GROHE SilkMove 35 mm ceramic cartridge \n' +
+                            'GROHE EasyDock guarantees easy retraction and \n' +
+                            'smooth docking back to the starting position \n' +
+                            'pull-out dual spray - switches back and forth \n' +
+                            'between regular flow and spray \n' +
+                            'diverter: mousseur/SpeedClean shower jet \n' +
+                            'automatic return to mousseur \n' +
+                            'adjustable flow rate limiter \n' +
+                            'swivel cast spout \n' +
+                            'swivel area 140° \n' +
+                            'metal lever \n' +
+                            'protected against backflow \n' +
+                            'flexible connection hoses \n' +
+                            'rapid installation system \n' +
+                            'min. recommended pressure 1.0 bar'
+            },
+            {
+                category: "kitchen_faucets",
+                url: "image/sanitary_items/kitchen_faucets/GROHE BauLoop Single-lever Sink mixer.jpg",
+                images: [
+                    "image/sanitary_items/kitchen_faucets/GROHE BauLoop Single-lever Sink mixer.jpg",
+                    "image/sanitary_items/kitchen_faucets/GROHE BauLoop Single-lever Sink mixer i2.jpg",
+                    "image/sanitary_items/kitchen_faucets/GROHE BauLoop Single-lever Sink mixer i3.jpg",
+                ],
+                name: 'GROHE BauLoop Single-lever Sink mixer',
+                price: 'AED 428.00',
+                description:
+                            'BauLoop \n' +
+                            'Single-lever sink mixer 1/2" \n' +
+                            'high spout \n' +
+                            'single hole installation \n' +
+                            'GROHE StarLight finish \n' +
+                            'GROHE Longlife 28 mm ceramic cartridge \n' +
+                            'spout with mousseur \n' +
+                            'swivel tubular spout \n' +
+                            'swivel area 360° \n' +
+                            'flexible connection hoses \n' +
+                            'rapid installation system \n' +
+                            'min. recommended pressure 1.0 bar'
+            },
+            {
+                category: "kitchen_faucets",
+                url: "image/sanitary_items/kitchen_faucets/GROHE Essence Sink Mixer Pull-out Dual Spray Chrome.jpg",
+                images: [
+                    "image/sanitary_items/kitchen_faucets/GROHE Essence Sink Mixer Pull-out Dual Spray Chrome.jpg",
+                    "image/sanitary_items/kitchen_faucets/GROHE Essence Sink Mixer Pull-out Dual Spray Chrome i2.jpg",
+                ],
+                name: 'GROHE Essence Sink Mixer Pull-out Dual Spray Chrome',
+                prod_no: '30270000',
+                EAN: '4005176314926',
+                color: 'chrome',
+                price: 'AED 1,750.00',
+                description:
+                            'single hole installation \n' +
+                            'GROHE StarLight chrome finish \n' +
+                            'GROHE SilkMove 28 mm ceramic cartridge \n' +
+                            'pull-out dual spray control - switching between regular flow and spray \n' +
+                            'diverter: laminar spray/SpeedClean shower jet \n' +
+                            'automatic return to laminar spray \n' +
+                            'swivel tubular spout \n' +
+                            'swivel area 360° \n' +
+                            'integrated non-return valve \n' +
+                            'protected against backflow \n' +
+                            'flexible connection hoses \n' +
+                            'rapid installation system \n' +
+                            'integrated temperature limiter'
+            },
+            {
+                category: "kitchen_faucets",
+                url: "image/sanitary_items/kitchen_faucets/GROHE Eurosmart Sink Mixer Swivel Spout.jpg",
+                images: [
+                    "image/sanitary_items/kitchen_faucets/GROHE Eurosmart Sink Mixer Swivel Spout.jpg",
+                    "image/sanitary_items/kitchen_faucets/GROHE Eurosmart Sink Mixer Swivel Spout i2.jpg",
+                ],
+                name: 'GROHE Eurosmart Sink Mixer Swivel Spout',
+                price: 'AED 573.00',
+                description:
+                            'low spout \n' +
+                            'single hole installation \n' +
+                            'GROHE StarLight finish \n' +
+                            'GROHE SilkMove 35 mm ceramic cartridge \n' +
+                            'integrated temperature limiter \n' +
+                            'adjustable flow rate limiter \n' +
+                            'swivel cast spout \n' +
+                            'swivel area 140° \n' +
+                            'GROHE Zero isolated inner water ways - lead and nickel free \n' +
+                            'mousseur with coin slot for tool free replacement \n' +
+                            'flexible connection hoses \n' +
+                            'rapid installation system'
+            },
+            {
+                category: "kitchen_faucets",
+                url: "image/sanitary_items/kitchen_faucets/GROHE K7 Single-lever Sink Mixer.jpg",
+                images: [
+                    "image/sanitary_items/kitchen_faucets/GROHE K7 Single-lever Sink Mixer.jpg",
+                    "image/sanitary_items/kitchen_faucets/GROHE K7 Single-lever Sink Mixer i2.jpg",
+                ],
+                name: 'GROHE K7 Single-lever Sink Mixer',
+                prod_no: '32950000',
+                EAN: '4005176879838',
+                color: 'chrome',
+                price: 'AED 3,678.00',
+                description:
+                            'Single hole installation \n' +
+                            'GROHE StarLight finish \n' +
+                            'GROHE SilkMove 35 mm ceramic cartridge \n' +
+                            'professional spray \n' +
+                            'diverter: mousseur/spray jet \n' +
+                            'automatic return to mousseur \n' +
+                            'metal spray \n' +
+                            'adjustable flow rate limiter \n' +
+                            'swivel spout \n' +
+                            'swivel area 140° \n' +
+                            'protected against backflow \n' +
+                            'flexible connection hoses \n' +
+                            'rapid installation system'
+            },
+            {
+                category: "kitchen_faucets",
+                url: "image/sanitary_items/kitchen_faucets/GROHE Zedra Sink Mixer Pull-out Dual Spray.jpg",
+                images: [
+                    "image/sanitary_items/kitchen_faucets/GROHE Zedra Sink Mixer Pull-out Dual Spray.jpg",
+                    "image/sanitary_items/kitchen_faucets/GROHE Zedra Sink Mixer Pull-out Dual Spray i2.jpg",
+                ],
+                name: 'GROHE Zedra Sink Mixer Pull-out Dual Spray',
+                prod_no: '32553000',
+                price: 'AED 1,356.00',
+                description:
+                            'Zedra \n' + 
+                            'Single-lever sink mixer 1/2" \n' + 
+                            'single hole installation \n' + 
+                            'GROHE StarLight finish \n' + 
+                            'GROHE SilkMove 46 mm ceramic cartridge \n' + 
+                            'GROHE EasyDock guarantees easy retraction and \n' + 
+                            'smooth docking back to the starting position \n' + 
+                            'pull-out dual spray - switches back and forth \n' + 
+                            'between regular flow and spray \n' + 
+                            'diverter: mousseur/SpeedClean shower jet \n' + 
+                            'automatic return to mousseur \n' + 
+                            'adjustable flow rate limiter \n' + 
+                            'swivel tubular spout \n' + 
+                            'swivel area 360° \n' + 
+                            'integrated non-return valve \n' + 
+                            'protected against backflow \n' + 
+                            'flexible connection hoses \n' + 
+                            'rapid installation system'
+                
+            },
+            {
+                category: "kitchen_faucets",
+                url: "image/sanitary_items/kitchen_faucets/GROHE Minta Single-lever Sink Mixer Pull-out Spout.jpg",
+                images: [
+                    "image/sanitary_items/kitchen_faucets/GROHE Minta Single-lever Sink Mixer Pull-out Spout.jpg",
+                    "image/sanitary_items/kitchen_faucets/GROHE Minta Single-lever Sink Mixer Pull-out Spout i2.jpg",
+                ],
+                name: 'GROHE Minta Single-lever Sink Mixer Pull-out Spout',
+                price: 'AED 1,450.00',
+                description:
+                            'L-spout \n' +
+                            'single hole installation \n' +
+                            'GROHE StarLight finish \n' +
+                            'GROHE SilkMove 46 mm ceramic cartridge \n' +
+                            'pull out mousseur spout \n' +
+                            'adjustable flow rate limiter \n' +
+                            'swivel tubular spout \n' +
+                            'swivel area 360° \n' +
+                            'integrated non-return valve \n' +
+                            'protected against backflow \n' +
+                            'flexible connection hoses \n' +
+                            'rapid installation system'
+            },
+            {
+                category: "kitchen_faucets",
+                url: "image/sanitary_items/kitchen_faucets/GROHE Eurosmart Sink Mixer Low Spout with Pull-out Dual Spray.jpg",
+                images: [
+                    "image/sanitary_items/kitchen_faucets/GROHE Eurosmart Sink Mixer Low Spout with Pull-out Dual Spray.jpg",
+                    "image/sanitary_items/kitchen_faucets/GROHE Eurosmart Sink Mixer Low Spout with Pull-out Dual Spray i2.jpg",
+                ],
+                name: 'GROHE Eurosmart Sink Mixer Low Spout with Pull-out Dual Spray',
+                price: 'AED 830.00',
+                description:
+                            'Eurosmart \n' +
+                            'Single-lever sink mixer 1/2" \n' +
+                            'low spout \n' +
+                            'single hole installation \n' +
+                            'GROHE StarLight chrome finish \n' +
+                            'GROHE SilkMove 35 mm ceramic cartridge \n' +
+                            'flow straightener \n' +
+                            'with integrated temperature limiter \n' +
+                            'pull-out dual spray - switches back and forth \n' +
+                            'between regular flow and spray \n' +
+                            'diverter: laminar spray/SpeedClean shower jet \n' +
+                            'automatic return to laminar spray \n' +
+                            'adjustable flow rate limiter \n' +
+                            'swivel cast spout \n' +
+                            '88° swivel radius \n' +
+                            'separate inner water ways – lead and nickel free \n' +
+                            'flexible connection hoses \n' +
+                            'rapid installation system \n' +
+                            'protected against backflow'
+                
+            },
+            {
+                category: "kitchen_faucets",
+                url: "image/sanitary_items/kitchen_faucets/GROHE Eurodisc Cosmopolitan Sink Mixer High Spout.jpg",
+                images: [
+                    "image/sanitary_items/kitchen_faucets/GROHE Eurodisc Cosmopolitan Sink Mixer High Spout.jpg",
+                    "image/sanitary_items/kitchen_faucets/GROHE Eurodisc Cosmopolitan Sink Mixer High Spout i2.jpg",
+                ],
+                name: 'GROHE Eurodisc Cosmopolitan Sink Mixer High Spout',
+                prod_no: '30269000',
+                EAN: '4005176314902',
+                color: 'chrome',
+                price: 'AED 1,638.00',
+                description:
+                            'single hole installation \n' +
+                            'GROHE StarLight chrome finish \n' +
+                            'GROHE SilkMove 28 mm ceramic cartridge \n' +
+                            'swivel tubular spout \n' +
+                            'adjustable swivel area 0° / 150° / 360° \n' +
+                            'flexible connection hoses \n' +
+                            'rapid installation system \n' +
+                            'integrated temperature limiter'
+                
+            },
+            {
+                category: "kitchen_faucets",
+                url: "image/sanitary_items/kitchen_faucets/GROHE ZEDRA SINGLE-LEVER SINK MIXER.jpg",
+                images: [
+                    "image/sanitary_items/kitchen_faucets/GROHE ZEDRA SINGLE-LEVER SINK MIXER.jpg",
+                    "image/sanitary_items/kitchen_faucets/GROHE ZEDRA SINGLE-LEVER SINK MIXER i2.jpg",
+                ],
+                name: 'GROHE ZEDRA SINGLE-LEVER SINK MIXER',
+                prod_no: '32296SD0',
+                EAN: '4005176864612',
+                color: 'stainless steel',
+                price: 'AED 4,695.00',
+                description:
+                            'GROHE StarLight finish \n' +
+                            'GROHE SilkMove 46 mm ceramic cartridge \n' +
+                            'flow strainer \n' +
+                            'pull-out laminar spray \n' +
+                            'diverter: laminar spray/SpeedClean shower jet \n' +
+                            'automatic return to laminar spray \n' +
+                            'adjustable flow rate limiter \n' +
+                            'swivel tubular spout \n' +
+                            'protected against backflow \n' +
+                            'flexible connection hoses \n' +
+                            'min. recommended pressure 0.2 bar'
+            },
+            {
+                category: "kitchen_faucets",
+                url: "image/sanitary_items/kitchen_faucets/GROHE Essence Sink Mixer Brushed Cool Sunrise.jpg",
+                images: [
+                    "image/sanitary_items/kitchen_faucets/GROHE Essence Sink Mixer Brushed Cool Sunrise.jpg",
+                    "image/sanitary_items/kitchen_faucets/GROHE Essence Sink Mixer Brushed Cool Sunrise i2.jpg",
+                ],
+                name: 'GROHE Essence Sink Mixer Brushed Cool Sunrise',
+                prod_no: '30269GN0',
+                EAN: '4005176428623',
+                color: 'brushed cool sunrise',
+                price: 'AED 2,247.00',
+                description:
+                            'high spout \n' +
+                            'single hole installation \n' +
+                            'GROHE StarLight finish \n' +
+                            'GROHE SilkMove 28 mm ceramic cartridge \n' +
+                            'mousseur \n' +
+                            'swivel tubular spout \n' +
+                            'adjustable swivel area 0° / 150° / 360° \n' +
+                            'flexible connection hoses \n' +
+                            'rapid installation system \n' +
+                            'integrated temperature limiter \n' +
+                            'minimum pressure 1.0 bar'
+            },
+            {
+                category: "bathroom_accessories",
+                url: "image/sanitary_items/bathroom_accessories/GROHE CLEAN DETERGENT FOR FITTINGS AND BATHROOMS.jpg",
+                images: [
+                    "image/sanitary_items/bathroom_accessories/GROHE CLEAN DETERGENT FOR FITTINGS AND BATHROOMS.jpg",
+                ],
+                name: 'GROHE CLEAN DETERGENT FOR FITTINGS AND BATHROOMS',
+                prod_no: '48166000',
+                EAN: '4005176923197',
+                color: 'brushed cool sunrise',
+                price: 'AED 100.00',
+                description:
+                            '500 ml spray bottle \n' +
+                            'based on citric acid \n' +
+                            'Multilingual leporello: \n' +
+                            'DE, EN, FR, ES, IT, NL, DK, RU, UA, PL,  \n' +
+                            'GR, RO, PT, BG, HR, SRB, SLO, HU'
+            },
+            {
+                category: "bathroom_accessories",
+                url: "image/sanitary_items/bathroom_accessories/GROHE ESSENTIALS SOAP DISPENSER.jpg",
+                images: [
+                    "image/sanitary_items/bathroom_accessories/GROHE ESSENTIALS SOAP DISPENSER.jpg",
+                    "image/sanitary_items/bathroom_accessories/GROHE ESSENTIALS SOAP DISPENSER i2.jpg",
+                ],
+                name: 'GROHE ESSENTIALS SOAP DISPENSER',
+                prod_no: '40394GN1',
+                EAN: '4005176429880',
+                color: 'brushed cool sunrise',
+                price: 'AED 200.00',
+                description:
+                            'material: glass / metal \n' +
+                            'filling quantity 160 ml \n' +
+                            'fits in the following holders: \n' +
+                            'Essentials (40 369 xx1) \n' +
+                            'Essentials Cube (40 508 000) \n' +
+                            'Bau Cosmopolitan (40 585) \n' +
+                            'Essentials Authentic (40 652) \n' +
+                            'GROHE StarLight finish'
+            },
+            {
+                category: "bathroom_accessories",
+                url: "image/sanitary_items/bathroom_accessories/GROHE Essentials soap dispenser brushed warm sunset.jpg",
+                images: [
+                    "image/sanitary_items/bathroom_accessories/GROHE Essentials soap dispenser brushed warm sunset.jpg",
+                    "image/sanitary_items/bathroom_accessories/GROHE Essentials soap dispenser brushed warm sunset i2.jpg",
+                ],
+                name: 'GROHE Essentials soap dispenser brushed warm sunset',
+                prod_no: '40394DL1',
+                EAN: '4005176430039',
+                color: 'brushed warm sunrise',
+                price: 'AED 202.00',
+                description:
+                            'material: glass / metal \n' +
+                            'filling quantity 160 ml \n' +
+                            'fits in the following holders: \n' +
+                            'Essentials (40 369 xx1) \n' +
+                            'Essentials Cube (40 508 000) \n' +
+                            'Bau Cosmopolitan (40 585) \n' +
+                            'Essentials Authentic (40 652) \n' +
+                            'GROHE StarLight finish'
+            },
+            {
+                category: "bathroom_accessories",
+                url: "image/sanitary_items/bathroom_accessories/GROHE Essentials Cube Master bathroom accessories set 4-in-1.jpg",
+                images: [
+                    "image/sanitary_items/bathroom_accessories/GROHE Essentials Cube Master bathroom accessories set 4-in-1.jpg",
+                    "image/sanitary_items/bathroom_accessories/GROHE Essentials Cube Master bathroom accessories set 4-in-1 i2.jpg",
+                ],
+                name: 'GROHE Essentials Cube Master bathroom accessories set 4-in-1',
+                prod_no: '40778001',
+                EAN: '4005176328657',
+                color: 'Chrome',
+                price: 'AED 949.00',
+                description:
+                            'material: metal \n' +
+                            'Consisting of: \n' +
+                            'robe hook (40 511 001) \n' +
+                            'towel ring (40 510 001) \n' +
+                            'toilet paper holder (40 507 001) \n' +
+                            'towel rail, 558 mm (40 509 001) \n' +
+                            'concealed fastening \n' +
+                            'GROHE StarLight chrome finish'
+            },
+            {
+                category: "bathroom_accessories",
+                url: "image/sanitary_items/bathroom_accessories/GROHE ESSENTIALS CUBE Accessories Set 5-in-1.jpg",
+                images: [
+                    "image/sanitary_items/bathroom_accessories/GROHE ESSENTIALS CUBE Accessories Set 5-in-1.jpg",
+                    "image/sanitary_items/bathroom_accessories/GROHE ESSENTIALS CUBE Accessories Set 5-in-1 i2.jpg",
+                ],
+                name: 'GROHE ESSENTIALS CUBE Accessories Set 5-in-1',
+                prod_no: '40758001',
+                price: 'AED 695.00',
+                description:
+                            'material: glass / metal \n' +
+                            'consisting of: \n' +
+                            'soap dish with holder (40 754 001) \n' +
+                            'towel rail, 558 mm (40 509 001) \n' +
+                            'toilet paper holder (40 507 001) \n' +
+                            'robe hook (40 511 001) \n' +
+                            'towel ring (40 510 001) \n' +
+                            'concealed fastening \n' +
+                            'GROHE StarLight chrome finish'
+            },
+            {
+                category: "bathroom_accessories",
+                url: "image/sanitary_items/bathroom_accessories/GROHE ESSENTIALS CUBE Multi-Towel Rack.jpg",
+                images: [
+                    "image/sanitary_items/bathroom_accessories/GROHE ESSENTIALS CUBE Multi-Towel Rack.jpg",
+                    "image/sanitary_items/bathroom_accessories/GROHE ESSENTIALS CUBE Multi-Towel Rack i2.jpg",
+                ],
+                name: 'GROHE ESSENTIALS CUBE Multi-Towel Rack',
+                prod_no: '40512001',
+                EAN: '4005176324451',
+                color: 'chrome',
+                price: 'AED 2,093.00',
+                description:
+                            'material: metal \n' +
+                            '600 mm (functional length 558 mm) \n' +
+                            'concealed fastening \n' +
+                            'GROHE StarLight chrome finish \n' +
+                            'AIRING AND STORAGE IN ONE \n\n' +
+                            'Make intelligent use of your bathroom space with the GROHE Essentials Cube towel rack. The horizontal rack above is perfect for storing folded towels while another dries on the rail below. The cubic shape and clean lines make it an ideal choice for contemporary bathrooms, and in a dazzling, durable GROHE StarLight chrome finish, it will look immaculate for years to come.'
+            },
+            {
+                category: "shower_toilets",
+                url: "image/sanitary_items/shower_toilets/Villeroy&Boch VICLEAN SHOWER TOILET - WALL-HUNG.jpg",
+                images: [
+                    "image/sanitary_items/shower_toilets/Villeroy&Boch VICLEAN SHOWER TOILET - WALL-HUNG.jpg",
+                    "image/sanitary_items/shower_toilets/Villeroy&Boch VICLEAN SHOWER TOILET - WALL-HUNG i2.jpg",
+                    "image/sanitary_items/shower_toilets/Villeroy&Boch VICLEAN SHOWER TOILET - WALL-HUNG i3.jpg",
+                    "image/sanitary_items/shower_toilets/Villeroy&Boch VICLEAN SHOWER TOILET - WALL-HUNG i4.jpg",
+                ],
+                name: 'Villeroy&Boch VICLEAN SHOWER TOILET - WALL-HUNG',
+                price: 'AED 23,625.00',
+                description:
+                            'COLLECTION	ViClean - I100 \n' +
+                            'MODEL:	V0E100R1 \n' +
+                            'WIDTH:	385 mm \n' +
+                            'DEPTH:	595 mm \n' +
+                            'WEIGHT: 34 kg \n' +
+                            'PRODUCT DESCRIPTION: Shower toilet, rimless \n\n' +
+                            'DESCRIPTION \n' +	
+                            'ViClean-I 100, DirectFlush \n' +
+                            'Sanitary ceramics \n' +
+                            'Power and water connection must be available, Use only in working pressure range between 0.1 Mpa (dynamic) and 1.0 Mpa (static), Use solely in a water temperature range between 10°C and 35°C \n' +
+                            'fastening set included \n' +
+                            'EN 997, EN 1717 \n' +
+                            'with water-saving AQUAREDUCT® system: flush volume 3 / 4,5 litres \n' +
+                            'individual packaging materials \n' +
+                            'composed of: ViClean shower toilet-I 100, 385 x 595 x 400 mm, 220-240 V AC / 50 Hz, incl. remote control, seat with lid \n' +
+                            'Please order compatible toilet element separately. \n\n' +
+                            'FLUSH VOLUME: 3 / 4,5 l \n' +
+                            'INSTALLATION: wall-mounted \n' +
+                            'OUTLET: horizontal outlet \n' +
+                            'MATERIAL: Sanitary ceramics \n' +
+                            'LEED: 4 \n' +
+                            'EUROPEAN WATER LABEL: 3,375 l \n' +
+                            'MODEL NAME: ViClean-I 100, DirectFlush \n' +
+                            'SHAPE:	Oval'
+            },
+            {
+                category: "shower_toilets",
+                url: "image/sanitary_items/shower_toilets/GROHE SENSIA ARENA SMART TOILET, WALL-HUNG.jpg",
+                images: [
+                    "image/sanitary_items/shower_toilets/GROHE SENSIA ARENA SMART TOILET, WALL-HUNG.jpg",
+                    "image/sanitary_items/shower_toilets/GROHE SENSIA ARENA SMART TOILET, WALL-HUNG i2.jpg",
+                    "image/sanitary_items/shower_toilets/GROHE SENSIA ARENA SMART TOILET, WALL-HUNG i3.jpg",
+                ],
+                name: 'GROHE SENSIA ARENA SMART TOILET, WALL-HUNG',
+                prod_no: '39354SH1',
+                color: 'alpine white',
+                price: 'AED 9,500.00',
+                description:
+                            'GROHE Hygiene Clean: with antibacterial glazing HyperClean (SIAA Kokin Japanese standard compliant) and non-stick coating AquaCeramic \n' +
+                            'GROHE power flush: rimless wash down jet WC  \n' +
+                            'with GROHE Triple Vortex flushing technology \n' +
+                            'GROHE Skin Clean: \n' +
+                            '2 dedicated adjustable spray arms (1 for anal area, 1 for lady spray) \n' +
+                            'separate water way for lady spray \n' +
+                            'oscillating spray (automatic forward and reverse motion of the spray) \n' +
+                            'pulsating spray for massage \n' +
+                            'adjustable spray intensity \n' +
+                            'automatic pre- and post-rinsing of spray nozzle with fresh water \n' +
+                            'integrated instant heater provides unlimited warm water \n' +
+                            'adjustable temperature \n' +
+                            'Other functions \n' +
+                            'warm air dryer with adjustable temperature \n' +
+                            'odor extraction with filter \n' +
+                            'PlasmaCluster function - ion technology \n' +
+                            'descaling function \n' +
+                            'Duroplast WC seat and lid with automatic opening/close function \n' +
+                            'infra-red user detection \n' +
+                            'seat control operation \n' +
+                            'inside bowl night light \n' +
+                            'hidden water supply and power supply connections \n' +
+                            'smart phone app for iOS and Android \n' +
+                            'includes: \n' +
+                            'noise protection sheet, mounting bases and washers \n' +
+                            'manual remote controller with wall-mounted holder \n' +
+                            'active carbon filter for odour absorption \n' +
+                            'water supply connection set for concealed cistern \n' +
+                            'nozzle guard \n' +
+                            'cable with system plug on device \n' +
+                            'pressure 0.05 - 1 MPa (0.5 - 10 bar) \n' +
+                            'nominal voltage 220-240 V AC \n' +
+                            'main frequency 50-60 Hz \n' +
+                            'type of protection IPX4 \n' +
+                            'complies with EN 1717 \n' +
+                            'CE approved'
+            },
+            {
+                category: "shower_toilets",
+                url: "image/sanitary_items/shower_toilets/Villeroy&Boch MEMENTO 2.0 WALL-MOUNTED TOILET Graphite.jpg",
+                images: [
+                    "image/sanitary_items/shower_toilets/Villeroy&Boch MEMENTO 2.0 WALL-MOUNTED TOILET Graphite.jpg",
+                    "image/sanitary_items/shower_toilets/Villeroy&Boch MEMENTO 2.0 WALL-MOUNTED TOILET Graphite i2.jpg",
+                ],
+                name: 'Villeroy&Boch MEMENTO 2.0 WALL-MOUNTED TOILET Graphite',
+                price: 'AED 8,705.00',
+                description:
+                            'COLLECTION: Memento 2.0 \n' +
+                            'PROJECTS: PREMIUM \n' +
+                            'MODEL:	4633R0 \n' +
+                            'WIDTH:	375 mm \n' +
+                            'DEPTH:	560 mm \n' +
+                            'WEIGHT: 24,4 kg \n' +
+                            'PRODUCT DESCRIPTION: Washdown toilet, rimless \n\n' +
+                            'DESCRIPTION \n' +	
+                            'DirectFlush, Registered design \n' +
+                            'Sanitary ceramics \n' +
+                            'not suitable for installation with flush valves \n' +
+                            'incl. fastening set "SupraFix 3.0" \n' +
+                            'EN 997 \n' +
+                            'with water-saving AQUAREDUCT® system: flush volume 3 / 4,5 litres \n' +
+                            'Please order toilet seat separately. \n\n' +
+                            'FLUSH VOLUME: 3 / 4,5 l \n' +
+                            'INSTALLATION: wall-mounted \n' +
+                            'OUTLET: horizontal outlet \n' +
+                            'LEED: 4 \n' +
+                            'MODEL NAME: DirectFlush, Registered design \n' +
+                            'SHAPE:	Rectangle \n' +
+                            'REQUIRED MISCELLANEOUS: Toilet seat and cover (8M24S1)'
+            },
         ],
     },
     tools_and_toolbags: {

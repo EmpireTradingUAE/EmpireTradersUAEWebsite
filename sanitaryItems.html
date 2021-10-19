@@ -280,11 +280,23 @@
                                         <li class="list-item" data-filter="WCs">
                                             <a href="#">WCs</a>
                                         </li>
+                                        <li class="list-item" data-filter="bathtubs">
+                                            <a href="#">Bathtubs</a>
+                                        </li>
                                         <li class="list-item" data-filter="showers">
                                             <a href="#">Showers</a>
                                         </li>
                                         <li class="list-item" data-filter="bathroom_furnitures">
                                             <a href="#">Bathroom Furnitures</a>
+                                        </li>
+                                        <li class="list-item" data-filter="kitchen_faucets">
+                                            <a href="#">Kitchen Faucets</a>
+                                        </li>
+                                        <li class="list-item" data-filter="bathroom_accessories">
+                                            <a href="#">Bathroom Accessories</a>
+                                        </li>
+                                        <li class="list-item" data-filter="shower_toilets">
+                                            <a href="#">Shower Toilets</a>
                                         </li>
                                         </li>
                                     </ul> 
@@ -410,7 +422,7 @@
                     $('#cat').text($('.list').find('[data-filter='+value+']').text() + '(' + productData.sanitary_items.products.length + ')');
                 else    
                     $('#cat').text($('.list').find('[data-filter='+value+']').text() + '(' + $('.'+value).length + ')');
-                if(value == 'basins'){
+                if(value == 'basins' || value == 'bathroom_accessories' || value == 'shower_toilets'){
                     $('.product-btn').hide();
                 }else{
                     $('.product-btn').show();

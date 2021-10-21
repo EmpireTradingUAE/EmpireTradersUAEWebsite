@@ -2974,7 +2974,7 @@ var productData = {
                             'DEPTH:	595 mm \n' +
                             'WEIGHT: 34 kg \n' +
                             'PRODUCT DESCRIPTION: Shower toilet, rimless \n\n' +
-                            'DESCRIPTION \n' +	
+                            'DESCRIPTION: \n' +	
                             'ViClean-I 100, DirectFlush \n' +
                             'Sanitary ceramics \n' +
                             'Power and water connection must be available, Use only in working pressure range between 0.1 Mpa (dynamic) and 1.0 Mpa (static), Use solely in a water temperature range between 10°C and 35°C \n' +
@@ -3060,7 +3060,7 @@ var productData = {
                             'DEPTH:	560 mm \n' +
                             'WEIGHT: 24,4 kg \n' +
                             'PRODUCT DESCRIPTION: Washdown toilet, rimless \n\n' +
-                            'DESCRIPTION \n' +	
+                            'DESCRIPTION: \n' +	
                             'DirectFlush, Registered design \n' +
                             'Sanitary ceramics \n' +
                             'not suitable for installation with flush valves \n' +

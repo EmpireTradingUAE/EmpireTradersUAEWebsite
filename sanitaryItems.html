@@ -27,7 +27,7 @@
     <script src="js/data.js"></script>
     <script src="js/lightbox-plus-jquery.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-    
+
     <style>
         .lb-number{
             color: white !important;
@@ -35,7 +35,7 @@
             text-align: justify;
             margin: 30px 0 30px 30px;
         }
-        
+
         .modal {
             display: flex;
             justify-content: center;
@@ -58,25 +58,28 @@
             position: absolute;
             display: flex;
             justify-content: center;
-            align-items: center;
-        
+            align-items: flex-start;
             grid-template-columns: repeat(2, 1fr);
-            max-height: 1140px;
             max-width: 1060px;
+            padding: 20px 0;
             background-color: #ffffff;
             visibility: hidden;
             opacity: 0;
             transform: translateY(-100px);
             transition: all 250ms ease-in-out;
+            max-height: 100%;
+            overflow-y: auto;
         }
         .modal__content--show{
-            transform: translateY(100px);
+            transform: translateY(0px);
             visibility: visible;
             opacity: 1;
             z-index: 2;
         }
         .modal__img{
-            width: 100%;
+            width: 300px;
+            height: 300px;
+            object-fit: contain;
         }
         .modal__close{
             position: absolute;
@@ -126,7 +129,7 @@
             line-height: 1.2;
             overflow-wrap: break-word;
             word-wrap: break-word;
-            
+
         }
         .product_no,.product_color {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -146,10 +149,13 @@
                 align-items: center;
                 flex-direction: column;
                 text-align: center;
+                padding: 20px;
+                overflow-y: auto;
+                text-align: left;
             }
-            .modal--show{
+            .modal__content--show{
                 max-height: 100%;
-                min-width: 400px;
+                width: 400px;
             }
             .modal__left{
                 margin-top: 40px;
@@ -158,7 +164,6 @@
 
         .product__viewBtn {
             cursor: pointer;
-            
             bottom: 10%;
             background: #acacac;
             color:  #edf7f6;
@@ -179,20 +184,21 @@
     </style>
 </head>
 <body>
-    <div class="modal"></div>
-    <div class="modal__content">
-        <i class="modal__close quickweb-icon-close"></i>
-        <div class="modal__left">
-            <img class="modal__img" src="image/22.jpg" alt="">
-        </div>
-        <div class="modal__right">
-            <div class="detail">
-                <h1 class="detail__title"></h1>
-                <h4 class="product_no">Product Number</h4>
-                <h6 class="product_color">Color: alpine white</h6>
-                <span class="product_description"><h2>Product Description</h2></span>
-                <p class="detail__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, labore quaerat
-                magni ad dolores libero culpa ipsa fugit voluptates ipsam!</p>
+    <div class="modal">
+        <div class="modal__content">
+            <i class="modal__close quickweb-icon-close"></i>
+            <div class="modal__left">
+                <img class="modal__img" src="image/22.jpg" alt="">
+            </div>
+            <div class="modal__right">
+                <div class="detail">
+                    <h1 class="detail__title"></h1>
+                    <h4 class="product_no">Product Number</h4>
+                    <h6 class="product_color">Color: alpine white</h6>
+                    <span class="product_description"><h2>Product Description</h2></span>
+                    <p class="detail__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, labore quaerat
+                    magni ad dolores libero culpa ipsa fugit voluptates ipsam!</p>
+                </div>
             </div>
         </div>
     </div>
@@ -211,11 +217,11 @@
                         <span class="icon-bar"></span>
                     </nav>
 
-                    
+
                     <nav class="col-8 menu mob-menu pull-right">
-                    
+
                         <nav class="mob-menu-icon" style="padding: 26px 26px;width: 100%;box-sizing: border-box;border-bottom:2px solid #1565C0; ">
-                    
+
                         <span class="icon-bar slide-icon-menu-color"></span>
                         <span class="icon-bar slide-icon-menu-color"></span>
                         <span class="icon-bar slide-icon-menu-color"></span>
@@ -225,7 +231,7 @@
 
                         <div class="sub_cata" style="height: 200px;position: absolute;z-index: 99999;background-color: #000;margin-top: 29px;">
                             Test sub cata
-                        
+
                         </div>
 
                     </div>-->
@@ -235,13 +241,13 @@
                     <div class="menu-item-box center "><a href="index.html#services" class="menu-link">Services</a></div>
                     <div class="menu-item-box center "><a href="index.html#serviceFields" class="menu-link">Active Service Field</a></div>
                     <div class="menu-item-box center "><a href="index.html#contact" class="menu-link">Contact</a></div>
-                    
+
 
                     </nav>
-                    
 
 
-                    
+
+
 
                 </div>
             </div>
@@ -252,7 +258,7 @@
                 <div class="container">
                     <div class="col-5 mb-12 mb-center allProductsBanner">
                         <div class="banner_line1_allProducts"><b>Sanitary Items</b></div>
-                        <div class="banner_brief_text">Toilet, Kitchen Sinks, Wash Basins, Sanitary Ware and Fittings</div>         
+                        <div class="banner_brief_text">Toilet, Kitchen Sinks, Wash Basins, Sanitary Ware and Fittings</div>
                     </div>
                 </div>
             </div>
@@ -299,7 +305,7 @@
                                             <a href="#">Shower Toilets</a>
                                         </li>
                                         </li>
-                                    </ul> 
+                                    </ul>
                                 </div>
                             </aside>
                         </div>
@@ -308,7 +314,7 @@
                         <div class="row" id="products_grid">
                             <div class="col-12 mb-12">
                                 <div class="col-6" style="padding: 20px 0 40px 40px; font-weight: 600; font-size: 30px;" id="cat">All</div>
-                            </div> 
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -317,7 +323,7 @@
         <!--End of Sidebar-->
 
         <section class="footer">
-            
+
             <div class="bottom-footer">
                 <div class="container">
                     <div class="col-12">
@@ -357,11 +363,10 @@
             </div>
         </section>
     </div>
-    
-    
+
+
 
     <script type="text/javascript">
-
         var container = document.getElementById('products_grid');
         var value = 'all';
         var clickIndex = 0;
@@ -381,24 +386,24 @@
                                                 '</div>' +
                                             '</div>' +
                                         '</div>' +
-                                    '</div>' +
+                                    '</div>' ;
 
-                                    
-                                    '<div class="modal__content modal__content' + i + '">' +
-                                        '<i class="modal__close modal__close' + i + ' quickweb-icon-close"></i>' +
-                                        '<div class="modal__left">' +
-                                            '<img class="modal__img modal__img' + i + '" src="image/22.jpg" alt="">' +
-                                        '</div>' +
-                                        '<div class="modal__right">' +
-                                            '<div class="detail">' +
-                                                '<h1 class="detail__title">' + productData.sanitary_items.products[i].name + '</h1>' +
-                                                '<h4 class="product_no">Product Number' + productData.sanitary_items.products[i].prod_no + '</h4>' +
-                                                '<h6 class="product_color">Color: alpine white</h6>' +
-                                                '<span class="product_description"><h2>Product Description</h2></span>' +
-                                                '<p class="detail__description">' + productData.sanitary_items.products[i].description + '</p>' +
-                                            '</div>' +
-                                        '</div>' +
-                                    '</div>';
+
+                                    // '<div class="modal__content modal__content' + i + '">' +
+                                    //     '<i class="modal__close modal__close' + i + ' quickweb-icon-close"></i>' +
+                                    //     '<div class="modal__left">' +
+                                    //         '<img class="modal__img modal__img' + i + '" src="image/22.jpg" alt="">' +
+                                    //     '</div>' +
+                                    //     '<div class="modal__right">' +
+                                    //         '<div class="detail">' +
+                                    //             '<h1 class="detail__title">' + productData.sanitary_items.products[i].name + '</h1>' +
+                                    //             '<h4 class="product_no">Product Number' + productData.sanitary_items.products[i].prod_no + '</h4>' +
+                                    //             '<h6 class="product_color">Color: alpine white</h6>' +
+                                    //             '<span class="product_description"><h2>Product Description</h2></span>' +
+                                    //             '<p class="detail__description">' + productData.sanitary_items.products[i].description + '</p>' +
+                                    //         '</div>' +
+                                    //     '</div>' +
+                                    // '</div>';
         }
 
         container.innerHTML += '<div class="col-12" style="text-align: center">' +
@@ -409,7 +414,7 @@
             $('#cat').text($('.list').find('[data-filter='+value+']').text() + '(' + productData.sanitary_items.products.length + ')');
             $('.list-item').click(function(){
                 value = $(this).attr('data-filter');
-                console.log(value); 
+                console.log(value);
                 if(value == 'all'){
                     $('.product').hide();
                     $('.product').slice(0,8).show();
@@ -420,7 +425,7 @@
                 $(this).addClass('active').siblings().removeClass('active');
                 if(value == 'all')
                     $('#cat').text($('.list').find('[data-filter='+value+']').text() + '(' + productData.sanitary_items.products.length + ')');
-                else    
+                else
                     $('#cat').text($('.list').find('[data-filter='+value+']').text() + '(' + $('.'+value).length + ')');
                 if(value == 'basins' || value == 'bathroom_accessories' || value == 'shower_toilets'){
                     $('.product-btn').hide();
@@ -455,7 +460,7 @@
             //     });
             // })
         })
-        
+
         $('.product-btn').click(function(){
 
             var productCount = 0;
@@ -479,52 +484,39 @@
                 }
             }
         })
-        
+
         $('.product').slice(0,8).show();
 
         lightbox.option({
             'alwaysShowNavOnTouchDevices': true,
             'disableScrolling': true,
-            'wrapAround': true, 
-        });
+            'wrapAround': true,
+        }); 
+        
         
 
-        //const modal = document.querySelector('.modal');
-        //const modalContent = document.querySelector('.modal__content');
-        //const close = document.querySelector('.modal__close');
-        //const modalImg = document.querySelector('.modal__img');
+
+        const modal = document.querySelector('.modal');
+        const modalContent = document.querySelector('.modal__content');
+        const close = document.querySelector('.modal__close');
+        const modalImg = document.querySelector('.modal__img');
         const productList = document.querySelectorAll('.product');
         const title = document.querySelector('.detail__title');
         const description = document.querySelector('.detail__description');
         const no = document.querySelector('.product_no');
-
+        var mouseY;
         productList.forEach((list, index) => {
-            const modal = document.querySelector('.modal');
-            const modalContent = document.querySelector('.modal__content'+index);
-            const close = document.querySelector('.modal__close'+index);
-            const modalImg = document.querySelector('.modal__img'+index);
 
             const view = list.querySelector('.product__viewBtn');
-            const productImg = list.querySelector('.product__img'+index).getAttribute('src');
+            const productImg = list.querySelector('.product__img' + index).getAttribute('src');
 
             view.addEventListener('click', () => {
                 modal.classList.add('modal--bg');
                 modalContent.classList.add('modal__content--show');
                 modalImg.setAttribute('src', productImg);
-                //title.innerText = list.querySelector('.product-des > h5').textContent;
-                //description.innerText = productData.sanitary_items.products[index].description;
-                //no.innerHTML += ': ' + productData.sanitary_items.products[index].prod_no;
-            });
-            close.addEventListener('click', () => {
-                modal.classList.remove('modal--bg');
-                modalContent.classList.remove('modal__content--show');
-                no.innerHTML = 'Product Description';
-            });
-
-            modal.addEventListener('click', () => {
-                modal.classList.remove('modal--bg');
-                modalContent.classList.remove('modal__content--show');
-                no.innerHTML = 'Product Description';
+                title.innerText = list.querySelector('.product-des > h5').textContent;
+                description.innerText = productData.sanitary_items.products[index].description;
+                no.innerHTML += ': ' + productData.sanitary_items.products[index].prod_no;
             });
         });
 
@@ -540,6 +532,6 @@
             no.innerHTML = 'Product Description';
         });
     </script>
-    
+
 </body>
 </html>

@@ -77,9 +77,10 @@
             z-index: 2;
         }
         .modal__img{
-            width: 300px;
-            height: 300px;
+            width: 600px;
+            height: 600px;
             object-fit: contain;
+            padding: 0 150px 0 50px;
         }
         .modal__close{
             position: absolute;
@@ -94,7 +95,7 @@
         .modal__close:hover {
             color: #df4747;
         }
-        .modal__left,.modal__right {
+        .modal__right {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -146,8 +147,9 @@
             .modal__content {
                 display: flex;
                 justify-content: center;
-                align-items: center;
-                flex-direction: column;
+                align-items: flex-start;
+                flex-wrap: wrap;
+                flex-direction: row;
                 text-align: center;
                 padding: 20px;
                 overflow-y: auto;
@@ -159,6 +161,23 @@
             }
             .modal__left{
                 margin-top: 40px;
+            }
+            .modal__img {
+                width: 360px;
+                height: 350px;
+                object-fit: contain;
+                padding: 0;
+            }
+            .small-img-col {
+                padding: 5px;
+                cursor: pointer;
+            }
+            .previous {
+                transform: translate(-170px, -100px) !important;
+            }
+
+            .next {
+                transform: translate(135px, -100px) !important;
             }
         }
 
@@ -181,16 +200,80 @@
             background: #212527;
         }
 
+        .small-img-row {
+            display: flex;
+            justify-content: center;
+            padding: 20px 10px 0 10px;
+        }
+
+        .small-img-col {
+            flex-basis: 24%;
+            cursor: pointer;
+        }
+
+        .smallImg {
+            height: 50px;
+            width: auto;
+            display: block;
+        }
+
+        .round {
+            border-radius: 20%;
+            text-decoration: none;
+            display: inline-block;
+            padding: 0 15px;
+            font-size: 35px;
+        }
+
+        .round:hover {
+            background-color: rgb(22, 22, 22);
+            color: #fff;
+            opacity: 1;
+        }
+        @media (hover: none) {
+            .round:hover { background-color: inherit;
+            color: inherit;
+            opacity: inherit; }
+        }
+
+        .previous {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-525px, -50%);
+            background-color: #000;
+            opacity: 0.2;
+            color: #fff;
+        }
+
+        .next {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-75px, -50%);
+            background-color: #000;
+            opacity: 0.2;
+            color: #fff;
+        }
+
     </style>
 </head>
 <body>
     <div class="modal">
-        <div class="modal__content">
+        <div class="modal__content" onclick="func1(event)">
             <i class="modal__close quickweb-icon-close"></i>
-            <div class="modal__left">
-                <img class="modal__img" src="image/22.jpg" alt="">
+            <div class="modal__left col-6">
+                
+                <img class="modal__img" src="image/tools_and_toolbags/Chipping Hammer.jpeg">
+                <a href="#" class="previous round">&#8249;</a>
+                <a href="#" class="next round">&#8250;</a>
+                <div class="small-img-row">
+                    
+                </div>
+             
+                
             </div>
-            <div class="modal__right">
+            <div class="modal__right col-6">
                 <div class="detail">
                     <h1 class="detail__title"></h1>
                     <h4 class="product_no">Product Number</h4>
@@ -492,9 +575,13 @@
             'disableScrolling': true,
             'wrapAround': true,
         }); 
-        
-        
 
+
+        function func1(event) {
+            event.stopPropagation();
+        }
+        var mainImg = document.querySelector('.modal__img');
+        var smallImg = document.getElementsByClassName('smallImg');
 
         const modal = document.querySelector('.modal');
         const modalContent = document.querySelector('.modal__content');
@@ -504,32 +591,65 @@
         const title = document.querySelector('.detail__title');
         const description = document.querySelector('.detail__description');
         const no = document.querySelector('.product_no');
-        var mouseY;
+        const smallImgContainer = document.querySelector('.small-img-row');
+        const next = document.querySelector('.next');
+        const prev = document.querySelector('.previous');
         productList.forEach((list, index) => {
 
             const view = list.querySelector('.product__viewBtn');
             const productImg = list.querySelector('.product__img' + index).getAttribute('src');
-
+            var count = 0;
             view.addEventListener('click', () => {
+                document.body.style.overflow = 'hidden';
                 modal.classList.add('modal--bg');
                 modalContent.classList.add('modal__content--show');
                 modalImg.setAttribute('src', productImg);
                 title.innerText = list.querySelector('.product-des > h5').textContent;
                 description.innerText = productData.sanitary_items.products[index].description;
                 no.innerHTML += ': ' + productData.sanitary_items.products[index].prod_no;
+                console.log(productData.sanitary_items.products[index].images.length);
+                for(var i=0; i < productData.sanitary_items.products[index].images.length; i++){
+                    smallImgContainer.innerHTML += '<div class="small-img-col">' +
+                                                        '<img class="smallImg" src="' + productData.sanitary_items.products[index].images[i] + '">' +
+                                                    '</div>';
+                                        
+                }
+                var smallImg = document.getElementsByClassName('smallImg');
+                productData.sanitary_items.products[index].images.forEach((list, index) => {
+                    smallImg[index].onclick = function() {
+                        mainImg.src = smallImg[index].src;
+                        count = index;
+                    }
+                });
+                next.addEventListener('click', () => {
+                    count ++;
+                    if(count == productData.sanitary_items.products[index].images.length)
+                        count = 0;
+                    mainImg.src = smallImg[count].src;
+                });
+                prev.addEventListener('click', () => {
+                    count--;
+                    if(count < 0)
+                        count = productData.sanitary_items.products[index].images.length - 1;
+                    mainImg.src = smallImg[count].src;
+                });
             });
         });
 
         close.addEventListener('click', () => {
+            document.body.style.overflow = 'scroll';
             modal.classList.remove('modal--bg');
             modalContent.classList.remove('modal__content--show');
             no.innerHTML = 'Product Description';
+            smallImgContainer.innerHTML = '';
         });
 
         modal.addEventListener('click', () => {
+            document.body.style.overflow = 'scroll';
             modal.classList.remove('modal--bg');
             modalContent.classList.remove('modal__content--show');
             no.innerHTML = 'Product Description';
+            smallImgContainer.innerHTML = '';
         });
     </script>
 

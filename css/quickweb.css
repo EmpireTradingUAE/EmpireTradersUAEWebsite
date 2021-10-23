@@ -51,7 +51,6 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
  
-
 .quickweb-icon-close:before { content: '\2716'; } /* '' */
 .quickweb-icon-monitor:before { content: '\e800'; } /* '' */
 .quickweb-icon-desktop-circled:before { content: '\e801'; } /* '' */

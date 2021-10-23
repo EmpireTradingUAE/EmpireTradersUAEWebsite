@@ -16,6 +16,7 @@
         o.preventDefault();
         var n, a = this.hash,
             s = $(a);
+            if(s.length)
         n = 0 == $(window).scrollTop() ? s.offset().top - 0 : s.offset().top - 60, $("html, body").stop().animate({
             scrollTop: n
         }, 900, "swing", function() {})

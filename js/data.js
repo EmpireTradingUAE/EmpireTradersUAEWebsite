@@ -474,11 +474,17 @@ var productData = {
         products: [
             {
                 category: "basins",
-                url: "image/sanitary_items/basins/GROHE Essence Purity Wall-Mounted Basin 70 CM.png",
-                url2: 'image/sanitary_items/basins/GROHE Essence Purity Wall-Mounted Basin 70 CM 2.jpg',
+                url: "image/sanitary_items/basins/GROHE Essence Purity Wall-Mounted Basin 70 CM.jpg",
                 name: "GROHE Essence Purity Wall-Mounted Basin 70 CM",
+                images: [
+                    "image/sanitary_items/basins/GROHE Essence Purity Wall-Mounted Basin 70 CM.jpg",
+                    "image/sanitary_items/basins/GROHE Essence Purity Wall-Mounted Basin 70 CM i2.jpg",
+                    "image/sanitary_items/basins/GROHE Essence Purity Wall-Mounted Basin 70 CM i3.jpg",
+                    "image/sanitary_items/basins/GROHE Essence Purity Wall-Mounted Basin 70 CM i4.jpg",
+                ],
                 prod_no: '3956400H',
-                color: 'chrome',
+                price: 'AED 1,435.00',
+                color: 'alpine white',
                 description:
                     'Wall hung.\n' +
                     '1 hole punched, 2 holes pre-punched with overflow on opposite site to faucet.\n' +
@@ -488,10 +494,16 @@ var productData = {
             },
             {
                 category: "basins",
-                url: "image/sanitary_items/basins/GROHE Essence Purity Wall-Mounted Basin 60 CM.png",
+                url: "image/sanitary_items/basins/GROHE Essence Purity Wall-Mounted Basin 60 CM.jpg",
                 name: "GROHE Essence Purity Wall-Mounted Basin 60 CM",
+                images: [
+                    "image/sanitary_items/basins/GROHE Essence Purity Wall-Mounted Basin 60 CM.jpg",
+                    "image/sanitary_items/basins/GROHE Essence Purity Wall-Mounted Basin 60 CM i2.jpg",
+                    "image/sanitary_items/basins/GROHE Essence Purity Wall-Mounted Basin 60 CM i3.jpg",
+                ],
                 prod_no: '3956500H',
-                color: 'chrome',
+                price: 'AED 1,339.00',
+                color: 'alpine white',
                 description:
                     'Wall hung.\n' +
                     '1 hole punched, 2 holes pre-punched with overflow on opposite site to faucet.\n' +
@@ -501,20 +513,31 @@ var productData = {
             },
             {
                 category: "basins",
-                url: "image/sanitary_items/basins/GROHE Essence Purity Semi Pedestal.png",
+                url: "image/sanitary_items/basins/GROHE Essence Purity Semi Pedestal.jpg",
                 name: "GROHE Essence Purity Semi Pedestal",
+                images: [
+                    "image/sanitary_items/basins/GROHE Essence Purity Semi Pedestal.jpg",
+                    "image/sanitary_items/basins/GROHE Essence Purity Semi Pedestal i2.jpg",
+                ],
                 prod_no: '39570000',
-                color: 'chrome',
+                price: 'AED 836.00',
+                color: 'alpine white',
                 description:
                     'Including fixation set \n' +
                     'Sanitary ware \n'
             },
             {
                 category: "basins",
-                url: "image/sanitary_items/basins/GROHE Euro Ceramic Wall-Mounted Basin 65 CM with PureGuard.png",
+                url: "image/sanitary_items/basins/GROHE Euro Ceramic Wall-Mounted Basin 65 CM with PureGuard.jpg",
                 name: "GROHE Euro Ceramic Wall-Mounted Basin 65 CM with PureGuard",
+                images: [
+                    "image/sanitary_items/basins/GROHE Euro Ceramic Wall-Mounted Basin 65 CM with PureGuard.jpg",
+                    "image/sanitary_items/basins/GROHE Euro Ceramic Wall-Mounted Basin 65 CM with PureGuard i2.jpg",
+                    "image/sanitary_items/basins/GROHE Euro Ceramic Wall-Mounted Basin 65 CM with PureGuard i3.jpg",
+                ],
                 prod_no: '3932300H',
-                color: 'chrome',
+                price: 'AED 679.00',
+                color: 'alpine white',
                 description:
                     'Wall hung.\n' +
                     '1 hole punched \n' +
@@ -525,10 +548,15 @@ var productData = {
             },
             {
                 category: "basins",
-                url: "image/sanitary_items/basins/GROHE Euro Ceramic Wall-Mounted Basin 60 CM.png",
+                url: "image/sanitary_items/basins/GROHE Euro Ceramic Wall-Mounted Basin 60 CM.jpg",
                 name: "GROHE Euro Ceramic Wall-Mounted Basin 60 CM",
+                images: [
+                    "image/sanitary_items/basins/GROHE Euro Ceramic Wall-Mounted Basin 60 CM.jpg",
+                    "image/sanitary_items/basins/GROHE Euro Ceramic Wall-Mounted Basin 60 CM i2.jpg",
+                ],
                 prod_no: '3956500H',
-                color: 'chrome',
+                price: 'AED 408.00',
+                color: 'alpine white',
                 description:
                     'Wall hung.\n' +
                     '1 hole punched, 2 holes pre-punched with overflow on opposite site to faucet.\n' +
@@ -538,10 +566,16 @@ var productData = {
             },
             {
                 category: "basins",
-                url: "image/sanitary_items/basins/GROHE Cube Ceramic Wall-Mounted Basin 60 CM.png",
+                url: "image/sanitary_items/basins/GROHE Cube Ceramic Wall-Mounted Basin 60 CM.jpg",
                 name: "GROHE Cube Ceramic Wall-Mounted Basin 60 CM",
+                images: [
+                    "image/sanitary_items/basins/GROHE Cube Ceramic Wall-Mounted Basin 60 CM.jpg",
+                    "image/sanitary_items/basins/GROHE Cube Ceramic Wall-Mounted Basin 60 CM i2.jpg",
+                    "image/sanitary_items/basins/GROHE Cube Ceramic Wall-Mounted Basin 60 CM i3.jpg",
+                ],
                 prod_no: '3947300H',
-                color: 'chrome',
+                price: 'AED 1,294.00',
+                color: 'alpine white',
                 description:
                     'Wall hung.\n' +
                     '1 hole punched, 2 holes pre-punched \n' +
@@ -552,10 +586,16 @@ var productData = {
             },
             {
                 category: "basins",
-                url: "image/sanitary_items/basins/GROHE Bau Ceramic Wall-Mounted Basin 65 CM.png",
+                url: "image/sanitary_items/basins/GROHE Bau Ceramic Wall-Mounted Basin 65 CM.jpg",
                 name: "GROHE Bau Ceramic Wall-Mounted Basin 65 CM",
+                images: [
+                    "image/sanitary_items/basins/GROHE Bau Ceramic Wall-Mounted Basin 65 CM.jpg",
+                    "image/sanitary_items/basins/GROHE Bau Ceramic Wall-Mounted Basin 65 CM i2.jpg",
+                    "image/sanitary_items/basins/GROHE Bau Ceramic Wall-Mounted Basin 65 CM i3.jpg",
+                ],
                 prod_no: '39420000',
-                color: 'chrome',
+                price: 'AED 317.00',
+                color: 'alpine white',
                 description:
                     'Wall hung.\n' +
                     '1 hole punched \n' +
@@ -565,10 +605,16 @@ var productData = {
             },
             {
                 category: "basins",
-                url: "image/sanitary_items/basins/GROHE Euro Ceramic Counter Top Basin 60 CM with PureGuard.png",
+                url: "image/sanitary_items/basins/GROHE Euro Ceramic Counter Top Basin 60 CM with PureGuard.jpg",
                 name: "GROHE Euro Ceramic Counter Top Basin 60 CM with PureGuard",
+                images: [
+                    "image/sanitary_items/basins/GROHE Euro Ceramic Counter Top Basin 60 CM with PureGuard.jpg",
+                    "image/sanitary_items/basins/GROHE Euro Ceramic Counter Top Basin 60 CM with PureGuard i2.jpg",
+                    "image/sanitary_items/basins/GROHE Euro Ceramic Counter Top Basin 60 CM with PureGuard i3.jpg",
+                ],
                 prod_no: '3933700H',
-                color: 'chrome',
+                price: 'AED 672.00',
+                color: 'alpine white',
                 description:
                     '1 hole punched \n' +
                     'With overflow \n' +
@@ -579,10 +625,16 @@ var productData = {
             },
             {
                 category: "WCs",
-                url: "image/sanitary_items/WCs/GROHE SENSIA ARENA SMART TOILET, WALL-HUNG.png",
+                url: "image/sanitary_items/WCs/GROHE SENSIA ARENA SMART TOILET, WALL-HUNG.jpg",
                 name: "GROHE SENSIA ARENA SMART TOILET, WALL-HUNG",
+                images: [
+                    "image/sanitary_items/WCs/GROHE SENSIA ARENA SMART TOILET, WALL-HUNG.jpg",
+                    "image/sanitary_items/WCs/GROHE SENSIA ARENA SMART TOILET, WALL-HUNG i2.jpg",
+                    "image/sanitary_items/WCs/GROHE SENSIA ARENA SMART TOILET, WALL-HUNG i3.jpg",
+                ],
+                price: 'AED 9,500.00',
                 prod_no: '39354SH1',
-                color: 'chrome',
+                color: 'alpine white',
                 description:
                     'GROHE Hygiene Clean: with antibacterial glazing HyperClean (SIAA Kokin Japanese standard compliant) and non-stick coating AquaCeramic  \n' +
                     'GROHE power flush: rimless wash down jet WC  \n' +
@@ -623,10 +675,15 @@ var productData = {
             },
             {
                 category: "WCs",
-                url: "image/sanitary_items/WCs/GROHE Essence Purity Wall-Hung Bidet.png",
+                url: "image/sanitary_items/WCs/GROHE Essence Purity Wall-Hung Bidet.jpg",
                 name: "GROHE Essence Purity Wall-Hung Bidet",
+                images: [
+                    "image/sanitary_items/WCs/GROHE Essence Purity Wall-Hung Bidet.jpg",
+                    "image/sanitary_items/WCs/GROHE Essence Purity Wall-Hung Bidet i2.jpg",
+                ],
+                price: 'AED 1,993.00',
                 prod_no: '3957400H',
-                color: 'chrome',
+                color: 'alpine white',
                 description:
                     '1 hole punched \n' +
                     'With overflow \n' +
@@ -637,10 +694,15 @@ var productData = {
             },
             {
                 category: "WCs",
-                url: "image/sanitary_items/WCs/GROHE Cube Ceramic Wall-Hung Bidet.png",
+                url: "image/sanitary_items/WCs/GROHE Cube Ceramic Wall-Hung Bidet.jpg",
                 name: "GROHE Cube Ceramic Wall-Hung Bidet",
+                images: [
+                    "image/sanitary_items/WCs/GROHE Cube Ceramic Wall-Hung Bidet.jpg",
+                    "image/sanitary_items/WCs/GROHE Cube Ceramic Wall-Hung Bidet i2.jpg",
+                ],
+                price: 'AED 1,892.00',
                 prod_no: '3948600H',
-                color: 'chrome',
+                color: 'alpine white',
                 description:
                     '1 hole punched \n' +
                     'With overflow \n' +
@@ -651,10 +713,15 @@ var productData = {
             },
             {
                 category: "WCs",
-                url: "image/sanitary_items/WCs/GROHE Essence Purity Floor-Standing.png",
-                name: "GROHE Essence Purity Floor-Standing",
+                url: "image/sanitary_items/WCs/GROHE Essence Purity Floor-Standing Bidet.jpg",
+                name: "GROHE Essence Purity Floor-Standing Bidet",
+                images: [
+                    "image/sanitary_items/WCs/GROHE Essence Purity Floor-Standing Bidet.jpg",
+                    "image/sanitary_items/WCs/GROHE Essence Purity Floor-Standing Bidet i2.jpg",
+                ],
+                price: 'AED 2,073.00',
                 prod_no: '3957500H',
-                color: 'chrome',
+                color: 'alpine white',
                 description:
                     '1 hole punched \n' +
                     'With overflow \n' +
@@ -665,10 +732,15 @@ var productData = {
             },
             {
                 category: "WCs",
-                url: "image/sanitary_items/WCs/GROHE Cube Ceramic Floor-Standing.png",
-                name: "GROHE Cube Ceramic Floor-Standing",
+                url: "image/sanitary_items/WCs/GROHE Cube Ceramic Floor-Standing Bidet.jpg",
+                name: "GROHE Cube Ceramic Floor-Standing Bidet",
+                images: [
+                    "image/sanitary_items/WCs/GROHE Cube Ceramic Floor-Standing Bidet.jpg",
+                    "image/sanitary_items/WCs/GROHE Cube Ceramic Floor-Standing Bidet i2.jpg",
+                ],
+                price: 'AED 1,955.00',
                 prod_no: '3948700H',
-                color: 'chrome',
+                color: 'alpine white',
                 description:
                     '1 hole punched \n' +
                     'With overflow \n' +
@@ -679,10 +751,16 @@ var productData = {
             },
             {
                 category: "WCs",
-                url: "image/sanitary_items/WCs/GROHE Essence Purity Wall-Hung WC.png",
-                name: "GROHE Essence Purity Wall-Hung WC",
+                url: "image/sanitary_items/WCs/GROHE Essence Purity Wall-Hung WC Rimless.jpg",
+                name: "GROHE Essence Purity Wall-Hung WC Rimless",
+                images: [
+                    "image/sanitary_items/WCs/GROHE Essence Purity Wall-Hung WC Rimless.jpg",
+                    "image/sanitary_items/WCs/GROHE Essence Purity Wall-Hung WC Rimless i2.jpg",
+                    "image/sanitary_items/WCs/GROHE Essence Purity Wall-Hung WC Rimless i3.jpg",
+                ],
+                price: 'AED 2,625.00',
                 prod_no: '3957100H',
-                color: 'chrome',
+                color: 'alpine white',
                 description:
                             'For concealed cistern \n' +
                             'Wash down \n' +
@@ -697,10 +775,16 @@ var productData = {
             },
             {
                 category: "WCs",
-                url: "image/sanitary_items/WCs/GROHE Essence Purity Back-to-Wall WC.png",
+                url: "image/sanitary_items/WCs/GROHE Essence Purity Back-to-Wall WC.jpg",
                 name: "GROHE Essence Purity Back-to-Wall WC",
+                images: [
+                    "image/sanitary_items/WCs/GROHE Essence Purity Back-to-Wall WC.jpg",
+                    "image/sanitary_items/WCs/GROHE Essence Purity Back-to-Wall WC i2.jpg",
+                    "image/sanitary_items/WCs/GROHE Essence Purity Back-to-Wall WC i3.jpg",
+                ],
+                price: 'AED 2,909.00',
                 prod_no: '3957300H',
-                color: 'chrome',
+                color: 'alpine white',
                 description:
                             'Universal trap for horizontal and vertical outlet \n' +
                             'Back to wall \n' +
@@ -715,10 +799,16 @@ var productData = {
             },
             {
                 category: "WCs",
-                url: "image/sanitary_items/WCs/GROHE Essence Purity Floor-Standing WC.png",
+                url: "image/sanitary_items/WCs/GROHE Essence Purity Floor-Standing WC.jpg",
                 name: "GROHE Essence Purity Floor-Standing WC",
+                images: [
+                    "image/sanitary_items/WCs/GROHE Essence Purity Floor-Standing WC.jpg",
+                    "image/sanitary_items/WCs/GROHE Essence Purity Floor-Standing WC i2.jpg",
+                    "image/sanitary_items/WCs/GROHE Essence Purity Floor-Standing WC i3.jpg",
+                ],
+                price: 'AED 4,315.00',
                 prod_no: '3957200H',
-                color: 'chrome',
+                color: 'alpine white',
                 description:
                             'Close coupled \n' +
                             'Universal trap for horizontal and vertical outlet \n' +
@@ -734,10 +824,16 @@ var productData = {
             },
             {
                 category: "WCs",
-                url: "image/sanitary_items/WCs/GROHE Cube Ceramic Floor-Standing WC.png",
+                url: "image/sanitary_items/WCs/GROHE Cube Ceramic Floor-Standing WC.jpg",
                 name: "GROHE Cube Ceramic Floor-Standing WC",
+                images: [
+                    "image/sanitary_items/WCs/GROHE Cube Ceramic Floor-Standing WC.jpg",
+                    "image/sanitary_items/WCs/GROHE Cube Ceramic Floor-Standing WC i2.jpg",
+                    "image/sanitary_items/WCs/GROHE Cube Ceramic Floor-Standing WC i3.jpg",
+                ],
+                price: 'AED 4,999.00',
                 prod_no: '3948400H',
-                color: 'chrome',
+                color: 'alpine white',
                 description:
                             'Close coupled \n' +
                             'Universal trap for horizontal and vertical outlet \n' +
@@ -752,10 +848,16 @@ var productData = {
             },
             {
                 category: "WCs",
-                url: "image/sanitary_items/WCs/GROHE Cube Ceramic Wall-Hung WC.png",
+                url: "image/sanitary_items/WCs/GROHE Cube Ceramic Wall-Hung WC.jpg",
                 name: "GROHE Cube Ceramic Wall-Hung WC",
+                images: [
+                    "image/sanitary_items/WCs/GROHE Cube Ceramic Wall-Hung WC.jpg",
+                    "image/sanitary_items/WCs/GROHE Cube Ceramic Wall-Hung WC i2.jpg",
+                    "image/sanitary_items/WCs/GROHE Cube Ceramic Wall-Hung WC i3.jpg",
+                ],
+                price: 'AED 3,147.00',
                 prod_no: '3948400H',
-                color: 'chrome',
+                color: 'alpine white',
                 description:
                             'Close coupled \n' +
                             'Universal trap for horizontal and vertical outlet \n' +
@@ -770,10 +872,17 @@ var productData = {
             },
             {
                 category: "WCs",
-                url: "image/sanitary_items/WCs/GROHE Euro Ceramic Wall-Hung WC.png",
-                name: "GROHE Euro Ceramic Wall-Hung WC",
+                url: "image/sanitary_items/WCs/GROHE Euro Ceramic Wall-Hung WC Rimless.jpg",
+                name: "GROHE Euro Ceramic Wall-Hung WC Rimless",
+                images: [
+                    "image/sanitary_items/WCs/GROHE Euro Ceramic Wall-Hung WC Rimless.jpg",
+                    "image/sanitary_items/WCs/GROHE Euro Ceramic Wall-Hung WC Rimless i2.jpg",
+                    "image/sanitary_items/WCs/GROHE Euro Ceramic Wall-Hung WC Rimless i3.jpg",
+                    "image/sanitary_items/WCs/GROHE Euro Ceramic Wall-Hung WC Rimless i4.jpg",
+                ],
+                price: 'AED 2,040.00',
                 prod_no: '3932800H',
-                color: 'chrome',
+                color: 'alpine white',
                 description:
                             'For concealed cistern \n' +
                             'Horizontal outlet \n' +
@@ -791,8 +900,15 @@ var productData = {
                 category: "WCs",
                 url: "image/sanitary_items/WCs/GROHE Bau Wall-Hung WC Rimless.jpg",
                 name: "GROHE Bau Wall-Hung WC Rimless",
+                images: [
+                    "image/sanitary_items/WCs/GROHE Bau Wall-Hung WC Rimless.jpg",
+                    "image/sanitary_items/WCs/GROHE Bau Wall-Hung WC Rimless i2.jpg",
+                    "image/sanitary_items/WCs/GROHE Bau Wall-Hung WC Rimless i3.jpg",
+                    "image/sanitary_items/WCs/GROHE Bau Wall-Hung WC Rimless i4.jpg",
+                ],
+                price: 'AED 843.00',
                 prod_no: '39351000',
-                color: 'chrome',
+                color: 'alpine white',
                 description:
                             'WC seat and lid with soft close feature \n' +
                             'For concealed cistern \n' +
@@ -873,7 +989,6 @@ var productData = {
                 images: [
                     "image/sanitary_items/bathtubs/Villeroy&Boch Aveo Built-in Quaryl Bathtub 190x95 cm.gif",
                     "image/sanitary_items/bathtubs/Villeroy&Boch Aveo Built-in Quaryl Bathtub 190x95 cm i2.jpg",
-                    "image/sanitary_items/bathtubs/Villeroy&Boch Aveo Built-in Quaryl Bathtub 190x95 cm i3.jpg",
                 ],
                 name: "Villeroy&Boch Aveo Built-in Quaryl Bathtub 190x95 cm",
                 price: 'AED 32,268.00',
@@ -1165,7 +1280,7 @@ var productData = {
                 images: [
                     "image/sanitary_items/bathroom_furnitures/Villeroy&Boch Finion Shelf Module 418x356x270 Gold Mat or Glossy White Laquer.jpg",
                     "image/sanitary_items/bathroom_furnitures/Villeroy&Boch Finion Shelf Module 418x356x270 Gold Mat or Glossy White Laquer i2.jpg",
-                    "image/sanitary_items/bathroom_furnitures/Villeroy&Boch Finion Shelf Module 418x356x270 Gold Mat or Glossy White Laquer i3.jpg",
+                    "image/sanitary_items/bathroom_furnitures/Villeroy&Boch Finion Shelf Module 418x356x270 Gold Mat or Glossy White Laquer i3.png",
                 ],
                 name: "Villeroy&Boch Finion Shelf Module 418x356x270 Gold Mat/Glossy White Laquer",
                 price: 'AED 12,474.00',
@@ -1450,6 +1565,13 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHTHERM SMARTCONTROL Perfect Shower Set With Rain Shower Smartactive 310 Cube.jpg",
                 name: "GROHTHERM SMARTCONTROL Perfect Shower Set With Rain Shower Smartactive 310 Cube",
+                images: [
+                    "image/sanitary_items/showers/GROHTHERM SMARTCONTROL Perfect Shower Set With Rain Shower Smartactive 310 Cube.jpg",
+                    "image/sanitary_items/showers/GROHTHERM SMARTCONTROL Perfect Shower Set With Rain Shower Smartactive 310 Cube i2.jpg",
+                    "image/sanitary_items/showers/GROHTHERM SMARTCONTROL Perfect Shower Set With Rain Shower Smartactive 310 Cube i3.jpg",
+                    "image/sanitary_items/showers/GROHTHERM SMARTCONTROL Perfect Shower Set With Rain Shower Smartactive 310 Cube i4.jpg",
+                ],
+                price: 'AED 7,096.00',
                 prod_no: '34706000',
                 EAN: '4005176413797',
                 color: 'chrome',
@@ -1469,6 +1591,11 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHE Euphoria System 260 Shower System.jpg",
                 name: "GROHE Euphoria System 260 Shower System",
+                images: [
+                    "image/sanitary_items/showers/GROHE Euphoria System 260 Shower System.jpg",
+                    "image/sanitary_items/showers/GROHE Euphoria System 260 Shower System i2.jpg",
+                ],
+                price: 'AED 2,495.00',
                 prod_no: '27473001',
                 EAN: '4005176417900',
                 color: 'chrome',
@@ -1503,6 +1630,13 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHE RAINSHOWER SMARTCONTROL DUO 360 Shower System with Safety Mixer.jpg",
                 name: "GROHE RAINSHOWER SMARTCONTROL DUO 360 Shower System with Safety Mixer",
+                images: [
+                    "image/sanitary_items/showers/GROHE RAINSHOWER SMARTCONTROL DUO 360 Shower System with Safety Mixer.jpg",
+                    "image/sanitary_items/showers/GROHE RAINSHOWER SMARTCONTROL DUO 360 Shower System with Safety Mixer i2.jpg",
+                    "image/sanitary_items/showers/GROHE RAINSHOWER SMARTCONTROL DUO 360 Shower System with Safety Mixer i3.jpg",
+                    "image/sanitary_items/showers/GROHE RAINSHOWER SMARTCONTROL DUO 360 Shower System with Safety Mixer i4.jpg",
+                ],
+                price: 'AED 13,442.00',
                 prod_no: '26250000',
                 EAN: '4005176316999',
                 color: 'chrome',
@@ -1537,6 +1671,12 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHE RAINSHOWER F-SERIES 10″ 254 X 254 Ceiling Shower 1 Spray.jpg",
                 name: "GROHE RAINSHOWER F-SERIES 10″ 254 X 254 Ceiling Shower 1 Spray",
+                images: [
+                    "image/sanitary_items/showers/GROHE RAINSHOWER F-SERIES 10″ 254 X 254 Ceiling Shower 1 Spray.jpg",
+                    "image/sanitary_items/showers/GROHE RAINSHOWER F-SERIES 10″ 254 X 254 Ceiling Shower 1 Spray i2.jpg",
+                    "image/sanitary_items/showers/GROHE RAINSHOWER F-SERIES 10″ 254 X 254 Ceiling Shower 1 Spray i3.jpg",
+                ],
+                price: 'AED 3,020.00',
                 prod_no: '27467000',
                 EAN: '4005176882609',
                 color: 'chrome',
@@ -1553,6 +1693,11 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHE Rainshower Duo 360 Head Shower Set 450 mm 2 Sprays.jpg",
                 name: "GROHE Rainshower Duo 360 Head Shower Set 450 mm 2 Sprays",
+                images: [
+                    "image/sanitary_items/showers/GROHE Rainshower Duo 360 Head Shower Set 450 mm 2 Sprays.jpg",
+                    "image/sanitary_items/showers/GROHE Rainshower Duo 360 Head Shower Set 450 mm 2 Sprays i2.jpg",
+                ],
+                price: 'AED 2,970.00',
                 prod_no: '26254000',
                 EAN: '4005176317026',
                 color: 'chrome',
@@ -1573,6 +1718,11 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHE Euphoria Cube 150 Head Shower.jpg",
                 name: "GROHE Euphoria Cube 150 Head Shower",
+                images: [
+                    "image/sanitary_items/showers/GROHE Euphoria Cube 150 Head Shower.jpg",
+                    "image/sanitary_items/showers/GROHE Euphoria Cube 150 Head Shower i2.jpg",
+                ],
+                price: 'AED 706.00',
                 prod_no: '27705000',
                 EAN: '4005176907166',
                 color: 'chrome',
@@ -1593,6 +1743,11 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHE Grandera 210 Head Shower Chrome.jpg",
                 name: "GROHE Grandera 210 Head Shower Chrome",
+                images: [
+                    "image/sanitary_items/showers/GROHE Grandera 210 Head Shower Chrome.jpg",
+                    "image/sanitary_items/showers/GROHE Grandera 210 Head Shower Chrome i2.jpg",
+                ],
+                price: 'AED 2,369.00',
                 prod_no: '27974000',
                 EAN: '4005176932793',
                 color: 'chrome',
@@ -1612,6 +1767,11 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHE Rainshower Grandera 210 Headshower - Chrome or Gold.jpg",
                 name: "GROHE Rainshower Grandera 210 Headshower - Chrome or Gold",
+                images: [
+                    "image/sanitary_items/showers/GROHE Rainshower Grandera 210 Headshower - Chrome or Gold.jpg",
+                    "image/sanitary_items/showers/GROHE Rainshower Grandera 210 Headshower - Chrome or Gold i2.jpg",
+                ],
+                price: 'AED 3,068.00',
                 prod_no: '27974IG0',
                 EAN: '4005176933486',
                 color: 'chrome/gold',
@@ -1632,6 +1792,11 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHE TEMPESTA 100 Shower Rail Set 4 Sprays.jpg",
                 name: "GROHE TEMPESTA 100 Shower Rail Set 4 Sprays",
+                images: [
+                    "image/sanitary_items/showers/GROHE TEMPESTA 100 Shower Rail Set 4 Sprays.jpg",
+                    "image/sanitary_items/showers/GROHE TEMPESTA 100 Shower Rail Set 4 Sprays i2.jpg",
+                ],
+                price: 'AED 322.00',
                 prod_no: '2843600F',
                 EAN: '4005176566059',
                 color: 'chrome',
@@ -1653,6 +1818,11 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHE EUPHORIA CUBE+ Stick Shower Rail Set 1 Spray, Chrome.jpg",
                 name: "GROHE EUPHORIA CUBE+ Stick Shower Rail Set 1 Spray, Chrome",
+                images: [
+                    "image/sanitary_items/showers/GROHE EUPHORIA CUBE+ Stick Shower Rail Set 1 Spray, Chrome.jpg",
+                    "image/sanitary_items/showers/GROHE EUPHORIA CUBE+ Stick Shower Rail Set 1 Spray, Chrome i2.jpg",
+                ],
+                price: 'AED 1,134.00',
                 prod_no: '2843600F',
                 EAN: '4005176566059',
                 color: 'chrome',
@@ -1674,6 +1844,11 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHE Sena Stick Hand Shower 1 Spray.jpg",
                 name: "GROHE Sena Stick Hand Shower 1 Spray",
+                images: [
+                    "image/sanitary_items/showers/GROHE Sena Stick Hand Shower 1 Spray.jpg",
+                    "image/sanitary_items/showers/GROHE Sena Stick Hand Shower 1 Spray i2.jpg",
+                ],
+                price: 'AED 1,214.00',
                 prod_no: '26465DL0',
                 EAN: '4005176459139',
                 color: 'brushed warm sunset',
@@ -1693,6 +1868,11 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHE Sena Stick Hand Shower 1 Spray2.jpg",
                 name: "GROHE Sena Stick Hand Shower 1 Spray",
+                images: [
+                    "image/sanitary_items/showers/GROHE Sena Stick Hand Shower 1 Spray2.jpg",
+                    "image/sanitary_items/showers/GROHE Sena Stick Hand Shower 1 Spray2 i2.jpg",
+                ],
+                price: 'AED 1,214.00',
                 prod_no: '26465DA0',
                 EAN: '4005176459122',
                 color: 'warm sunset',
@@ -1712,6 +1892,11 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHE Sena Stick Hand shower 1 Spray3.jpg",
                 name: "GROHE Sena Stick Hand shower 1 Spray",
+                images: [
+                    "image/sanitary_items/showers/GROHE Sena Stick Hand shower 1 Spray3.jpg",
+                    "image/sanitary_items/showers/GROHE Sena Stick Hand shower 1 Spray3 i2.jpg",
+                ],
+                price: 'AED 1,214.00',
                 prod_no: '26465AL0',
                 EAN: '4005176459153',
                 color: 'Brushed Hard Graphite',
@@ -1732,6 +1917,11 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHE Euphoria Cosmopolitan Stick Shower Rail Set.jpg",
                 name: "GROHE Euphoria Cosmopolitan Stick Shower Rail Set",
+                images: [
+                    "image/sanitary_items/showers/GROHE Euphoria Cosmopolitan Stick Shower Rail Set.jpg",
+                    "image/sanitary_items/showers/GROHE Euphoria Cosmopolitan Stick Shower Rail Set i2.jpg",
+                ],
+                price: 'AED 1,276.00',
                 prod_no: '27368000',
                 EAN: '4005176875946',
                 color: 'chrome',
@@ -1754,6 +1944,12 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHTHERM SMARTCONTROL PERFECT SHOWER SET WITH RAINSHOWER SMARTACTIVE 310.jpg",
                 name: "GROHTHERM SMARTCONTROL PERFECT SHOWER SET WITH RAINSHOWER SMARTACTIVE 310",
+                images: [
+                    "image/sanitary_items/showers/GROHTHERM SMARTCONTROL PERFECT SHOWER SET WITH RAINSHOWER SMARTACTIVE 310.jpg",
+                    "image/sanitary_items/showers/GROHTHERM SMARTCONTROL PERFECT SHOWER SET WITH RAINSHOWER SMARTACTIVE 310 i2.jpg",
+                    "image/sanitary_items/showers/GROHTHERM SMARTCONTROL PERFECT SHOWER SET WITH RAINSHOWER SMARTACTIVE 310 i3.jpg",
+                ],
+                price: 'AED 7,665.00',
                 prod_no: '34705000',
                 EAN: '4005176413285',
                 color: 'chrome',
@@ -1775,6 +1971,11 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHE Euphoria 260 Head Shower 3 Sprays.jpg",
                 name: "GROHE Euphoria 260 Head Shower 3 Sprays",
+                images: [
+                    "image/sanitary_items/showers/GROHE Euphoria 260 Head Shower 3 Sprays.jpg",
+                    "image/sanitary_items/showers/GROHE Euphoria 260 Head Shower 3 Sprays i2.jpg",
+                ],
+                price: 'AED 786.00',
                 prod_no: '2645500F',
                 EAN: '4005176416903',
                 color: 'chrome',
@@ -1795,6 +1996,11 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHE Euphoria 110 Champagne Hand Shower 3 Sprays.jpg",
                 name: "GROHE Euphoria 110 Champagne Hand Shower 3 Sprays",
+                images: [
+                    "image/sanitary_items/showers/GROHE Euphoria 110 Champagne Hand Shower 3 Sprays.jpg",
+                    "image/sanitary_items/showers/GROHE Euphoria 110 Champagne Hand Shower 3 Sprays i2.jpg",
+                ],
+                price: 'AED 310.00',
                 prod_no: '2722200F',
                 EAN: '4005176854132',
                 color: 'chrome',
@@ -1812,6 +2018,11 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHE Rainshower Smartactive 130 Hand Shower 3 Sprays.jpg",
                 name: "GROHE Rainshower Smartactive 130 Hand Shower 3 Sprays",
+                images: [
+                    "image/sanitary_items/showers/GROHE Rainshower Smartactive 130 Hand Shower 3 Sprays.jpg",
+                    "image/sanitary_items/showers/GROHE Rainshower Smartactive 130 Hand Shower 3 Sprays i2.jpg",
+                ],
+                price: 'AED 479.00',
                 prod_no: '26574000',
                 EAN: '4005176485916',
                 color: 'chrome',
@@ -1832,6 +2043,11 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHE TEMPESTA-F 30 Shattaf Trigger Spray Set Twistfree Hose.jpg",
                 name: "GROHE TEMPESTA-F 30 Shattaf Trigger Spray Set Twistfree Hose",
+                images: [
+                    "image/sanitary_items/showers/GROHE TEMPESTA-F 30 Shattaf Trigger Spray Set Twistfree Hose.jpg",
+                    "image/sanitary_items/showers/GROHE TEMPESTA-F 30 Shattaf Trigger Spray Set Twistfree Hose i2.jpg",
+                ],
+                price: 'AED 130.00',
                 prod_no: '2751300F',
                 EAN: '4005176333842',
                 color: 'chrome',
@@ -1850,6 +2066,11 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHE Retro-Fit 180 Shower System with Diverter for wall mounting.jpg",
                 name: "GROHE Retro-Fit 180 Shower System with Diverter for wall mounting",
+                images: [
+                    "image/sanitary_items/showers/GROHE Retro-Fit 180 Shower System with Diverter for wall mounting.jpg",
+                    "image/sanitary_items/showers/GROHE Retro-Fit 180 Shower System with Diverter for wall mounting i2.jpg",
+                ],
+                price: 'AED 1,607.00',
                 prod_no: '26190000',
                 EAN: '4005176305733',
                 color: 'chrome',
@@ -1881,6 +2102,12 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHE EUPHORIA SMARTCONTROL SYSTEM 310 DUO.jpg",
                 name: "GROHE EUPHORIA SMARTCONTROL SYSTEM 310 DUO",
+                images: [
+                    "image/sanitary_items/showers/GROHE EUPHORIA SMARTCONTROL SYSTEM 310 DUO.jpg",
+                    "image/sanitary_items/showers/GROHE EUPHORIA SMARTCONTROL SYSTEM 310 DUO i2.png",
+                    "image/sanitary_items/showers/GROHE EUPHORIA SMARTCONTROL SYSTEM 310 DUO i3.jpg",
+                ],
+                price: 'AED 5,265.00',
                 prod_no: '26507000',
                 EAN: '4005176457586',
                 color: 'chrome',
@@ -1913,6 +2140,11 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHE SMARTCONTROL PERFECT SHOWER SET.jpg",
                 name: "GROHE SMARTCONTROL PERFECT SHOWER SET",
+                images: [
+                    "image/sanitary_items/showers/GROHE SMARTCONTROL PERFECT SHOWER SET.jpg",
+                    "image/sanitary_items/showers/GROHE SMARTCONTROL PERFECT SHOWER SET i2.jpg",
+                ],
+                price: 'AED 7,124.00',
                 prod_no: '34709000',
                 EAN: '4005176413803',
                 color: 'chrome',
@@ -1931,6 +2163,11 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHE RAINSHOWER SHOWER OUTLET ELBOW, 1by2 inch Hard Graphite2.jpg",
                 name: 'GROHE RAINSHOWER SHOWER OUTLET ELBOW, 1/2" Hard Graphite',
+                images: [
+                    "image/sanitary_items/showers/GROHE RAINSHOWER SHOWER OUTLET ELBOW, 1by2 inch Hard Graphite2.jpg",
+                    "image/sanitary_items/showers/GROHE RAINSHOWER SHOWER OUTLET ELBOW, 1by2 inch Hard Graphite2 i2.jpg",
+                ],
+                price: 'AED 425.00',
                 prod_no: '27057AL0',
                 EAN: '4005176338960',
                 color: 'brushed hard graphite',
@@ -1944,6 +2181,11 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHE EUPHORIA COSMOPOLITAN STICK WALL HOLDER SET 1 SPRAY.jpg",
                 name: "GROHE EUPHORIA COSMOPOLITAN STICK WALL HOLDER SET 1 SPRAY",
+                images: [
+                    "image/sanitary_items/showers/GROHE EUPHORIA COSMOPOLITAN STICK WALL HOLDER SET 1 SPRAY.jpg",
+                    "image/sanitary_items/showers/GROHE EUPHORIA COSMOPOLITAN STICK WALL HOLDER SET 1 SPRAY i2.jpg",
+                ],
+                price: 'AED 595.00',
                 prod_no: '2736900F',
                 EAN: '4005176565717',
                 color: 'chrome',
@@ -1962,6 +2204,11 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHE RAINSHOWER SHOWER OUTLET ELBOW, 1by2 inch Cool Sunrise.jpg",
                 name: "GROHE RAINSHOWER SHOWER OUTLET ELBOW, 1by2 inch Cool Sunrise",
+                images: [
+                    "image/sanitary_items/showers/GROHE RAINSHOWER SHOWER OUTLET ELBOW, 1by2 inch Cool Sunrise.jpg",
+                    "image/sanitary_items/showers/GROHE RAINSHOWER SHOWER OUTLET ELBOW, 1by2 inch Cool Sunrise i2.jpg",
+                ],
+                price: 'AED 508.00',
                 prod_no: '27057GN0',
                 EAN: '4005176426933',
                 color: 'brushed cool sunrise',
@@ -1975,6 +2222,11 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHE SILVERFLEX SHOWER HOSE TWISTFREE 1750 Warm Sunset.jpg",
                 name: "GROHE SILVERFLEX SHOWER HOSE TWISTFREE 1750 Warm Sunset",
+                images: [
+                    "image/sanitary_items/showers/GROHE SILVERFLEX SHOWER HOSE TWISTFREE 1750 Warm Sunset.jpg",
+                    "image/sanitary_items/showers/GROHE SILVERFLEX SHOWER HOSE TWISTFREE 1750 Warm Sunset i2.jpg",
+                ],
+                price: 'AED 272.00',
                 prod_no: '28388DA0',
                 EAN: '4005176427671',
                 color: 'warm sunset',
@@ -1994,6 +2246,11 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHE Rainshower Shower Outlet Elbow, 1by2 inch Warm Sunset.jpg",
                 name: 'GROHE Rainshower Shower Outlet Elbow, 1/2" Warm Sunset',
+                images: [
+                    "image/sanitary_items/showers/GROHE Rainshower Shower Outlet Elbow, 1by2 inch Warm Sunset.jpg",
+                    "image/sanitary_items/showers/GROHE Rainshower Shower Outlet Elbow, 1by2 inch Warm Sunset i2.jpg",
+                ],
+                price: 'AED 405.00',
                 prod_no: '27057DL0',
                 EAN: '4005176426940',
                 color: 'brushed warm sunset',
@@ -2007,6 +2264,12 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHE RAINSHOWER MONO 310 CUBE HEAD SHOWER SET 422 MM, 1 SPRAY.jpg",
                 name: 'GROHE RAINSHOWER MONO 310 CUBE HEAD SHOWER SET 422 MM, 1 SPRAY',
+                images: [
+                    "image/sanitary_items/showers/GROHE RAINSHOWER MONO 310 CUBE HEAD SHOWER SET 422 MM, 1 SPRAY.jpg",
+                    "image/sanitary_items/showers/GROHE RAINSHOWER MONO 310 CUBE HEAD SHOWER SET 422 MM, 1 SPRAY i2.jpg",
+                    "image/sanitary_items/showers/GROHE RAINSHOWER MONO 310 CUBE HEAD SHOWER SET 422 MM, 1 SPRAY i3.jpg",
+                ],
+                price: 'AED 3,386.00',
                 prod_no: '26564000',
                 EAN: '4005176481789',
                 color: 'Chrome',
@@ -2028,6 +2291,11 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHE EUPHORIA CUBE STICK WALL HOLDER SET 1 SPRAY.jpg",
                 name: 'GROHE EUPHORIA CUBE STICK WALL HOLDER SET 1 SPRAY',
+                images: [
+                    "image/sanitary_items/showers/GROHE EUPHORIA CUBE STICK WALL HOLDER SET 1 SPRAY.jpg",
+                    "image/sanitary_items/showers/GROHE EUPHORIA CUBE STICK WALL HOLDER SET 1 SPRAY i2.jpg",
+                ],
+                price: 'AED 295.00',
                 prod_no: '2770200F',
                 EAN: '4005176565823',
                 color: 'chrome',
@@ -2047,6 +2315,11 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHTHERM SMARTCONTROL THERMOSTAT FOR CONCEALED INSTALLATION WITH 3 VALVES.jpg",
                 name: 'GROHTHERM SMARTCONTROL THERMOSTAT FOR CONCEALED INSTALLATION WITH 3 VALVES',
+                images: [
+                    "image/sanitary_items/showers/GROHTHERM SMARTCONTROL THERMOSTAT FOR CONCEALED INSTALLATION WITH 3 VALVES.jpg",
+                    "image/sanitary_items/showers/GROHTHERM SMARTCONTROL THERMOSTAT FOR CONCEALED INSTALLATION WITH 3 VALVES i2.jpg",
+                ],
+                price: 'AED 2,544.00',
                 prod_no: '29126000',
                 EAN: '4005176413322',
                 color: 'Chrome',
@@ -2078,6 +2351,11 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHE RAINSHOWER COSMOPOLITAN 310 HEAD SHOWER SET 380 MM, 1 SPRAY.jpg",
                 name: 'GROHE RAINSHOWER COSMOPOLITAN 310 HEAD SHOWER SET 380 MM, 1 SPRAY',
+                images: [
+                    "image/sanitary_items/showers/GROHE RAINSHOWER COSMOPOLITAN 310 HEAD SHOWER SET 380 MM, 1 SPRAY.jpg",
+                    "image/sanitary_items/showers/GROHE RAINSHOWER COSMOPOLITAN 310 HEAD SHOWER SET 380 MM, 1 SPRAY i2.jpg",
+                ],
+                price: 'AED 2,095.00',
                 prod_no: '26066000',
                 EAN: '4005176937200',
                 color: 'chrome',
@@ -2097,6 +2375,11 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHE RAINSHOWER SMARTACTIVE 130 WALL HOLDER SET 3 SPRAYS.jpg",
                 name: 'GROHE RAINSHOWER SMARTACTIVE 130 WALL HOLDER SET 3 SPRAYS',
+                images: [
+                    "image/sanitary_items/showers/GROHE RAINSHOWER SMARTACTIVE 130 WALL HOLDER SET 3 SPRAYS.jpg",
+                    "image/sanitary_items/showers/GROHE RAINSHOWER SMARTACTIVE 130 WALL HOLDER SET 3 SPRAYS i2.jpg",
+                ],
+                price: 'AED 688.00',
                 prod_no: '26580000',
                 EAN: '4005176486210',
                 color: 'chrome',
@@ -2117,6 +2400,11 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHE RAINSHOWER SMARTACTIVE 130 CUBE WALL HOLDER SET 3 SPRAYS.jpg",
                 name: 'GROHE RAINSHOWER SMARTACTIVE 130 CUBE WALL HOLDER SET 3 SPRAYS',
+                images: [
+                    "image/sanitary_items/showers/GROHE RAINSHOWER SMARTACTIVE 130 CUBE WALL HOLDER SET 3 SPRAYS.jpg",
+                    "image/sanitary_items/showers/GROHE RAINSHOWER SMARTACTIVE 130 CUBE WALL HOLDER SET 3 SPRAYS i2.jpg",
+                ],
+                price: 'AED 688.00',
                 prod_no: '26588000',
                 EAN: '4005176486371',
                 color: 'chrome',
@@ -2138,6 +2426,11 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHE RAINSHOWER SMARTACTIVE 130 CUBE HAND SHOWER 3 SPRAYS.jpg",
                 name: 'GROHE RAINSHOWER SMARTACTIVE 130 CUBE HAND SHOWER 3 SPRAYS',
+                images: [
+                    "image/sanitary_items/showers/GROHE RAINSHOWER SMARTACTIVE 130 CUBE HAND SHOWER 3 SPRAYS.jpg",
+                    "image/sanitary_items/showers/GROHE RAINSHOWER SMARTACTIVE 130 CUBE HAND SHOWER 3 SPRAYS i2.jpg",
+                ],
+                price: 'AED 508.00',
                 prod_no: '26582000',
                 EAN: '4005176486258',
                 color: 'chrome',
@@ -2159,6 +2452,11 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHE RAINSHOWER SMARTACTIVE 310 CUBE HEAD SHOWER SET 430 MM, 2 SPRAYS.jpg",
                 name: 'GROHE RAINSHOWER SMARTACTIVE 310 CUBE HEAD SHOWER SET 430 MM, 2 SPRAYS',
+                images: [
+                    "image/sanitary_items/showers/GROHE RAINSHOWER SMARTACTIVE 310 CUBE HEAD SHOWER SET 430 MM, 2 SPRAYS.jpg",
+                    "image/sanitary_items/showers/GROHE RAINSHOWER SMARTACTIVE 310 CUBE HEAD SHOWER SET 430 MM, 2 SPRAYS i2.jpg",
+                ],
+                price: 'AED 3,703.00',
                 prod_no: '26479000',
                 EAN: '4005176425196',
                 color: 'chrome',
@@ -2176,10 +2474,15 @@ var productData = {
             {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHE RAINSHOWER COSMOPOLITAN 310 HEAD SHOWER SET 380 MM, 1 SPRAY2.jpg",
-                name: 'GROHE RAINSHOWER COSMOPOLITAN 310 HEAD SHOWER SET 380 MM, 1 SPRAY2',
+                name: 'GROHE RAINSHOWER COSMOPOLITAN 310 HEAD SHOWER SET 380 MM, 1 SPRAY',
+                images: [
+                    "image/sanitary_items/showers/GROHE RAINSHOWER COSMOPOLITAN 310 HEAD SHOWER SET 380 MM, 1 SPRAY2.jpg",
+                    "image/sanitary_items/showers/GROHE RAINSHOWER COSMOPOLITAN 310 HEAD SHOWER SET 380 MM, 1 SPRAY2 i2.jpg",
+                ],
+                price: 'AED 4,934.00',
                 prod_no: '26066GN0',
                 EAN: '4005176427190',
-                color: 'chrome',
+                color: 'brushed cool sunrise',
                 description:
                     'Consisting of: \n' +
                     'Head shower Rainshower Cosmopolitan 310 (27 478 000) \n' +
@@ -2196,6 +2499,13 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHE RAINSHOWER F-SERIES 15″ Ceiling Shower 3 Sprays.jpg",
                 name: 'GROHE RAINSHOWER F-SERIES 15″ Ceiling Shower 3 Sprays',
+                images: [
+                    "image/sanitary_items/showers/GROHE RAINSHOWER F-SERIES 15″ Ceiling Shower 3 Sprays.jpg",
+                    "image/sanitary_items/showers/GROHE RAINSHOWER F-SERIES 15″ Ceiling Shower 3 Sprays i2.jpg",
+                    "image/sanitary_items/showers/GROHE RAINSHOWER F-SERIES 15″ Ceiling Shower 3 Sprays i3.jpg",
+                    "image/sanitary_items/showers/GROHE RAINSHOWER F-SERIES 15″ Ceiling Shower 3 Sprays i4.jpg",
+                ],
+                price: 'AED 14,829.00',
                 prod_no: '27939001',
                 EAN: '4005176927287',
                 color: 'chrome',
@@ -2217,6 +2527,11 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHE Rainshower Cosmopolitan 210 Head Shower.jpg",
                 name: 'GROHE Rainshower Cosmopolitan 210 Head Shower',
+                images: [
+                    "image/sanitary_items/showers/GROHE Rainshower Cosmopolitan 210 Head Shower.jpg",
+                    "image/sanitary_items/showers/GROHE Rainshower Cosmopolitan 210 Head Shower i2.jpg",
+                ],
+                price: 'AED 1,925.00',
                 prod_no: '2836800E',
                 EAN: '4005176867385 ',
                 color: 'chrome',
@@ -2235,6 +2550,11 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHE Rainshower Cosmopolitan 310 Head Shower.jpg",
                 name: 'GROHE Rainshower Cosmopolitan 310 Head Shower',
+                images: [
+                    "image/sanitary_items/showers/GROHE Rainshower Cosmopolitan 310 Head Shower.jpg",
+                    "image/sanitary_items/showers/GROHE Rainshower Cosmopolitan 310 Head Shower i2.jpg",
+                ],
+                price: 'AED 1,894.00',
                 prod_no: '27478000',
                 EAN: '4005176883293',
                 color: 'chrome',
@@ -2253,6 +2573,11 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHE Rainshower Allure 230 Head Shower.jpg",
                 name: 'GROHE Rainshower Allure 230 Head Shower',
+                images: [
+                    "image/sanitary_items/showers/GROHE Rainshower Allure 230 Head Shower.jpg",
+                    "image/sanitary_items/showers/GROHE Rainshower Allure 230 Head Shower i2.jpg",
+                ],
+                price: 'AED 2,880.00',
                 prod_no: '27480000',
                 EAN: '4005176883316',
                 color: 'chrome',
@@ -2271,6 +2596,11 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHE TEMPESTA 100 Wall Holder Set 2 Sprays.jpg",
                 name: 'GROHE TEMPESTA 100 Wall Holder Set 2 Sprays',
+                images: [
+                    "image/sanitary_items/showers/GROHE TEMPESTA 100 Wall Holder Set 2 Sprays.jpg",
+                    "image/sanitary_items/showers/GROHE TEMPESTA 100 Wall Holder Set 2 Sprays i2.jpg",
+                ],
+                price: 'AED 182.00',
                 prod_no: '2780310E',
                 EAN: '4005176985454',
                 color: 'chrome',
@@ -2292,6 +2622,11 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHE Euphoria Cube Stick Shower Rail Set.jpg",
                 name: 'GROHE Euphoria Cube Stick Shower Rail Set',
+                images: [
+                    "image/sanitary_items/showers/GROHE Euphoria Cube Stick Shower Rail Set.jpg",
+                    "image/sanitary_items/showers/GROHE Euphoria Cube Stick Shower Rail Set i2.jpg",
+                ],
+                price: 'AED 1,113.00',
                 prod_no: '27700000',
                 EAN: '4005176907111',
                 color: 'chrome',
@@ -2310,6 +2645,11 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHE EUPHORIA Cosmopolitan Stick Wall Holder Set.jpg",
                 name: 'GROHE EUPHORIA Cosmopolitan Stick Wall Holder Set',
+                images: [
+                    "image/sanitary_items/showers/GROHE EUPHORIA Cosmopolitan Stick Wall Holder Set.jpg",
+                    "image/sanitary_items/showers/GROHE EUPHORIA Cosmopolitan Stick Wall Holder Set i2.jpg",
+                ],
+                price: 'AED 356.00',
                 prod_no: '26404000',
                 EAN: '4005176385155',
                 color: 'chrome',
@@ -2332,6 +2672,11 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHE TEMPESTA-F Wall Holder Set 1 Spray - SHATTAF.jpg",
                 name: 'GROHE TEMPESTA-F Wall Holder Set 1 Spray - SHATTAF',
+                images: [
+                    "image/sanitary_items/showers/GROHE TEMPESTA-F Wall Holder Set 1 Spray - SHATTAF.jpg",
+                    "image/sanitary_items/showers/GROHE TEMPESTA-F Wall Holder Set 1 Spray - SHATTAF i2.jpg",
+                ],
+                price: 'AED 220.00',
                 prod_no: '26353000',
                 EAN: '4005176333866',
                 color: 'chrome',
@@ -2350,6 +2695,11 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHE TEMPESTA-F 30 Shattaf Trigger Spray Set 1 Spray.jpg",
                 name: 'GROHE TEMPESTA-F 30 Shattaf Trigger Spray Set 1 Spray',
+                images: [
+                    "image/sanitary_items/showers/GROHE TEMPESTA-F 30 Shattaf Trigger Spray Set 1 Spray.jpg",
+                    "image/sanitary_items/showers/GROHE TEMPESTA-F 30 Shattaf Trigger Spray Set 1 Spray i2.jpg",
+                ],
+                price: 'AED 150.00',
                 prod_no: '26354000',
                 EAN: '4005176333873',
                 color: 'chrome',
@@ -2366,6 +2716,11 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHE Tempesta Cosmopolitan 200 Head Shower 1 Spray.jpg",
                 name: 'GROHE Tempesta Cosmopolitan 200 Head Shower 1 Spray',
+                images: [
+                    "image/sanitary_items/showers/GROHE Tempesta Cosmopolitan 200 Head Shower 1 Spray.jpg",
+                    "image/sanitary_items/showers/GROHE Tempesta Cosmopolitan 200 Head Shower 1 Spray i2.jpg",
+                ],
+                price: 'AED 486.00',
                 prod_no: '27541001',
                 EAN: '4005176451676',
                 color: 'chrome',
@@ -2378,6 +2733,11 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHE Rainshower Mono 310 Head Shower 1 Spray.jpg",
                 name: 'GROHE Rainshower Mono 310 Head Shower 1 Spray',
+                images: [
+                    "image/sanitary_items/showers/GROHE Rainshower Mono 310 Head Shower 1 Spray.jpg",
+                    "image/sanitary_items/showers/GROHE Rainshower Mono 310 Head Shower 1 Spray i2.jpg",
+                ],
+                price: 'AED 1,913.00',
                 prod_no: '26562000',
                 EAN: '4005176481765',
                 color: 'chrome',
@@ -2397,6 +2757,11 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHE Tempesta 100 Hand Shower 3 Sprays.jpg",
                 name: 'GROHE Tempesta 100 Hand Shower 3 Sprays',
+                images: [
+                    "image/sanitary_items/showers/GROHE Tempesta 100 Hand Shower 3 Sprays.jpg",
+                    "image/sanitary_items/showers/GROHE Tempesta 100 Hand Shower 3 Sprays i2.jpg",
+                ],
+                price: 'AED 187.00',
                 prod_no: '2841900F',
                 EAN: '4005176444128',
                 color: 'chrome',
@@ -2416,6 +2781,11 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHE Euphoria Cosmopolitan 180 Head Shower 1 Spray.jpg",
                 name: 'GROHE Euphoria Cosmopolitan 180 Head Shower 1 Spray',
+                images: [
+                    "image/sanitary_items/showers/GROHE Euphoria Cosmopolitan 180 Head Shower 1 Spray.jpg",
+                    "image/sanitary_items/showers/GROHE Euphoria Cosmopolitan 180 Head Shower 1 Spray i2.jpg",
+                ],
+                price: 'AED 590.00',
                 prod_no: '27491000',
                 EAN: '4005176885549',
                 color: 'chrome',
@@ -2434,6 +2804,11 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHE Rainshower Mono 310 Cube Head Shower 1 Spray.jpg",
                 name: 'GROHE Rainshower Mono 310 Cube Head Shower 1 Spray',
+                images: [
+                    "image/sanitary_items/showers/GROHE Rainshower Mono 310 Cube Head Shower 1 Spray.jpg",
+                    "image/sanitary_items/showers/GROHE Rainshower Mono 310 Cube Head Shower 1 Spray i2.jpg",
+                ],
+                price: 'AED 1,918.00',
                 prod_no: '26568000',
                 EAN: '4005176482120',
                 color: 'chrome',
@@ -2453,6 +2828,12 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHE TEMPESTA SYSTEM 200 SHOWER SYSTEM.jpg",
                 name: 'GROHE TEMPESTA SYSTEM 200 SHOWER SYSTEM',
+                images: [
+                    "image/sanitary_items/showers/GROHE TEMPESTA SYSTEM 200 SHOWER SYSTEM.jpg",
+                    "image/sanitary_items/showers/GROHE TEMPESTA SYSTEM 200 SHOWER SYSTEM i2.jpg",
+                    "image/sanitary_items/showers/GROHE TEMPESTA SYSTEM 200 SHOWER SYSTEM i3.jpg",
+                ],
+                price: 'AED 825.00',
                 prod_no: '27389002',
                 EAN: '4005176451928',
                 color: 'chrome',
@@ -2482,6 +2863,11 @@ var productData = {
                 category: "showers",
                 url: "image/sanitary_items/showers/GROHE RAINSHOWER COSMOPOLITAN 310 HEAD SHOWER SET CEILING 142 MM, 1 SPRAY.jpg",
                 name: 'GROHE RAINSHOWER COSMOPOLITAN 310 HEAD SHOWER SET CEILING 142 MM, 1 SPRAY',
+                images: [
+                    "image/sanitary_items/showers/GROHE RAINSHOWER COSMOPOLITAN 310 HEAD SHOWER SET CEILING 142 MM, 1 SPRAY.jpg",
+                    "image/sanitary_items/showers/GROHE RAINSHOWER COSMOPOLITAN 310 HEAD SHOWER SET CEILING 142 MM, 1 SPRAY i2.jpg",
+                ],
+                price: 'AED 4,470.00',
                 prod_no: '23462A01',
                 EAN: '4005176425325',
                 color: 'hard graphite',
@@ -2941,7 +3327,7 @@ var productData = {
                 url: "image/sanitary_items/bathroom_accessories/GROHE ESSENTIALS CUBE Multi-Towel Rack.jpg",
                 images: [
                     "image/sanitary_items/bathroom_accessories/GROHE ESSENTIALS CUBE Multi-Towel Rack.jpg",
-                    "image/sanitary_items/bathroom_accessories/GROHE ESSENTIALS CUBE Multi-Towel Rack i2.jpg",
+                    "image/sanitary_items/bathroom_accessories/GROHE ESSENTIALS CUBE Multi-Towel Rack i2.png",
                 ],
                 name: 'GROHE ESSENTIALS CUBE Multi-Towel Rack',
                 prod_no: '40512001',

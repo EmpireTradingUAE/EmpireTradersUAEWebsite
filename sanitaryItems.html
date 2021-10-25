@@ -457,7 +457,7 @@
             container.innerHTML += '<div class="col-3 col-sm-4 product ' + productData.sanitary_items.products[i].category + '"style="display: none;">' +
                                         '<div class="product-cate" style="padding: 0 20px 100px 20px;">' +
                                             '<div class="container" style="width: 150px; height: 150px;">' +
-                                                '<a href="' + productData.sanitary_items.products[i].url + '" data-lightbox="' + productData.sanitary_items.products[i].category + '" data-title="' + productData.sanitary_items.products[i].name + '"><img class="product__img'+i+'" src="'+ productData.sanitary_items.products[i].url +'" style="max-height:100%; max-width:100%; object-fit: contain;" alt="' + productData.sanitary_items.products[i].name + '"></a>' +
+                                                '<a href="' + productData.sanitary_items.products[i].url + '"><img class="product__img'+i+'" src="'+ productData.sanitary_items.products[i].url +'" style="max-height:100%; max-width:100%; object-fit: contain;" alt="' + productData.sanitary_items.products[i].name + '"></a>' +
                                                 '<div class="product-icon">' +
                                                 '</div>' +
                                                 '<!---->' +
@@ -487,6 +487,9 @@
                                     //         '</div>' +
                                     //     '</div>' +
                                     // '</div>';
+                                    $('.product__img'+i).hover(function() {
+                                        $(this).setAttribute('src', productData.sanitary_items.products[i].images[1]);
+                                    });
         }
 
         container.innerHTML += '<div class="col-12" style="text-align: center">' +
@@ -494,7 +497,7 @@
                                 '</div>';
 
         $(document).ready(function(){
-            $('#cat').text($('.list').find('[data-filter='+value+']').text() + '(' + productData.sanitary_items.products.length + ')');
+            //$('#cat').text($('.list').find('[data-filter='+value+']').text() + '(' + productData.sanitary_items.products.length + ')');
             $('.list-item').click(function(){
                 value = $(this).attr('data-filter');
                 console.log(value);
@@ -507,9 +510,9 @@
                 }
                 $(this).addClass('active').siblings().removeClass('active');
                 if(value == 'all')
-                    $('#cat').text($('.list').find('[data-filter='+value+']').text() + '(' + productData.sanitary_items.products.length + ')');
+                    $('#cat').text($('.list').find('[data-filter='+value+']').text());// + '(' + productData.sanitary_items.products.length + ')');
                 else
-                    $('#cat').text($('.list').find('[data-filter='+value+']').text() + '(' + $('.'+value).length + ')');
+                    $('#cat').text($('.list').find('[data-filter='+value+']').text());// + '(' + $('.'+value).length + ')');
                 if(value == 'basins' || value == 'bathroom_accessories' || value == 'shower_toilets'){
                     $('.product-btn').hide();
                 }else{

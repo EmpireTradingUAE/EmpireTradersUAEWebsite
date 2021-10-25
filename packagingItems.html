@@ -197,7 +197,7 @@
                                 '</div>';
 
         $(document).ready(function(){
-            $('#cat').text($('.list').find('[data-filter='+value+']').text() + '(' + productData.packaging_items.products.length + ')');
+            //$('#cat').text($('.list').find('[data-filter='+value+']').text() + '(' + productData.packaging_items.products.length + ')');
             $('.list-item').click(function(){
                 value = $(this).attr('data-filter');
                 console.log(value); 

@@ -25,17 +25,6 @@ body { font-family: sans-serif; }
   border-radius: 5px;
 }
 
-.carousel3 {
-  background: #FAFAFA;
-}
-
-.carousel-cell3 {
-  width: 20%;
-  height: 300px;
-  margin-right: 10px;
-  background: #333;
-}
-
 /* Mobile View */
 @media (max-width: 479px) {
   .carousel-cell { height: 200px; }
@@ -282,18 +271,6 @@ body { font-family: sans-serif; }
     height: 730px;
   }
 }
-
-/* .flickity-prev-next-button.previous {
-  left: 2px !important;
-  
-}
-.flickity-prev-next-button.next {
-  right: 2px !important;
-}
-.flickity-button {
-  background: hsla(0,0%,100%,0.0) !important;
-  color: rgb(199, 199, 199) !important;
-} */
 
 @media ( min-width: 990px ) {
   .carousel-cell { height: 410px; }

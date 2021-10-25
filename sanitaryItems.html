@@ -18,22 +18,19 @@
     <link href="css/theme319.css" rel="stylesheet" type="text/css" />
     <link href="css/flickity.css" rel="stylesheet" type="text/css" />
     <link href="css/quickweb.css" rel="stylesheet" type="text/css" />
-    <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" />
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,700,900' rel='stylesheet' type='text/css'/>
 
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/jquery-ui.js"></script>
     <script src="js/plugin.js"></script>
     <script src="js/data.js"></script>
-    <script src="js/lightbox-plus-jquery.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
     <style>
-        .lb-number{
-            color: white !important;
-            /* background-image: radial-gradient(120% 120px at 50% -30px, #000 75%, transparent 75%); */
-            text-align: justify;
-            margin: 30px 0 30px 30px;
+        #prodImg {
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
         }
 
         .modal {
@@ -454,47 +451,35 @@
         var value = 'all';
         var clickIndex = 0;
         for(var i = 0; i < productData.sanitary_items.products.length; i++){
-            container.innerHTML += '<div class="col-3 col-sm-4 product ' + productData.sanitary_items.products[i].category + '"style="display: none;">' +
+            container.innerHTML += '<div class="col-3 col-sm-2 product ' + productData.sanitary_items.products[i].category + '"style="display: none;">' +
                                         '<div class="product-cate" style="padding: 0 20px 100px 20px;">' +
-                                            '<div class="container" style="width: 150px; height: 150px;">' +
-                                                '<a href="' + productData.sanitary_items.products[i].url + '"><img class="product__img'+i+'" src="'+ productData.sanitary_items.products[i].url +'" style="max-height:100%; max-width:100%; object-fit: contain;" alt="' + productData.sanitary_items.products[i].name + '"></a>' +
+                                            '<div class="container" style="width: auto; height: 250px; display: flex; justify-content: center;">' +
+                                                '<img id ="prodImg" class="product__img'+i+'" onmouseover="changeImgOnHover(\'' + "set" + '\',\'' + i + '\')" onmouseout="changeImgOnHover(\'' + "reset" + '\',\'' + i + '\')" src="'+ productData.sanitary_items.products[i].url +'" style="max-height:100%; max-width:100%; object-fit: contain;" alt="' + productData.sanitary_items.products[i].name + '">' +
                                                 '<div class="product-icon">' +
                                                 '</div>' +
                                                 '<!---->' +
                                             '</div>' +
                                             '<div class="product-des">' +
                                                 '<h5>' + productData.sanitary_items.products[i].name + '</h5>' +
-                                                '<div style="padding-top: 20px;">' +
-                                                    '<span class="product__viewBtn" style="">View</span>' +
-                                                '</div>' +
                                             '</div>' +
                                         '</div>' +
                                     '</div>' ;
-
-
-                                    // '<div class="modal__content modal__content' + i + '">' +
-                                    //     '<i class="modal__close modal__close' + i + ' quickweb-icon-close"></i>' +
-                                    //     '<div class="modal__left">' +
-                                    //         '<img class="modal__img modal__img' + i + '" src="image/22.jpg" alt="">' +
-                                    //     '</div>' +
-                                    //     '<div class="modal__right">' +
-                                    //         '<div class="detail">' +
-                                    //             '<h1 class="detail__title">' + productData.sanitary_items.products[i].name + '</h1>' +
-                                    //             '<h4 class="product_no">Product Number' + productData.sanitary_items.products[i].prod_no + '</h4>' +
-                                    //             '<h6 class="product_color">Color: alpine white</h6>' +
-                                    //             '<span class="product_description"><h2>Product Description</h2></span>' +
-                                    //             '<p class="detail__description">' + productData.sanitary_items.products[i].description + '</p>' +
-                                    //         '</div>' +
-                                    //     '</div>' +
-                                    // '</div>';
-                                    $('.product__img'+i).hover(function() {
-                                        $(this).setAttribute('src', productData.sanitary_items.products[i].images[1]);
-                                    });
+                                  
         }
 
         container.innerHTML += '<div class="col-12" style="text-align: center">' +
                                     '<a href="#"class="product-btn">More Items</a>' +
                                 '</div>';
+        
+        function changeImgOnHover(val, index){
+            if(productData.sanitary_items.products[index].images[1]){
+                if(val == "set"){
+                    $('.product__img' + index).attr('src', productData.sanitary_items.products[index].images[1]);
+                }else if(val == "reset"){
+                    $('.product__img' + index).attr('src', productData.sanitary_items.products[index].url);
+                }
+            }
+        }
 
         $(document).ready(function(){
             //$('#cat').text($('.list').find('[data-filter='+value+']').text() + '(' + productData.sanitary_items.products.length + ')');
@@ -519,32 +504,6 @@
                     $('.product-btn').show();
                 }
             })
-
-            // $('.product').click(function(){
-            //     var indexOfElem = $('.product').index(this);
-            //     console.log("Element with index: " + indexOfElem + " was clicked.");
-            //     lightbox.option({
-            //         'albumLabel': productData.sanitary_items.products[indexOfElem].description
-            //     });
-            // })
-
-            // $('.lb-next').click(function(){
-            //     clickIndex++;
-            //     var indexOfElem = $('.product').index(this);
-            //     console.log("Element with index: " + (clickIndex) + " was clicked.");
-            //     lightbox.option({
-            //         'albumLabel': productData.sanitary_items.products[clickIndex].description
-            //     });
-            // })
-
-            // $('.lb-prev').click(function(){
-            //     clickIndex--;
-            //     var indexOfElem = $('.product').index(this);
-            //     console.log("Element with index: " + clickIndex + " was clicked.");
-            //     lightbox.option({
-            //         'albumLabel': productData.sanitary_items.products[clickIndex].description
-            //     });
-            // })
         })
 
         $('.product-btn').click(function(){
@@ -573,13 +532,6 @@
 
         $('.product').slice(0,8).show();
 
-        lightbox.option({
-            'alwaysShowNavOnTouchDevices': true,
-            'disableScrolling': true,
-            'wrapAround': true,
-        }); 
-
-
         function func1(event) {
             event.stopPropagation();
         }
@@ -599,10 +551,11 @@
         const prev = document.querySelector('.previous');
         productList.forEach((list, index) => {
 
-            const view = list.querySelector('.product__viewBtn');
+            const view = list.querySelector('.product__img' + index);
             const productImg = list.querySelector('.product__img' + index).getAttribute('src');
             var count = 0;
             view.addEventListener('click', () => {
+                console.log("yess");
                 document.body.style.overflow = 'hidden';
                 modal.classList.add('modal--bg');
                 modalContent.classList.add('modal__content--show');

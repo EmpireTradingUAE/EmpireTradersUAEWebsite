@@ -1263,7 +1263,7 @@ var productData = {
                             'MATERIAL: Wood \n' +
                             'VERSION: interior lighting, with wall lighting \n' +
                             'SHAPE: Angular \n' +
-                            'PRODUCT DESCRIPTION: Shelf module \n' +
+                            'PRODUCT DESCRIPTION: Shelf module \n\n' +
                             'DESCRIPTION: \n' +
                             'interior lighting, with wall lighting \n' +
                             'Wood \n' +
@@ -1296,7 +1296,7 @@ var productData = {
                             'MATERIAL: Wood \n' +
                             'VERSION: interior lighting, with wall lighting \n' +
                             'SHAPE: Angular \n' +
-                            'PRODUCT DESCRIPTION: Shelf module \n' +
+                            'PRODUCT DESCRIPTION: Shelf module \n\n' +
                             'DESCRIPTION: \n' +
                             'interior lighting, with wall lighting \n' +
                             'Wood \n' +
@@ -1328,7 +1328,7 @@ var productData = {
                             'MATERIAL: Wood \n' +
                             'VERSION: with shelf unit (illuminated), with wall lighting \n' +
                             'SHAPE: Angular \n' +
-                            'PRODUCT DESCRIPTION: 	Side cabinet \n' +
+                            'PRODUCT DESCRIPTION: Side cabinet \n\n' +
                             'DESCRIPTION: \n' +
                             'with shelf unit (illuminated), with wall lighting \n' +
                             'Wood \n' +
@@ -1363,7 +1363,7 @@ var productData = {
                             'MATERIAL: Wood \n' +
                             'VERSION: with shelf unit (illuminated), with wall lighting \n' +
                             'SHAPE: Angular \n' +
-                            'PRODUCT DESCRIPTION: Tall cabinet \n' +
+                            'PRODUCT DESCRIPTION: Tall cabinet \n\n' +
                             'DESCRIPTION: \n' +
                             'with shelf unit (illuminated), with wall lighting \n' +
                             'Wood \n' +
@@ -1399,7 +1399,7 @@ var productData = {
                             'INSTALLATION: wall-mounted \n' +
                             'MATERIAL: Wood \n' +
                             'PRODUCT DESCRIPTION: Vanity unit \n' +
-                            'DIMENSIONS: 1600 x 603 x 501 mm \n' +
+                            'DIMENSIONS: 1600 x 603 x 501 mm \n\n' +
                             'DESCRIPTION: \n' +
                             'with shelf unit (illuminated), with wall lighting, without drilled tap holes \n' +
                             'Wood \n' +
@@ -1436,7 +1436,7 @@ var productData = {
                             'MATERIAL: Wood \n' +
                             'VERSION: with shelf unit (illuminated), with wall lighting \n' +
                             'SHAPE: Angular \n' +
-                            'PRODUCT DESCRIPTION: Vanity unit \n' +
+                            'PRODUCT DESCRIPTION: Vanity unit \n\n' +
                             'DESCRIPTION: \n' +
                             'with shelf unit (illuminated), with wall lighting \n' +
                             'Wood \n' +
@@ -1470,9 +1470,9 @@ var productData = {
                             'WIDTH: 1196 mm \n' +
                             'DEPTH:	498 mm \n' +
                             'WEIGHT: 59 kg \n' +
-                            'PRODUCT DESCRIPTION: Vanity unit \n' +
+                            'PRODUCT DESCRIPTION: Vanity unit \n\n' +
                             'DESCRIPTION: \n' +
-                            'with wall lighting. Wood. fastening set included. LED lighting. Equipped with: 2x Accessories package Finion, 4x pull-out compartments with slip-resistant base. For combination with: Finion 4164 C1/C2/C3/C5/CB. Please order specified washbasin separately, It is not always possible to cancel or alter orders!, The G999 02 00 remote is required to control the lighting. It is not included in the scope of delivery. Only one control unit is necessary per bathroom.. 2x LED / 4,2 W. Energy efficiency class: A-A++. 2700 K (neutral white) to 6480 K (daylight white). Equipped with: 2x wide glass drawer dividers, 6x narrow glass drawer dividers, 2x accessory boxes S, 2x accessory boxes M, 4x pull-out compartments with slip-resistant base \n' +
+                            'with wall lighting. Wood. fastening set included. LED lighting. Equipped with: 2x Accessories package Finion, 4x pull-out compartments with slip-resistant base. For combination with: Finion 4164 C1/C2/C3/C5/CB. Please order specified washbasin separately, It is not always possible to cancel or alter orders!, The G999 02 00 remote is required to control the lighting. It is not included in the scope of delivery. Only one control unit is necessary per bathroom.. 2x LED / 4,2 W. Energy efficiency class: A-A++. 2700 K (neutral white) to 6480 K (daylight white). Equipped with: 2x wide glass drawer dividers, 6x narrow glass drawer dividers, 2x accessory boxes S, 2x accessory boxes M, 4x pull-out compartments with slip-resistant base \n\n' +
                             'MATERIAL: Wood \n' +
                             'FORM: Angular'
             },
@@ -1497,7 +1497,7 @@ var productData = {
                             'MATERIAL: Wood \n' +
                             'VERSION: with shelf unit (illuminated), with wall lighting \n' +
                             'SHAPE: Angular \n' +
-                            'PRODUCT DESCRIPTION: Side cabinet \n' +
+                            'PRODUCT DESCRIPTION: Side cabinet \n\n' +
                             'DESCRIPTION: \n' +
                             'with shelf unit (illuminated), with wall lighting \n' +
                             'Wood \n' +
@@ -1542,22 +1542,22 @@ var productData = {
                 name: "Villeroy&Boch Subway 2.0 Vanity Unit Glossy Gray",
                 price: 'AED 13,442.00',
                 description:
-                            'MODEL: A91500 \n\n' +
-                            'WIDTH: 987 mm \n\n' +
-                            'HEIGHT: 590 mm \n\n' +
-                            'DEPTH:	449 mm \n\n' +
-                            'WEIGHT: 42 kg \n\n' +
+                            'MODEL: A91500 \n' +
+                            'WIDTH: 987 mm \n' +
+                            'HEIGHT: 590 mm \n' +
+                            'DEPTH:	449 mm \n' +
+                            'WEIGHT: 42 kg \n' +
                             'PRODUCT DESCRIPTION: Vanity unit \n\n' +
-                            'DESCRIPTION: \n\n' +
-                            'Wood \n\n' +
-                            'fastening set included \n\n' +
-                            'Handles: handle matt silver-coloured \n\n' +
-                            'Equipped with: 1x Accessories package 2, 2x pull-out compartments \n\n' +
-                            'For combination with: Subway 2.0 7175 A0/A1 \n\n' +
-                            'Please order specified washbasin separately. \n\n' +
+                            'DESCRIPTION: \n' +
+                            'Wood \n' +
+                            'fastening set included \n' +
+                            'Handles: handle matt silver-coloured \n' +
+                            'Equipped with: 1x Accessories package 2, 2x pull-out compartments \n' +
+                            'For combination with: Subway 2.0 7175 A0/A1 \n' +
+                            'Please order specified washbasin separately. \n' +
                             'Equipped with: 6x narrow glass drawer dividers, 1x accessory box S, 1x accessory box M, 1x accessory box L, 2x pull-out compartments \n\n' +
-                            'INSTALLATION: wall-mounted \n\n' +
-                            'MATERIAL: Wood \n\n' +
+                            'INSTALLATION: wall-mounted \n' +
+                            'MATERIAL: Wood \n' +
                             'SHAPE: Angular'
                             
             },

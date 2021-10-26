@@ -620,7 +620,7 @@
     <section class="contact section-padding color-white">
         <div class="container">
             <p class="main-content">Send us your feedback or any queries you have. </p>
-            <form class="mail" action="MAILTO:sales@empiretradinguae.com?subject=Feedback/Suggestion" method="post" enctype="text/plain">
+            <form class="questionnaire" target="_top" method="post" enctype="text/plain">
                 <div class="col-12">
                     <div class="textbox-set col-12">
                         <div class="col-6 mb-6 textbox-box padding-tblr"><input type="text" class="textbox" placeholder="Name*" id="name" name="Name"/></div>
@@ -629,10 +629,11 @@
                         
                         <div class="col-12 textbox-box padding-tblr"><textarea class="col-12 textbox" placeholder="Message*" style="height:100px;padding:10px 0px;resize:none;" id="message" name="Message"></textarea></div>
 
-                        <div class="send padding-lr" style="text-align: center"><button type="submit" id="send_email" value="Send" class="view-template" style="border:none;border-bottom: 2px solid #64A548;" onclick="getCheck()">Send</button></div>
+                        <div class="send padding-lr" style="text-align: center"><button type="submit" id="send_email" value="Send" class="view-template" style="border:none;border-bottom: 2px solid #64A548;">Send</button></div>
                     </div>
                 </div>
             </form> 
+            <a class="mail" href="mailto:sales@empiretradinguae.com?subject=Feedback/Suggestion" target="_top" style="display: none;">Send Mail</a>
             </div>
         </section>
 
@@ -697,7 +698,7 @@
             var hreflink = "mailto:sales@empiretradinguae.com?Subject=Feedback/Suggestion" + messageBody;
             $('.mail').attr("href", hreflink);
             e.preventDefault();
-            $('.send')[0].click()
+            $('.mail')[0].click()
 
             });
         });

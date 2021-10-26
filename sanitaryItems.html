@@ -273,8 +273,8 @@
             <div class="modal__right col-6">
                 <div class="detail">
                     <h1 class="detail__title"></h1>
-                    <h4 class="product_no">Product Number</h4>
-                    <h6 class="product_color">Color: alpine white</h6>
+                    <h4 class="product_no"></h4>
+                    <h6 class="product_color"></h6>
                     <span class="product_description"><h2>Product Description</h2></span>
                     <p class="detail__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, labore quaerat
                     magni ad dolores libero culpa ipsa fugit voluptates ipsam!</p>
@@ -449,7 +449,6 @@
     <script type="text/javascript">
         var container = document.getElementById('products_grid');
         var value = 'all';
-        var clickIndex = 0;
         for(var i = 0; i < productData.sanitary_items.products.length; i++){
             container.innerHTML += '<div class="col-3 col-sm-2 product ' + productData.sanitary_items.products[i].category + '"style="display: none;">' +
                                         '<div class="product-cate" style="padding: 0 20px 100px 20px;">' +
@@ -457,7 +456,6 @@
                                                 '<img id ="prodImg" class="product__img'+i+'" onmouseover="changeImgOnHover(\'' + "set" + '\',\'' + i + '\')" onmouseout="changeImgOnHover(\'' + "reset" + '\',\'' + i + '\')" src="'+ productData.sanitary_items.products[i].url +'" style="max-height:100%; max-width:100%; object-fit: contain;" alt="' + productData.sanitary_items.products[i].name + '">' +
                                                 '<div class="product-icon">' +
                                                 '</div>' +
-                                                '<!---->' +
                                             '</div>' +
                                             '<div class="product-des">' +
                                                 '<h5>' + productData.sanitary_items.products[i].name + '</h5>' +
@@ -546,6 +544,7 @@
         const title = document.querySelector('.detail__title');
         const description = document.querySelector('.detail__description');
         const no = document.querySelector('.product_no');
+        const color = document.querySelector('.product_color');
         const smallImgContainer = document.querySelector('.small-img-row');
         const next = document.querySelector('.next');
         const prev = document.querySelector('.previous');
@@ -555,14 +554,18 @@
             const productImg = list.querySelector('.product__img' + index).getAttribute('src');
             var count = 0;
             view.addEventListener('click', () => {
-                console.log("yess");
                 document.body.style.overflow = 'hidden';
                 modal.classList.add('modal--bg');
                 modalContent.classList.add('modal__content--show');
                 modalImg.setAttribute('src', productImg);
                 title.innerText = list.querySelector('.product-des > h5').textContent;
                 description.innerText = productData.sanitary_items.products[index].description;
-                no.innerHTML += ': ' + productData.sanitary_items.products[index].prod_no;
+                no.innerHTML = '';
+                color.innerHTML = '';
+                if(productData.sanitary_items.products[index].prod_no)
+                    no.innerHTML = 'Product number: ' + productData.sanitary_items.products[index].prod_no;
+                if(productData.sanitary_items.products[index].color)
+                    color.innerHTML = 'Color: ' + productData.sanitary_items.products[index].color;
                 console.log(productData.sanitary_items.products[index].images.length);
                 for(var i=0; i < productData.sanitary_items.products[index].images.length; i++){
                     smallImgContainer.innerHTML += '<div class="small-img-col">' +
@@ -596,7 +599,6 @@
             document.body.style.overflow = 'scroll';
             modal.classList.remove('modal--bg');
             modalContent.classList.remove('modal__content--show');
-            no.innerHTML = 'Product Description';
             smallImgContainer.innerHTML = '';
         });
 
@@ -604,7 +606,6 @@
             document.body.style.overflow = 'scroll';
             modal.classList.remove('modal--bg');
             modalContent.classList.remove('modal__content--show');
-            no.innerHTML = 'Product Description';
             smallImgContainer.innerHTML = '';
         });
     </script>

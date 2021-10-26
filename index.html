@@ -620,7 +620,7 @@
     <section class="contact section-padding color-white">
         <div class="container">
             <p class="main-content">Send us your feedback or any queries you have. </p>
-            <form action="MAILTO:sales@empiretradinguae.com?subject=Feedback/Suggestion" method="post" enctype="text/plain">
+            <form class="mail" action="MAILTO:sales@empiretradinguae.com?subject=Feedback/Suggestion" method="post" enctype="text/plain">
                 <div class="col-12">
                     <div class="textbox-set col-12">
                         <div class="col-6 mb-6 textbox-box padding-tblr"><input type="text" class="textbox" placeholder="Name*" id="name" name="Name"/></div>
@@ -686,6 +686,20 @@
                 $('.service').removeAttr('id');
                 $('.products-sec').removeAttr('id');
             }
+
+            $('.questionnaire').on('submit', function(e) {
+
+            var messageBody = '';
+            $.each($('.mail').serializeArray(), function(i, field) {
+            messageBody += field.name + ": " + field.value + '%0D%0A';
+            });
+
+            var hreflink = "mailto:sales@empiretradinguae.com?Subject=Feedback/Suggestion" + messageBody;
+            $('.mail').attr("href", hreflink);
+            e.preventDefault();
+            $('.send')[0].click()
+
+            });
         });
     </script>
 </body>

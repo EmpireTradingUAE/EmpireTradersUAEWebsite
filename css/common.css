@@ -628,11 +628,12 @@ li{
 }
 .product-cate .product-des{
     text-align: center;
-}
-.product-cate .product-des h5{
     font-size: 16px;
     color: #000;
     margin-bottom: 0;
+}
+.product-des {
+    height: 0px;
 }
 .product-cate .product-des p{
     font-size: 18px;

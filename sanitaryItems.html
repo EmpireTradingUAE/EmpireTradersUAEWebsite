@@ -204,6 +204,8 @@
         }
 
         .small-img-col {
+            display: flex;
+            justify-content: center;
             flex-basis: 24%;
             cursor: pointer;
         }
@@ -449,21 +451,19 @@
     <script type="text/javascript">
         var container = document.getElementById('products_grid');
         var value = 'all';
-        for(var i = 0; i < productData.sanitary_items.products.length; i++){
-            container.innerHTML += '<div class="col-3 col-sm-2 product ' + productData.sanitary_items.products[i].category + '"style="display: none;">' +
+
+        productData.sanitary_items.products.forEach((item, i) => {
+            container.innerHTML += '<div class="col-3 col-sm-2 product ' + item.category + '"style="display: none;">' +
                                         '<div class="product-cate" style="padding: 0 20px 100px 20px;">' +
                                             '<div class="container" style="width: auto; height: 250px; display: flex; justify-content: center;">' +
-                                                '<img id ="prodImg" class="product__img'+i+'" onmouseover="changeImgOnHover(\'' + "set" + '\',\'' + i + '\')" onmouseout="changeImgOnHover(\'' + "reset" + '\',\'' + i + '\')" src="'+ productData.sanitary_items.products[i].url +'" style="max-height:100%; max-width:100%; object-fit: contain;" alt="' + productData.sanitary_items.products[i].name + '">' +
+                                                '<img id ="prodImg" class="product__img'+i+'" onmouseover="changeImgOnHover(\'' + "set" + '\',\'' + i + '\')" onmouseout="changeImgOnHover(\'' + "reset" + '\',\'' + i + '\')" src="'+ item.url +'" style="max-height:100%; max-width:100%; object-fit: contain;" alt="' + item.name + '">' +
                                                 '<div class="product-icon">' +
                                                 '</div>' +
                                             '</div>' +
-                                            '<div class="product-des">' +
-                                                '<h5>' + productData.sanitary_items.products[i].name + '</h5>' +
-                                            '</div>' +
+                                            '<div class="product-des">' + item.name + '</div>' +
                                         '</div>' +
-                                    '</div>' ;
-                                  
-        }
+                                    '</div>';
+        });
 
         container.innerHTML += '<div class="col-12" style="text-align: center">' +
                                     '<a href="#"class="product-btn">More Items</a>' +
@@ -558,7 +558,7 @@
                 modal.classList.add('modal--bg');
                 modalContent.classList.add('modal__content--show');
                 modalImg.setAttribute('src', productImg);
-                title.innerText = list.querySelector('.product-des > h5').textContent;
+                title.innerText = list.querySelector('.product-des').textContent;
                 description.innerText = productData.sanitary_items.products[index].description;
                 no.innerHTML = '';
                 color.innerHTML = '';

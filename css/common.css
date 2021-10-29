@@ -107,34 +107,6 @@ div,section,span {
     .container1 ul{
         padding: 0 150px 20px 270px;
     }
-    
-    /* .container1 ul li a{
-        position: relative;
-        text-decoration: none;
-        font-size: 4em;
-        color: #000;
-        font-weight: 700;
-        transition: 0.5s;
-    } */
-    
-    /* .service {
-        display: grid;
-        align-items: center;
-        width: 100%;
-        height: 100vh;
-        background: #ff0;
-    } */
-    
-    #serviceFields {
-        position: relative;
-        top:0;
-        left: 0;
-        width: 100%;
-        height: 100vh;
-        transition: 2s;
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../image/asf1.jpg);
-        background-size: cover;
-    }
 }
 @media only screen and (min-width: 990px) and (max-width: 1023px) {
     .container {
@@ -297,7 +269,7 @@ div,section,span {
 .slide-icon-menu-color {
     background-color: #64B5F6}
           
-.service {
+#serviceFields {
     position: relative;
     top:0;
     left: 0;
@@ -311,7 +283,7 @@ div,section,span {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../image/asf1.jpg);
     background-size: cover;
 }
-#serviceFields.two{
+#serviceFields.two{ 
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../image/asf2.jpg);
     background-size: cover;
 }

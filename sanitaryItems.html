@@ -170,11 +170,44 @@
                 cursor: pointer;
             }
             .previous {
-                transform: translate(-170px, -100px) !important;
+                left: 0px !important;
+                top: 5em !important;
             }
 
             .next {
-                transform: translate(135px, -100px) !important;
+                right: -15px !important;
+                top: 5em !important;
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 799px) {
+            .modal__img {
+                width: 460px;
+                height: 600px;
+            }
+        }
+        @media (min-width: 800px) and (max-width: 860px) {
+            .modal__img {
+                width: 490px;
+                height: 600px;
+            }
+        }
+        @media (min-width: 860px) and (max-width: 900px) {
+            .modal__img {
+                width: 510px;
+                height: 600px;
+            }
+        }
+        @media (min-width: 900px) and (max-width: 960px) {
+            .modal__img {
+                width: 540px;
+                height: 600px;
+            }
+        }
+        @media (min-width: 960px) and (max-width: 1079px) {
+            .modal__img {
+                width: 570px;
+                height: 600px;
             }
         }
 
@@ -235,11 +268,14 @@
             opacity: inherit; }
         }
 
+        .left-right-btn {
+            position: relative;
+        }
+
         .previous {
             position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-525px, -50%);
+            left: 5px;
+            top: 8em;
             background-color: #000;
             opacity: 0.2;
             color: #fff;
@@ -247,9 +283,8 @@
 
         .next {
             position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-75px, -50%);
+            right: 35px;
+            top: 8em;
             background-color: #000;
             opacity: 0.2;
             color: #fff;
@@ -262,10 +297,11 @@
         <div class="modal__content" onclick="func1(event)">
             <i class="modal__close quickweb-icon-close"></i>
             <div class="modal__left col-6">
-                
-                <img class="modal__img" src="image/tools_and_toolbags/Chipping Hammer.jpeg">
+                <div class="left-right-btn">
                 <a href="#" class="previous round">&#8249;</a>
                 <a href="#" class="next round">&#8250;</a>
+                </div>
+                <img class="modal__img" src="image/tools_and_toolbags/Chipping Hammer.jpeg">
                 <div class="small-img-row">
                     
                 </div>

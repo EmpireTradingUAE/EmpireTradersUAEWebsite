@@ -58,7 +58,7 @@
     <script src="js/plugin.js"></script>
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </head>
-<!-- <style>
+<style>
 
 ul.banner_btm_list {
     width: 100%;
@@ -127,11 +127,11 @@ ul.banner_btm_list li {
 }
 
 .quality-wrapper {
-    padding-top: 320px;
+    padding-top: 350px;
 }
 
 .quality-wrapper h2 {
-    font: 300 2.8em/1.3em "Open Sans", sans-serif;
+    font: 300 2.8em/1.3em "Source Sans Pro", sans-serif;
     margin: 0 0 1.2em;
     padding: 0;
     color: #242424;
@@ -186,6 +186,13 @@ ul.banner_btm_list li img {
     margin: 0 0 20px 0;
 }
 
+ul.banner_btm_list li:hover {
+   
+   z-index: 100;
+   margin: -25px 0 0 0;
+   min-height: 297px;
+}
+
 .text-center {
     text-align: center;
 }
@@ -211,13 +218,61 @@ ul.banner_btm_list li img {
     border-right: 1px solid transparent;
 }
 
+.vision-wrapper ul li p {
+    color: #6c6c6c;
+    font: 700 1.6em/1.8em "Open Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.vision-wrapper ul li a {
+    color: #6c6c6c;
+}
+.vision-wrapper ul li a:hover {
+    color: #009bb3;
+}
+
 @media (max-width: 1199px){
     ul.banner_btm_list li {
         width: 100%;
     }
+
+    .quality-wrapper h2 {
+        padding-top: 50px;
+    }
+    .vision-wrapper {
+        width: 100%;
+    }
 }
 
-</style> -->
+@media (max-width: 575px){
+    .vision-wrapper ul li {
+        border: none;
+    }
+}
+@media (max-width: 420px){
+    .vision-wrapper ul li {
+        padding: 0 0.2em;
+    }
+}
+
+.hide{
+    display: none !important;
+}
+
+.fade {
+    opacity: 0;
+    -webkit-transition: opacity .15s linear;
+    -o-transition: opacity .15s linear;
+    transition: opacity .15s linear;
+}
+
+.fade.in {
+    opacity: 1;
+}
+
+</style>
 <body>
     <div class="main">
         <header class="header">
@@ -312,7 +367,7 @@ ul.banner_btm_list li img {
 
     <!--About Us Section-->
     <section class="choose-theme section-padding color-white"  id="about">
-        <div class="container">
+        <!-- <div class="container">
             <div class="main-title font-color-m-dark">About Us.</div>
             <p class="main-content">At Empire Trading, our vision is to provide quality product to all our customers. </p>
             <div style="text-align: center;">
@@ -327,8 +382,9 @@ ul.banner_btm_list li img {
                 </div>
 
             </div>
-        </div>
-        <!-- <div class="main-title font-color-m-dark">About Us.</div>
+        </div> -->
+        <div style="padding-bottom: 30px;" class="main-title font-color-m-dark">About Us.</div>
+
         <ul class="banner_btm_list">
             <li class="lytblue_prd_bg"><img src="image/icon-1.png" alt="">
               <h4><a href="#">Expert certified engineers</a></h4>
@@ -342,43 +398,41 @@ ul.banner_btm_list li img {
               <h4><a href="#">modern equipments</a></h4>
               <p>Lorem ipsum dolor sit amet, cons ectetur elit. Vestibulum nec Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
             </li>
-          </ul>
+        </ul>
 
-          <div>
-            <div class="quality-wrapper text-center container">
-                <div class="vision tab-panel fade in hide">
-                  <h2 class="feature-name">A hight level Quality Control in compliance with National and In International regulations and standards</h2>
-                  <p>
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Consect petur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate
-                    velit esse cillum dolore eu fugiat nulla pariatur.
-                  </p>
-                </div> -->
-                <!-- <div class="values tab-panel fade in hide">
-                  <h2>A hight level Quality Control in compliance with National and In International regulations and standards</h2>
-                  <p>
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Consect petur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate
-                    velit esse cillum dolore eu fugiat nulla pariatur.
-                  </p>
-                </div>
-                <div class="mission tab-panel fade in">
-                  <h2>A hight level Quality Control in compliance with National and In International regulations and standards</h2>
-                  <p>
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Consect petur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate
-                    velit esse cillum dolore eu fugiat nulla pariatur.
-                  </p>
-                </div> -->
-                <!-- <div class="vision-wrapper text-center">
-                  <ul>
-                    <li><a id="vision" href="javascript:void(0)"><img src="http://designarc.biz/demos/industox/images/services/ser-icon4.png" alt="">
-                        <p>Vision</p></a></li>
-                    <li><a id="values" href="javascript:void(0)"><img src="http://designarc.biz/demos/industox/images/services/ser-icon5.png" alt="">
-                        <p>Values</p></a></li>
-                    <li><a id="mission" href="javascript:void(0)"><img src="http://designarc.biz/demos/industox/images/services/ser-icon6.png" alt="">
-                        <p>Mission</p></a></li>
-                  </ul>
-                </div>
-              </div>
-          </div> -->
+        <div class="quality-wrapper text-center container">
+            <div id="vision_section" class="vision tab-panel fade in">
+                <h2 class="feature-name">A high level Quality Control in compliance with National and In International regulations and standards</h2>
+                <p style="text-align:justify">
+                Our vision is to be the preferred supplier by offering a complete package for all kinds of projects in Qatar. We have a commitment to provide first class customer service and high-quality products which are fit for purpose. With all our staff being competent and dedicated to ensure that our customers get the very best level of service.
+                </p>
+            </div>
+            <div id="values_section" class="values tab-panel fade in hide">
+                <h2 class="feature-name">A hight level Quality Control in compliance with National and In International regulations and standards</h2>
+                <p style="text-align:justify">
+                Accountability: We take full responsibility for our actions and deliver according to our customers requirements. Our company adheres to a strict Code of Conduct which regulates our activities and behavior and guarantees that we act with ethics and transparency in our daily tasks.<br><br>
+                Trust: We strive to create an environment for positive change built on collaboration and trust, and we understand that this trust must be earned. We have gained the trust of our clients by providing timely support through sales and service.<br><br>
+                Teamwork: We believe teams build each other up and strengthen individual members to create a cohesive group. We have confidence in each other’s distinct abilities. And by working openly and constructively as a team, we learn that wins and losses affect everyone in the team.
+                </p>
+            </div>
+            <div id="mission_section" class="mission tab-panel fade in hide">
+                <h2 class="feature-name">A hight level Quality Control in compliance with National and In International regulations and standards</h2>
+                <p style="text-align:justify">
+                Our mission is to contribute to the business growth of our customers, vendors, their stakeholders and to the overall growth of our organization by meeting the advanced industrial, technological, safety and environmental needs. To meet this end, our organization will adopt the best practice principles, technology, skills and knowledge directly related to the business process through the application and continual improvement of customer quality systems.
+                </p>
+            </div>
+            <div class="vision-wrapper text-center">
+                <ul>
+                <li><a id="vision" href="#vision_section"><img src="http://designarc.biz/demos/industox/images/services/ser-icon4.png" alt="">
+                    <p>Vision</p></a></li>
+                <li><a id="values" href="#values_section"><img src="http://designarc.biz/demos/industox/images/services/ser-icon5.png" alt="">
+                    <p>Values</p></a></li>
+                <li><a id="mission" href="#mission_section"><img src="http://designarc.biz/demos/industox/images/services/ser-icon6.png" alt="">
+                    <p>Mission</p></a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
 
     </section>
 
@@ -927,6 +981,21 @@ ul.banner_btm_list li img {
             $('.mail')[0].click()
 
             });
+        });
+        $('#vision').click(function(){
+            $('.vision').removeClass('hide');
+            $('.values').addClass('hide');
+            $('.mission').addClass('hide');
+        });
+        $('#values').click(function(){
+            $('.vision').addClass('hide');
+            $('.values').removeClass('hide');
+            $('.mission').addClass('hide');
+        });
+        $('#mission').click(function(){
+            $('.vision').addClass('hide');
+            $('.values').addClass('hide');
+            $('.mission').removeClass('hide');
         });
     </script>
 </body>

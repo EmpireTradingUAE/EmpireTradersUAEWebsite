@@ -25,10 +25,22 @@ body { font-family: sans-serif; }
   border-radius: 5px;
 }
 
+.carousel3 {
+  margin-bottom: 40px;
+}
+
+.carousel-cell3 {
+  width: 90%;
+  height: 550x;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
 /* Mobile View */
 @media (max-width: 479px) {
   .carousel-cell { height: 200px; }
   .carousel-cell2 { width: 80%; height: 260px; margin-top: 20px;}
+  .carousel-cell3 {  width: 80%; height: 200px; margin-top: 20px;}
   .service, .products-sec{
     display: none;
   }
@@ -91,6 +103,7 @@ body { font-family: sans-serif; }
     font-size: 25px;
     padding: 11px 0;
     letter-spacing: 1px;
+    font-weight: 500;
     text-transform: uppercase;
     font-weight: 400;
     text-align: center;
@@ -201,6 +214,7 @@ body { font-family: sans-serif; }
   /* tablet size, 3 cells in group */
   .carousel-cell { height: 290px; }
   .carousel-cell2 { width: 40%; }
+  .carousel-cell3 { height: 290px; }
   .icon-box{
     height: 115px;
     max-width: 115px;
@@ -238,6 +252,7 @@ body { font-family: sans-serif; }
 @media ( min-width: 768px ) {
   .carousel-cell { height: 390px; }
   .carousel-cell2 { width: 24%; }
+  .carousel-cell3 { height: 390px; }
   .icon-box{
     height: 130px;
     max-width: 130px;
@@ -275,6 +290,7 @@ body { font-family: sans-serif; }
 @media ( min-width: 990px ) {
   .carousel-cell { height: 410px; }
   .carousel-cell2 { width: 20%; }
+  .carousel-cell3 { height: 410px; }
   .icon-box{
     height: 140px;
     max-width: 140px;
@@ -312,6 +328,7 @@ body { font-family: sans-serif; }
 @media ( min-width: 1024px ) {
   .carousel-cell { height: 550px; }
   .carousel-cell2 { width: 20%; }
+  .carousel-cell3 { height: 650px; }
   .icon-box{
     height: 165px;
     max-width: 165px;

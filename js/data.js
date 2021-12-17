@@ -377,33 +377,253 @@ var productData = {
             },
         ],
     },
-    eco_friendly_products: {
+    instrumentation_products: {
         products: [
             {
-                category: "",
-                url: "image/eco_friendly_products/Areca leaf plates.jpeg",
-                name: "Areca leaf plates",
+                category: "pressure",
+                url: "image/instrumentation_products/pressure/contact pressure gauges.png",
+                name: "Contact pressure gauges",
             },
             {
-                category: "",
-                url: "image/eco_friendly_products/Envi green bio degradable plastic.jpeg",
-                name: "Envi green bio degradable plastic",
+                category: "pressure",
+                url: "image/instrumentation_products/pressure/diaphragm seal systems.png",
+                name: "Diaphragm seal systems",
             },
-            // {
-            //     category: "",
-            //     url: "image/eco_friendly_products/Envi green bio degradable plastic.jpeg",
-            //     name: "Envi green bio degradable plastic",
-            // },
-            // {
-            //     category: "",
-            //     url: "image/eco_friendly_products/Envi green bio degradable plastic.jpeg",
-            //     name: "Envi green bio degradable plastic",
-            // },
-            // {
-            //     category: "",
-            //     url: "image/eco_friendly_products/Envi green bio degradable plastic.jpeg",
-            //     name: "Envi green bio degradable plastic",
-            // },
+            {
+                category: "pressure",
+                url: "image/instrumentation_products/pressure/diaphragm seals.png",
+                name: "Diaphragm seals",
+            },
+            {
+                category: "pressure",
+                url: "image/instrumentation_products/pressure/differential pressure.png",
+                name: "Differential pressure",
+            },
+            {
+                category: "pressure",
+                url: "image/instrumentation_products/pressure/digital pressure gauges.png",
+                name: "Digital pressure gauges",
+            },
+            {
+                category: "pressure",
+                url: "image/instrumentation_products/pressure/Electronic differential pressure sensor.png",
+                name: "Electronic differential pressure sensor",
+            },
+            {
+                category: "pressure",
+                url: "image/instrumentation_products/pressure/mounting accessories.png",
+                name: "Mounting accessories",
+            },
+            {
+                category: "pressure",
+                url: "image/instrumentation_products/pressure/Pressure gauge.png",
+                name: "Pressure gauge",
+            },
+            {
+                category: "pressure",
+                url: "image/instrumentation_products/pressure/pressure gauges with output signal.png",
+                name: "Pressure gauges with output signal",
+            },
+            {
+                category: "pressure",
+                url: "image/instrumentation_products/pressure/pressure sensors.png",
+                name: "Pressure sensors",
+            },
+            {
+                category: "pressure",
+                url: "image/instrumentation_products/pressure/pressure switches.png",
+                name: "Pressure switches",
+            },
+            {
+                category: "pressure",
+                url: "image/instrumentation_products/pressure/process transmitters.png",
+                name: "Process transmitters",
+            },
+            {
+                category: "pressure",
+                url: "image/instrumentation_products/pressure/valves and protective device.png",
+                name: "Valves and protective device",
+            },
+            {
+                category: "temperature",
+                url: "image/instrumentation_products/temperature/dial thermometers.png",
+                name: "Dial thermometers",
+            },
+            {
+                category: "temperature",
+                url: "image/instrumentation_products/temperature/digital indicators.jpg",
+                name: "Digital indicators",
+            },
+            {
+                category: "temperature",
+                url: "image/instrumentation_products/temperature/multipoint thermometers.png",
+                name: "Multipoint thermometers",
+            },
+            {
+                category: "temperature",
+                url: "image/instrumentation_products/temperature/programming units.png",
+                name: "Programming units",
+            },
+            {
+                category: "temperature",
+                url: "image/instrumentation_products/temperature/resistance thermometers.png",
+                name: "Resistance thermometers",
+            },
+            {
+                category: "temperature",
+                url: "image/instrumentation_products/temperature/temperature controllers.jpg",
+                name: "temperature controllers",
+            },
+            {
+                category: "temperature",
+                url: "image/instrumentation_products/temperature/temperature switches.png",
+                name: "Temperature switches",
+            },
+            {
+                category: "temperature",
+                url: "image/instrumentation_products/temperature/temperature transmitters.png",
+                name: "Temperature transmitters",
+            },
+            {
+                category: "temperature",
+                url: "image/instrumentation_products/temperature/thermocouples.png",
+                name: "Thermocouples",
+            },
+            {
+                category: "temperature",
+                url: "image/instrumentation_products/temperature/thermometer with  swith contacts.png",
+                name: "Thermometer with  swith contacts",
+            },
+            {
+                category: "temperature",
+                url: "image/instrumentation_products/temperature/thermowells.png",
+                name: "Thermowells",
+            },
+            {
+                category: "temperature",
+                url: "image/instrumentation_products/temperature/tubeskin thermocouples.png",
+                name: "Tubeskin thermocouples",
+            },
+            {
+                category: "level",
+                url: "image/instrumentation_products/level/accessories level.png",
+                name: "Accessories level",
+            },
+            {
+                category: "level",
+                url: "image/instrumentation_products/level/capacitive level measurement.png",
+                name: "Capacitive level measurement",
+            },
+            {
+                category: "level",
+                url: "image/instrumentation_products/level/continuous measurement with float.png",
+                name: "Continuous measurement with float",
+            },
+            {
+                category: "level",
+                url: "image/instrumentation_products/level/external chambers.png",
+                name: "External chambers",
+            },
+            {
+                category: "level",
+                url: "image/instrumentation_products/level/float switches.png",
+                name: "Float switches",
+            },
+            {
+                category: "level",
+                url: "image/instrumentation_products/level/Hydrostatic level measurement.png",
+                name: "Hydrostatic level measurement",
+            },
+            {
+                category: "level",
+                url: "image/instrumentation_products/level/level indicators.png",
+                name: "Level indicators",
+            },
+            {
+                category: "level",
+                url: "image/instrumentation_products/level/optoelectronic switches.png",
+                name: "Optoelectronic switches",
+            },
+            {
+                category: "level",
+                url: "image/instrumentation_products/level/point level detector.png",
+                name: "Point level detector",
+            },
+            {
+                category: "level",
+                url: "image/instrumentation_products/level/Radar level measurement.png",
+                name: "Radar level measurement",
+            },
+            {
+                category: "level",
+                url: "image/instrumentation_products/level/radiometrischer level sensor.png",
+                name: "Radiometrischer level sensor",
+            },
+            {
+                category: "level",
+                url: "image/instrumentation_products/level/sight glass level indicators.png",
+                name: "Sight glass level indicators",
+            },
+            {
+                category: "level",
+                url: "image/instrumentation_products/level/submersible pressure sensors.png",
+                name: "Submersible pressure sensors",
+            },
+            {
+                category: "level",
+                url: "image/instrumentation_products/level/ultrasonic level measurement.png",
+                name: "Ultrasonic level measurement",
+            },
+            {
+                category: "flow",
+                url: "image/instrumentation_products/flow/air flow sensors.png",
+                name: "Air flow sensors",
+            },
+            {
+                category: "flow",
+                url: "image/instrumentation_products/flow/flow switches.png",
+                name: "Flow switches",
+            },
+            {
+                category: "flow",
+                url: "image/instrumentation_products/flow/magnetic inductive flow meters.jpg",
+                name: "Magnetic inductive flow meters",
+            },
+            {
+                category: "flow",
+                url: "image/instrumentation_products/flow/orifice plate.jpg",
+                name: "Orifice plate",
+            },
+            {
+                category: "interface",
+                url: "image/instrumentation_products/interface/Guided wave radar.png",
+                name: "Guided wave radar",
+            },
+            {
+                category: "interface",
+                url: "image/instrumentation_products/interface/radiometry interface sensor.png",
+                name: "Radiometry interface sensor",
+            },
+            {
+                category: "length",
+                url: "image/instrumentation_products/length/Digital Vernier Caliper.jpeg",
+                name: "Digital Vernier Caliper",
+            },
+            {
+                category: "length",
+                url: "image/instrumentation_products/length/Measuring tape.jpeg",
+                name: "Measuring tape",
+            },
+            {
+                category: "length",
+                url: "image/instrumentation_products/length/Steel Measuring Tape.jpeg",
+                name: "Steel Measuring Tape",
+            },
+            {
+                category: "length",
+                url: "image/instrumentation_products/length/vernier caliper.jpg",
+                name: "Vernier caliper",
+            },
         ],
     },
     safety_equipments: {

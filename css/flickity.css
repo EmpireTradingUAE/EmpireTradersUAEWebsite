@@ -40,9 +40,14 @@ body { font-family: sans-serif; }
 @media (max-width: 479px) {
   .carousel-cell { height: 200px; }
   .carousel-cell2 { width: 80%; height: 260px; margin-top: 20px;}
-  .carousel-cell3 {  width: 80%; height: 200px; margin-top: 20px;}
+  .carousel-cell3 { width: 80%; height: 130px; margin-top: 20px;}
   .service, .products-sec{
     display: none;
+  }
+  .banner1 {
+    height: 120px;
+    width: 100%;
+    background-size: contain;
   }
   .mob-menu {
     position: fixed;
@@ -215,6 +220,11 @@ body { font-family: sans-serif; }
   .carousel-cell { height: 290px; }
   .carousel-cell2 { width: 40%; }
   .carousel-cell3 { height: 290px; }
+  .banner1 {
+    height: 280px;
+    width: 100%;
+    background-size: contain;
+  }
   .icon-box{
     height: 115px;
     max-width: 115px;
@@ -253,6 +263,11 @@ body { font-family: sans-serif; }
   .carousel-cell { height: 390px; }
   .carousel-cell2 { width: 24%; }
   .carousel-cell3 { height: 390px; }
+  .banner1 {
+    height: 360px;
+    width: 100%;
+    background-size: contain;
+  }
   .icon-box{
     height: 130px;
     max-width: 130px;
@@ -291,6 +306,11 @@ body { font-family: sans-serif; }
   .carousel-cell { height: 410px; }
   .carousel-cell2 { width: 20%; }
   .carousel-cell3 { height: 410px; }
+  .banner1 {
+    height: 400px;
+    width: 100%;
+    background-size: contain;
+  }
   .icon-box{
     height: 140px;
     max-width: 140px;
@@ -329,6 +349,11 @@ body { font-family: sans-serif; }
   .carousel-cell { height: 550px; }
   .carousel-cell2 { width: 20%; }
   .carousel-cell3 { height: 650px; }
+  .banner1 {
+    height: 550px;
+    width: 100%;
+    background-size: contain;
+  }
   .icon-box{
     height: 165px;
     max-width: 165px;

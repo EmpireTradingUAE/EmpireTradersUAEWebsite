@@ -49,6 +49,9 @@ body { font-family: sans-serif; }
     width: 100%;
     background-size: contain;
   }
+  .main-content {
+    text-align: center;
+  }
   .mob-menu {
     position: fixed;
     right: 0;

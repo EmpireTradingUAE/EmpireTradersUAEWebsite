@@ -386,3 +386,13 @@ body { font-family: sans-serif; }
   }
 }
 
+@media ( min-width: 1550px ) {
+  .carousel-cell3 { height: 750px; }
+  .banner1 {
+    height: 720px;
+    width: 100%;
+    background-size: contain;
+  }
+}
+
+
